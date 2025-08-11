@@ -31,6 +31,21 @@
 # SENADA-UGM Lab Publications
 #-------------------------------------------------------------------------------------
 
+- id: herwanto_2024
+  date: 2024-02-15
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+  title: Leveraging NLP Techniques for Privacy Requirements Engineering in User Stories
+  journal: IEEE Access
+  citation: 10.1109/ACCESS.2024.3364533
+  year: 2024
+  url: null
+  abstract: Development of a machine learning-based approach for identifying privacy requirements in an agile software development environment, employing natural language processing (NLP) techniques to address challenges in privacy engineering methodologies.
+  badges:
+    - person=GBH
+
 - id: karim_2023
   date: 2023-04-01
   pmid: null
@@ -49,6 +64,71 @@
   abstract: This paper presents a comprehensive phishing detection system using hybrid machine learning approaches based on URL analysis to enhance cybersecurity measures.
   badges:
     - person=KM
+
+- id: herwanto_2023
+  date: 2023-11-06
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+  title: Towards a Knowledge Graph-based Exploratory Search for Privacy Engineering
+  journal: 8th International Workshop on Visualization and Interaction for Ontologies, Linked Data and Knowledge Graphs (ISWC 2023)
+  citation: null
+  year: 2023
+  url: null
+  abstract: This research proposes a knowledge graph-based Exploratory Search system to help organizations complete privacy engineering tasks by combining semantic web technologies with privacy engineering methodologies.
+  badges:
+    - person=GBH
+
+- id: kurniawan_2021
+  date: 2021-08-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kurniawan K
+  title: An ATT&CK-KG for Linking Cybersecurity Attacks to Adversary Tactics and Techniques
+  journal: International Semantic Web Conference (ISWC 2021)
+  citation: null
+  year: 2021
+  url: null
+  abstract: This work presents a knowledge graph approach for mapping cybersecurity attacks to adversary tactics and techniques using the MITRE ATT&CK framework, enhancing threat intelligence and security analysis capabilities.
+  badges:
+    - person=KK
+
+- id: heryawan_2020_soap
+  date: 2020-06-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Khotimah PH
+    - Sugiyama O
+    - Yamamoto G
+  title: Toward Design of an Agent-based Writing Support System for the SOAP Note: A Content Analysis of the Video-based Survey
+  journal: Medical Informatics Conference
+  citation: null
+  year: 2020
+  url: null
+  abstract: This research focuses on developing an agent-based writing support system for SOAP notes in medical informatics, utilizing content analysis to improve clinical documentation efficiency.
+  badges:
+    - person=LH
+
+- id: heryawan_2020_medical
+  date: 2020-03-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Sugiyama O
+    - Yamamoto G
+  title: A Detection of Informal Abbreviations from Free Text Medical Notes Using Deep Learning
+  journal: Medical Text Processing Journal
+  citation: null
+  year: 2020
+  url: null
+  abstract: This study presents a deep learning approach for detecting and standardizing informal abbreviations in free-text medical notes, addressing challenges in medical text processing and information extraction.
+  badges:
+    - person=LH
 
 - id: hussain_2022
   date: 2022-12-01

@@ -1,17 +1,40 @@
-# umich-labs
+# SENADA-UGM Lab Website
 
-This is a Jekyll theme used for constructing research laboratory or project websites.
-It is a permanent fork of the [petridish](https://github.com/peterdesmet/petridish) theme, with extensive modifications from that base but with a similar look and feel.
-It is intended for use with [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
+This is the official website for the Software Engineering and Data Lab (SENADA) at Universitas Gadjah Mada (UGM), Indonesia.
 
-## Usage
+## About SENADA-UGM
 
-You will generally want to create a new web site instance using the 
-[umich-labs-template](https://github.com/wilsonte-umich/umich-labs-template),
-following the instructions provided by the template. 
-It has the appropriate configuration and content management system (CMS) to use this theme.
+SENADA (Software Engineering and Data Lab) is a research laboratory in the Department of Computer Science and Electronics, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada. The lab focuses on cutting-edge research in:
 
-**To get started quickly**, [click here to create a new repository from the template](https://github.com/wilsonte-umich/umich-labs-template/generate).
+- **Medical Informatics**
+- **Data Mining and Machine Learning**
+- **Natural Language Processing** (especially for Indonesian language)
+- **Semantic Web Technologies**
+- **Software Engineering and Mining Software Repositories**
+- **Cybersecurity and Privacy Engineering**
+- **Augmented/Virtual/Mixed Reality**
+- **Mobile Software Engineering**
+
+## Lab Head
+
+**Assoc. Prof. Lukman Heryawan, Ph.D.**  
+Head of Software Engineering and Data Lab  
+Email: lukmanh@ugm.ac.id
+
+## Technical Details
+
+This website is built using Jekyll and is based on the [petridish](https://github.com/peterdesmet/petridish) theme with extensive modifications. It is hosted on [GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages).
+
+## Development
+
+To run the website locally:
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+The website will be available at `http://localhost:4000`.
 
 ## License
 

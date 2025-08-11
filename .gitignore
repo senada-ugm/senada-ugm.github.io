@@ -9,3 +9,6 @@ node_modules
 
 # Mac OS X
 .DS_Store
+
+# Claude Code files
+CLAUDE.md
