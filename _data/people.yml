@@ -40,6 +40,7 @@
   email: lukmanh@ugm.ac.id
   github: null
   twitter: null
+  description: Medical Informatics
   status: active
 
 #-------------------------------------------------------------------------------------
@@ -54,7 +55,7 @@
   email: arisn@ugm.ac.id
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Intelligent Agent
   status: active
   badges:
     - project=project1
@@ -68,7 +69,7 @@
   email: ew@ugm.ac.id
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Data Mining, Natural Language Processing
   status: active
   badges:
     - project=project1
@@ -82,7 +83,7 @@
   email: khabib@ugm.ac.id
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Semantic Web
   status: active
   badges:
     - project=project1
@@ -96,7 +97,7 @@
   email: seagatejogja@ugm.ac.id
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Sentiment Analysis, Datawarehouse
   status: active
   badges:
     - project=project1
@@ -107,10 +108,10 @@
   program: null # omit if not applicable
   image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
   orcid: null
-  email: seagatejogja@ugm.ac.id
+  email: arifn@ugm.ac.id
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Software Engineering, Mining Software Repositories
   status: active
   badges:
     - project=project1
@@ -124,7 +125,7 @@
   email: medi@ugm.ac.id
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Software Development, Data Communication
   status: active
   badges:
     - project=project1
@@ -138,7 +139,7 @@
   email: gunturbudi@ugm.ac.id
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Privacy Engineering, Intelligent Software Engineering
   status: active
   badges:
     - project=project1
@@ -152,7 +153,7 @@
   email: kabul.kurniawan@ugm.ac.id
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Knowledge Representation, Cyber Security
   status: active
   badges:
     - project=project1
@@ -166,7 +167,7 @@
   email: demuji@ugm.ac.id
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Mobile Software Engineering
   status: active
   badges:
     - project=project1
@@ -180,7 +181,7 @@
   email: isna@ugm.ac.id
   github: null
   twitter: null
-  description: Master of all trades, fills many roles as needed
+  description: Augmented Reality, Extended Reality, Mixed Reality
   status: active
   badges:
     - project=project1
