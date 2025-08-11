@@ -50,7 +50,7 @@
   name: Prof. Dr. Azhari, S.N. # as display on the web page People item
   role: Professor # will appear next to name
   program: null # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  image: assets/images/people/ASN.jpg # can be external link
   orcid: null
   email: arisn@ugm.ac.id
   github: null
@@ -64,7 +64,7 @@
   name: Assoc. Prof. Edi Winarko, Ph.D. # as display on the web page People item
   role: Associate Professor # will appear next to name
   program: null # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  image: assets/images/people/EW.jpg # can be external link
   orcid: null
   email: ew@ugm.ac.id
   github: null
@@ -78,7 +78,7 @@
   name: Assoc. Prof. Dr.techn. Khabib Mustofa # as display on the web page People item
   role: Associate Professor # will appear next to name
   program: null # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  image: assets/images/people/KM.jpg # can be external link
   orcid: null
   email: khabib@ugm.ac.id
   github: null
@@ -92,7 +92,7 @@
   name: Dr. Sigit Priyatna # as display on the web page People item
   role: Assistant Professor # will appear next to name
   program: null # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  image: assets/images/people/SP.jpg # can be external link
   orcid: null
   email: seagatejogja@ugm.ac.id
   github: null
@@ -106,7 +106,7 @@
   name: Arif Nurwidyantoro, Ph.D. # as display on the web page People item
   role: Assistant Professor # will appear next to name
   program: null # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  image: assets/images/people/AN.jpg # can be external link
   orcid: null
   email: arifn@ugm.ac.id
   github: null
@@ -120,7 +120,7 @@
   name: Drs. Medi M.Kom. # as display on the web page People item
   role: Assistant Professor # will appear next to name
   program: null # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  image: assets/images/people/MEDI.jpg # can be external link
   orcid: null
   email: medi@ugm.ac.id
   github: null
@@ -134,7 +134,7 @@
   name: Dr.techn. Guntur Budi Herwanto # as display on the web page People item
   role: Lecturer # will appear next to name
   program: null # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  image: assets/images/people/GBH.jpg # can be external link
   orcid: null
   email: gunturbudi@ugm.ac.id
   github: null
@@ -148,7 +148,7 @@
   name: Dr.techn. Kabul Kurniawan # as display on the web page People item
   role: Lecturer # will appear next to name
   program: null # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  image: assets/images/people/KK.jpg # can be external link
   orcid: null
   email: kabul.kurniawan@ugm.ac.id
   github: null
@@ -162,7 +162,7 @@
   name: I Gede Mujiyatna # as display on the web page People item
   role: Lecturer # will appear next to name
   program: null # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  image: assets/images/people/IGM.jpg # can be external link
   orcid: null
   email: demuji@ugm.ac.id
   github: null
@@ -176,7 +176,7 @@
   name: Isna Alfi Bustoni, S.T., M.Eng. # as display on the web page People item
   role: Lecturer # will appear next to name
   program: null # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
+  image: assets/images/people/IAB.jpg # can be external link
   orcid: null
   email: isna@ugm.ac.id
   github: null
