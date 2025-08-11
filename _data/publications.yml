@@ -11,26 +11,71 @@
 # "authors[1] lastname et al. year" (e.g., 'Wilson et al. 2021') is used as the badge label
 #-------------------------------------------------------------------------------------
 
-# - id: author_year # required, must be a string (e.g., quote a pmid as "00000000")
-#   date: YYYY-MM-DD # the day the publication appeared
-#   pmid:  00000000   # e.g., 00000000, can be missing or null
-#   pmcid: PMC0000000 # e.g., PMC0000000, can be missing or null  
-#   authors:  
-#     - Last AA
-#     - Lastt B
-#   title:    Title of the manuscript
-#   journal:  Journal or other source
-#   citation: xxxx  # typically volume(issue):page-page, or an online publication id
-#   year:     YYYY
-#   url:      null # a non-PubMed (Central) link; used only if pmid and pmcid are both null
-#   abstract: text # typically entered using the CMS, use on card
-#   badges:
-#     - TYPE=ID # e.g. person=John_Doe, project=project1 (no spaces)
-
 #-------------------------------------------------------------------------------------
-# SENADA-UGM Lab Publications
+# SENADA-UGM Lab Publications (Ordered by Year: Newest First)
 #-------------------------------------------------------------------------------------
 
+# 2025 Publications
+- id: wu_2025_clear
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Wu Y
+    - Ran K
+    - Liu M
+    - Cardilini APA
+    - Nurwidyantoro A
+    - Liu X
+  title: CLEAR - Climate Policy Retrieval and Summarization Using LLMs
+  journal: Companion Proceedings of the ACM on Web Conference 2025
+  citation: null
+  year: 2025
+  url: null
+  abstract: This work presents CLEAR, a system for climate policy retrieval and summarization using large language models to support environmental policy analysis and decision-making.
+  badges:
+    - person=AN
+
+- id: mougouei_2025_chatgpt
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Mougouei D
+    - Rafi S
+    - Fahmideh M
+    - Mougouei E
+    - Khan JA
+    - Dam HK
+    - Nurwidyantoro A
+  title: Venturing ChatGPT's lens to explore human values in software artifacts - a case study of mobile APIs
+  journal: Behaviour and Information Technology
+  citation: null
+  year: 2025
+  url: null
+  abstract: This study explores the application of ChatGPT for analyzing human values embedded in software artifacts, with a specific focus on mobile API design and implementation.
+  badges:
+    - person=AN
+
+- id: prestiliano_2025_deep_learning
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Prestiliano J
+    - Azhari A
+    - Nurwidyantoro A
+  title: Enhanced Deep Learning Model to Detect Violence and Gore in Child-Friendly Online Game
+  journal: International Journal of Intelligent Engineering & Systems
+  citation: null
+  year: 2025
+  url: null
+  abstract: This research develops an enhanced deep learning model specifically designed to detect violence and gore content in online games to ensure child-friendly gaming environments.
+  badges:
+    - person=ASN
+    - person=AN
+
+# 2024 Publications
 - id: herwanto_2024
   date: 2024-02-15
   pmid: null
@@ -43,6 +88,73 @@
   year: 2024
   url: null
   abstract: Development of a machine learning-based approach for identifying privacy requirements in an agile software development environment, employing natural language processing (NLP) techniques to address challenges in privacy engineering methodologies.
+  badges:
+    - person=GBH
+
+- id: bustoni_2024
+  date: 2024-11-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bustoni IA
+    - McGill M
+    - Brewster SA
+  title: Exploring the Alteration and Masking of Everyday Noise Sounds using Auditory Augmented Reality
+  journal: ICMI '24 - 26th International Conference on Multimodal Interaction
+  citation: null
+  year: 2024
+  url: null
+  abstract: This research explores how auditory augmented reality can be used to alter and mask everyday noise sounds, investigating the manipulation of user perceptions through augmented interaction sounds.
+  badges:
+    - person=IAB
+
+- id: priyatna_2024
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Priyatna S
+  title: Detecting sarcasm in public opinion about COVID-19 using NBC and RBF
+  journal: Conference Paper
+  citation: null
+  year: 2024
+  url: null
+  abstract: This study presents methods for detecting sarcasm in public opinion about COVID-19 using Naive Bayes Classifier and Radial Basis Function approaches for sentiment analysis.
+  badges:
+    - person=SP
+
+# 2023 Publications
+- id: nurwidyantoro_2023_dashboard
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Nurwidyantoro A
+    - Shahin M
+    - Chaudron M
+    - Hussain W
+    - Perera H
+  title: Integrating human values in software development using a human values dashboard
+  journal: Empirical Software Engineering
+  citation: null
+  year: 2023
+  url: null
+  abstract: This research presents a human values dashboard approach for systematically integrating human values considerations into software development processes and decision-making.
+  badges:
+    - person=AN
+
+- id: herwanto_2023
+  date: 2023-11-06
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+  title: Towards a Knowledge Graph-based Exploratory Search for Privacy Engineering
+  journal: 8th International Workshop on Visualization and Interaction for Ontologies, Linked Data and Knowledge Graphs (ISWC 2023)
+  citation: null
+  year: 2023
+  url: null
+  abstract: This research proposes a knowledge graph-based Exploratory Search system to help organizations complete privacy engineering tasks by combining semantic web technologies with privacy engineering methodologies.
   badges:
     - person=GBH
 
@@ -65,110 +177,25 @@
   badges:
     - person=KM
 
-- id: herwanto_2023
-  date: 2023-11-06
+- id: mujiyatna_2023
+  date: 2023-01-01
   pmid: null
   pmcid: null
   authors:
+    - Mujiyatna IG
     - Herwanto GB
-  title: Towards a Knowledge Graph-based Exploratory Search for Privacy Engineering
-  journal: 8th International Workshop on Visualization and Interaction for Ontologies, Linked Data and Knowledge Graphs (ISWC 2023)
+    - Ningtyas AM
+    - Trisna INP
+    - Nugraha KE
+  title: Hate Speech Detection in Indonesian Twitter using Contextual Embedding Approach
+  journal: Research Paper
   citation: null
   year: 2023
   url: null
-  abstract: This research proposes a knowledge graph-based Exploratory Search system to help organizations complete privacy engineering tasks by combining semantic web technologies with privacy engineering methodologies.
+  abstract: This research presents a contextual embedding approach for detecting hate speech in Indonesian Twitter content, addressing challenges in multilingual text processing and social media analysis.
   badges:
+    - person=IGM
     - person=GBH
-
-- id: kurniawan_2021
-  date: 2021-08-01
-  pmid: null
-  pmcid: null
-  authors:
-    - Kurniawan K
-  title: An ATT&CK-KG for Linking Cybersecurity Attacks to Adversary Tactics and Techniques
-  journal: International Semantic Web Conference (ISWC 2021)
-  citation: null
-  year: 2021
-  url: null
-  abstract: This work presents a knowledge graph approach for mapping cybersecurity attacks to adversary tactics and techniques using the MITRE ATT&CK framework, enhancing threat intelligence and security analysis capabilities.
-  badges:
-    - person=KK
-
-- id: heryawan_2020_soap
-  date: 2020-06-01
-  pmid: null
-  pmcid: null
-  authors:
-    - Heryawan L
-    - Khotimah PH
-    - Sugiyama O
-    - Yamamoto G
-  title: Toward Design of an Agent-based Writing Support System for the SOAP Note: A Content Analysis of the Video-based Survey
-  journal: Medical Informatics Conference
-  citation: null
-  year: 2020
-  url: null
-  abstract: This research focuses on developing an agent-based writing support system for SOAP notes in medical informatics, utilizing content analysis to improve clinical documentation efficiency.
-  badges:
-    - person=LH
-
-- id: heryawan_2020_medical
-  date: 2020-03-01
-  pmid: null
-  pmcid: null
-  authors:
-    - Heryawan L
-    - Sugiyama O
-    - Yamamoto G
-  title: A Detection of Informal Abbreviations from Free Text Medical Notes Using Deep Learning
-  journal: Medical Text Processing Journal
-  citation: null
-  year: 2020
-  url: null
-  abstract: This study presents a deep learning approach for detecting and standardizing informal abbreviations in free-text medical notes, addressing challenges in medical text processing and information extraction.
-  badges:
-    - person=LH
-
-- id: hussain_2022
-  date: 2022-12-01
-  pmid: null
-  pmcid: null
-  authors:
-    - Hussain W
-    - Shahin M
-    - Hoda R
-    - Whittle J
-    - Perera H
-    - Nurwidyantoro A
-    - Shams RA
-    - Oliver G
-  title: How can human values be addressed in agile methods? a case study on safe
-  journal: IEEE Transactions on Software Engineering
-  citation: 48(12):5158-5175
-  year: 2022
-  url: null
-  abstract: This study investigates how human values can be effectively integrated into agile software development methodologies through a comprehensive case study on the Scaled Agile Framework (SAFe).
-  badges:
-    - person=AN
-
-- id: rahman_2022
-  date: 2022-06-01
-  pmid: null
-  pmcid: null
-  authors:
-    - Rahman A
-    - Winarko E
-    - Mustofa K
-  title: Product image retrieval using category-aware siamese convolutional neural network feature
-  journal: Journal of King Saud University - Computer and Information Sciences
-  citation: 34(6A):2680-2687
-  year: 2022
-  url: null
-  abstract: This research proposes a novel approach for product image retrieval using category-aware siamese convolutional neural networks to improve feature extraction and matching accuracy.
-  badges:
-    - person=EW
-    - person=KM
 
 - id: amalia_sentiment_2023
   date: 2023-01-01
@@ -201,6 +228,322 @@
   abstract: This research proposes modifications to stemming algorithms for Indonesian text processing using non-deterministic approaches to improve accuracy in morphological analysis.
   badges:
     - person=EW
+
+# 2022 Publications
+- id: hussain_2022
+  date: 2022-12-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Hussain W
+    - Shahin M
+    - Hoda R
+    - Whittle J
+    - Perera H
+    - Nurwidyantoro A
+    - Shams RA
+    - Oliver G
+  title: How can human values be addressed in agile methods? a case study on safe
+  journal: IEEE Transactions on Software Engineering
+  citation: 48(12):5158-5175
+  year: 2022
+  url: null
+  abstract: This study investigates how human values can be effectively integrated into agile software development methodologies through a comprehensive case study on the Scaled Agile Framework (SAFe).
+  badges:
+    - person=AN
+
+- id: priyatna_2022
+  date: 2022-12-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Priyatna S
+  title: A hybrid recommender system based on customer behavior and transaction data using generalized sequential pattern algorithm
+  journal: Article
+  citation: null
+  year: 2022
+  url: null
+  abstract: This research develops a hybrid recommender system that combines customer behavior analysis and transaction data using generalized sequential pattern algorithms to improve recommendation accuracy.
+  badges:
+    - person=SP
+
+- id: shahin_2022_survey
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Shahin M
+    - Hussain W
+    - Nurwidyantoro A
+    - Perera H
+    - Shams R
+    - Grundy J
+  title: Operationalizing Human Values in Software Engineering - A Survey
+  journal: IEEE Access
+  citation: null
+  year: 2022
+  url: null
+  abstract: This survey paper provides a comprehensive overview of approaches for operationalizing human values in software engineering processes, practices, and tools.
+  badges:
+    - person=AN
+
+- id: nurwidyantoro_2022_artefacts
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Nurwidyantoro A
+    - Shahin M
+    - Chaudron MRV
+    - Hussain W
+    - Shams R
+  title: Human values in software development artefacts - A case study on issue discussions in three Android applications
+  journal: Information and Software Technology
+  citation: null
+  year: 2022
+  url: null
+  abstract: This case study examines how human values are embedded and discussed in software development artifacts, focusing on issue discussions in Android applications.
+  badges:
+    - person=AN
+
+- id: hoquang_2022_role_stereotypes
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Ho-Quang T
+    - Nurwidyantoro A
+    - Rukmono SA
+    - Chaudron MRV
+    - Fröding F
+  title: Role stereotypes in software designs and their evolution
+  journal: Journal of Systems and Software
+  citation: null
+  year: 2022
+  url: null
+  abstract: This research investigates role stereotypes present in software designs and how they evolve over time, addressing diversity and inclusion challenges in software engineering.
+  badges:
+    - person=AN
+
+- id: bergstrom_2022
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bergström G
+    - Hujainah F
+    - Ho-Quang T
+    - Jolak R
+    - Rukmono SA
+    - Nurwidyantoro A
+  title: Evaluating the layout quality of UML class diagrams using machine learning
+  journal: Journal of Systems and Software
+  citation: null
+  year: 2022
+  url: null
+  abstract: This study applies machine learning techniques to automatically evaluate and improve the layout quality of UML class diagrams, supporting better software design practices.
+  badges:
+    - person=AN
+
+- id: rahman_2022
+  date: 2022-06-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Rahman A
+    - Winarko E
+    - Mustofa K
+  title: Product image retrieval using category-aware siamese convolutional neural network feature
+  journal: Journal of King Saud University - Computer and Information Sciences
+  citation: 34(6A):2680-2687
+  year: 2022
+  url: null
+  abstract: This research proposes a novel approach for product image retrieval using category-aware siamese convolutional neural networks to improve feature extraction and matching accuracy.
+  badges:
+    - person=EW
+    - person=KM
+
+- id: medi_2022
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Medi M
+  title: Inverter DC-AC 3 Phase SPWM Based on ATMega16 Microcontroller
+  journal: Technical Report
+  citation: null
+  year: 2022
+  url: null
+  abstract: This technical project presents the design and implementation of a three-phase DC-AC inverter using SPWM technique based on ATMega16 microcontroller for power electronics applications.
+  badges:
+    - person=MD
+
+# 2021 Publications
+- id: kurniawan_2021
+  date: 2021-08-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kurniawan K
+  title: An ATT&CK-KG for Linking Cybersecurity Attacks to Adversary Tactics and Techniques
+  journal: International Semantic Web Conference (ISWC 2021)
+  citation: null
+  year: 2021
+  url: null
+  abstract: This work presents a knowledge graph approach for mapping cybersecurity attacks to adversary tactics and techniques using the MITRE ATT&CK framework, enhancing threat intelligence and security analysis capabilities.
+  badges:
+    - person=KK
+
+- id: nurwidyantoro_2021_dashboard
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Nurwidyantoro A
+    - Shahin M
+    - Chaudron M
+    - Hussain W
+    - Perera H
+  title: Towards a Human Values Dashboard for Software Development - An Exploratory Study
+  journal: Proceedings of the 15th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement
+  citation: null
+  year: 2021
+  url: null
+  abstract: This exploratory study presents the initial development and evaluation of a human values dashboard designed to support software development teams in making values-aware decisions.
+  badges:
+    - person=AN
+
+# 2020 Publications
+- id: heryawan_2020_soap
+  date: 2020-06-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Khotimah PH
+    - Sugiyama O
+    - Yamamoto G
+  title: Toward Design of an Agent-based Writing Support System for the SOAP Note - A Content Analysis of the Video-based Survey
+  journal: Medical Informatics Conference
+  citation: null
+  year: 2020
+  url: null
+  abstract: This research focuses on developing an agent-based writing support system for SOAP notes in medical informatics, utilizing content analysis to improve clinical documentation efficiency.
+  badges:
+    - person=LH
+
+- id: heryawan_2020_medical
+  date: 2020-03-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Sugiyama O
+    - Yamamoto G
+  title: A Detection of Informal Abbreviations from Free Text Medical Notes Using Deep Learning
+  journal: Medical Text Processing Journal
+  citation: null
+  year: 2020
+  url: null
+  abstract: This study presents a deep learning approach for detecting and standardizing informal abbreviations in free-text medical notes, addressing challenges in medical text processing and information extraction.
+  badges:
+    - person=LH
+
+- id: perera_2020
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Perera H
+    - Hussain W
+    - Whittle J
+    - Nurwidyantoro A
+    - Mougouei D
+    - Shams RA
+  title: A study on the prevalence of human values in software engineering publications, 2015--2018
+  journal: Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering
+  citation: null
+  year: 2020
+  url: null
+  abstract: This study systematically analyzes the prevalence and treatment of human values in software engineering research publications over a four-year period.
+  badges:
+    - person=AN
+
+- id: hussain_2020
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Hussain W
+    - Perera H
+    - Whittle J
+    - Nurwidyantoro A
+    - Hoda R
+    - Shams RA
+  title: Human values in software engineering - Contrasting case studies of practice
+  journal: IEEE Transactions on Software Engineering
+  citation: null
+  year: 2020
+  url: null
+  abstract: This research presents contrasting case studies examining how human values are addressed in real-world software engineering practice across different organizational contexts.
+  badges:
+    - person=AN
+
+- id: perera_2020_goal_model
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Perera H
+    - Mussbacher G
+    - Hussain W
+    - Shams RA
+    - Nurwidyantoro A
+  title: Continual human value analysis in software development - A goal model based approach
+  journal: 2020 IEEE 28th International Requirements Engineering Conference (RE)
+  citation: null
+  year: 2020
+  url: null
+  abstract: This work proposes a goal model-based approach for continual analysis and integration of human values throughout software development lifecycles.
+  badges:
+    - person=AN
+
+# 2019 Publications
+- id: perera_2019
+  date: 2019-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Perera H
+    - Hussain W
+    - Mougouei D
+    - Shams RA
+    - Nurwidyantoro A
+    - Whittle J
+  title: Towards Integrating Human Values into Software - Mapping Principles and Rights of GDPR to Values
+  journal: 2019 IEEE 27th International Requirements Engineering Conference (RE)
+  citation: null
+  year: 2019
+  url: null
+  abstract: This research maps GDPR principles and rights to human values, providing a foundation for integrating privacy and human rights considerations into software systems.
+  badges:
+    - person=AN
+
+# 2017 Publications
+- id: bustoni_2017
+  date: 2017-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bustoni IA
+  title: Fuzzy Logic Tsukamoto for SARIMA On Automation of Bandwidth Allocation
+  journal: International Journal of Advanced Computer Science and Applications (IJACSA)
+  citation: 8(11):47
+  year: 2017
+  url: null
+  abstract: This study implements Fuzzy Logic Tsukamoto method combined with SARIMA for automated bandwidth allocation, addressing network resource management challenges.
+  badges:
+    - person=IAB
 
 - id: gunawan_2017
   date: 2017-01-01

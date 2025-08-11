@@ -4,3 +4,73 @@ body > main {
   min-height: calc(100vh - 54px); // Viewport height minus medium screen navbar height, to push footer to bottom
   padding-bottom: $grid-gutter-width; // Don't stick to footer
 }
+
+// Publications enhancements
+.publication-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+}
+
+.year-header {
+  position: sticky;
+  top: 70px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(5px);
+  z-index: 10;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.faculty-photo-badge {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  
+  &:hover {
+    transform: scale(1.1);
+  }
+  
+  img {
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  &:hover img {
+    border-color: #007bff !important;
+  }
+}
+
+// Filter controls styling
+.form-control {
+  font-size: 0.9rem;
+}
+
+// Year statistics
+.year-stats {
+  background: linear-gradient(135deg, #2F65A7 0%, #4a7bb7 100%);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+// Responsive adjustments
+@media (max-width: 768px) {
+  .year-header {
+    position: relative;
+    top: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .faculty-photo-badge {
+    margin-right: 8px !important;
+    margin-bottom: 8px !important;
+  }
+}
