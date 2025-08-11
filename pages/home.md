@@ -31,8 +31,14 @@ Our research spans multiple cutting-edge domains:
 
 **📱 Mobile Software Engineering** - Developing next-generation mobile applications and platforms
 
+## Latest News & Updates
+
+Stay updated with our latest research breakthroughs, collaborations, and achievements. From international partnerships to cutting-edge research publications, discover what's happening in our lab.
+
+[**🗞️ View All News →**](/newsfeed/){: .btn .btn-outline-primary .mb-4}
+
 ## Recent Achievements
 
-Our lab has made significant contributions through international collaborations, publishing in top-tier journals, and developing practical solutions for Indonesian communities. Recent highlights include our work on ChatGPT for identifying human values in software systems and the IndoClimate chatbot for climate policy dissemination.
+Our lab has made significant contributions through international collaborations, publishing in top-tier journals, and developing practical solutions for Indonesian communities. Recent highlights include our work on ChatGPT for identifying human values in software systems, the IndoClimate chatbot for climate policy dissemination, and our new research data management collaboration with TU Wien and ITB.
 
-We actively collaborate with institutions worldwide, including Deakin University Australia, and participate in prestigious programs like the KONEKSI grant initiative.
+We actively collaborate with institutions worldwide, including Deakin University Australia, TU Wien Austria, and participate in prestigious programs like the KONEKSI grant initiative.

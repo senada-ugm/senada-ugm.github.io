@@ -13,6 +13,9 @@
 - text: Publications # simpler data set set in publications.yml
   href: /publications/ 
 
+- text: News # lab news and announcements
+  href: /newsfeed/ 
+
 - text: Resources # simpler data set set in funding.yml
   href: /resources/  
 
