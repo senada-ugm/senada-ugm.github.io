@@ -12,3 +12,6 @@ node_modules
 
 # Claude Code files
 CLAUDE.md
+
+# Raw data processing
+raw/

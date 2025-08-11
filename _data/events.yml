@@ -19,6 +19,32 @@
 #   badges: 
 #     - project=project3 # e.g. person=John_Doe, project=project1 (no spaces)
 
+- id: MTA_Dashboard_Handover
+  title: Lab RPLD UGM Dashboard Handover for MTA Gunung Kidul
+  type: Community Service
+  date: 2025-06-15
+  description: Software Engineering and Data Lab (RPLD) handed over an Attendance Monitoring Dashboard designed specifically for Majelis Tafsir Al-Qur'an (MTA) in Gunung Kidul region, with MTA Perwakilan Playen as pilot project location.
+  location: MTA Playen, Gunung Kidul
+  url: null
+  badges:
+    - person=LH
+    - person=EW
+    - person=KM
+    - person=IGM
+    - person=MD
+    - person=AN
+    - person=GBH
+
+- id: KONEKSI_Workshop_8
+  title: KONEKSI Connect #8 Workshop - IndoClimate Chatbot Presentation
+  type: Workshop
+  date: 2025-06-03
+  description: Workshop focusing on climate policy communication through media, featuring presentation of IndoClimate chatbot developed by UGM-Deakin collaboration team for disseminating climate change news and policy information.
+  location: Yogyakarta
+  url: https://counterinfodemic.org/tool/indo-chatbot
+  badges:
+    - person=AN
+
 - id: Welcome_Web
   title: Welcome Website
   type: Social Event
