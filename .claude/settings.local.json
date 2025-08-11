@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:scholar.google.com)"
+      "WebFetch(domain:scholar.google.com)",
+      "Bash(rm:*)"
     ],
     "deny": []
   }

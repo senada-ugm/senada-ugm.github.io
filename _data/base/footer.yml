@@ -5,13 +5,18 @@
 columns:
   - description:
     links:
-    - text: Department of XYZ
-      href: https://www.XYZ.med.umich.edu/
-      new_window: false
-    # add more departments as needed
+    - text: Department of Computer Science and Electronics
+      href: https://dcse.fmipa.ugm.ac.id/
+      new_window: true
+    - text: Faculty of Mathematics and Natural Sciences
+      href: https://fmipa.ugm.ac.id/
+      new_window: true
+    - text: Universitas Gadjah Mada
+      href: https://ugm.ac.id/
+      new_window: true
 
   - description: > # e.g. funding acknowledgement. Can be Markdown
-      Short summary information about the Doe lab.
+      Software Engineering and Data Lab (SENADA) focuses on advancing research in software engineering, data science, and emerging technologies to address real-world challenges.
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown

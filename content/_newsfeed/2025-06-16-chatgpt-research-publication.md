@@ -2,12 +2,12 @@
 layout: post
 title: "SENADA-UGM Faculty Publishes ChatGPT Research in Behaviour & Information Technology"
 date: 2025-06-16
-author: SENADA-UGM Lab
-categories: [research, publication, ai]
-tags: [ChatGPT, human values, mobile APIs, software engineering]
-image: /assets/images/news/chatgpt-research-2025.jpg
-people:
-  - AN
+subtitle: "International collaboration explores AI for identifying human values in software systems"
+description: "Arif Nurwidyantoro co-authors research on using ChatGPT to detect human values like privacy and security in mobile API documentation"
+event_type: publication
+banner_image: /assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg
+badges:
+  - person=AN
 ---
 
 **Yogyakarta, June 16, 2025** – An international research team involving Arif Nurwidyantoro, faculty member from the Software Engineering and Data Lab, Department of Computer Science and Electronics UGM, has successfully published their latest research in the *Behaviour & Information Technology* journal.

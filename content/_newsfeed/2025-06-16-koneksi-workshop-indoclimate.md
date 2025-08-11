@@ -2,12 +2,12 @@
 layout: post
 title: "SENADA-UGM Faculty Participates in KONEKSI Connect #8 Workshop for Climate Policy Dissemination"
 date: 2025-06-16
-author: SENADA-UGM Lab
-categories: [workshop, collaboration, climate]
-tags: [KONEKSI, IndoClimate, chatbot, climate policy, international collaboration]
-image: /assets/images/news/koneksi-workshop-2025.jpg
-people:
-  - AN
+subtitle: "IndoClimate chatbot presented at international climate communication workshop"
+description: "Arif Nurwidyantoro presents UGM-Deakin collaboration results on climate change news dissemination through AI chatbot"
+event_type: event
+banner_image: /assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg
+badges:
+  - person=AN
 ---
 
 **Yogyakarta, June 16, 2025** – Universitas Gadjah Mada (UGM) faculty member, Arif Nurwidyantoro, from the Software Engineering and Data Lab, Department of Computer Science and Electronics, participated in the KONEKSI Connect #8 workshop held on June 3, 2025.

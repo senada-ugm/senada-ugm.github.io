@@ -2,18 +2,18 @@
 layout: post
 title: "SENADA-UGM Delivers Digital Dashboard for MTA Playen Gunung Kidul"
 date: 2025-06-15
-author: SENADA-UGM Lab
-categories: [community-service, dashboard, technology]
-tags: [MTA, dashboard, community service, digital monitoring, Gunung Kidul]
-image: /assets/images/news/mta-dashboard-2025.jpg
-people:
-  - LH
-  - EW
-  - KM
-  - IGM
-  - MD
-  - AN
-  - GBH
+subtitle: "Community service project delivers attendance monitoring system for religious study groups"
+description: "Lab RPLD UGM hands over digital dashboard and attendance system to MTA Playen as pilot project for Gunung Kidul region"
+event_type: project
+banner_image: /assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg
+badges:
+  - person=LH
+  - person=EW
+  - person=KM
+  - person=IGM
+  - person=MD
+  - person=AN
+  - person=GBH
 ---
 
 **YOGYAKARTA, INDONESIA** – Strengthening the implementation of the Tri Dharma of Higher Education, the Software Engineering and Data Lab (RPLD) from the Department of Computer Science and Electronics, Faculty of Mathematics and Natural Sciences, Universitas Gadjah Mada, once again conducted community service activities.

@@ -1,19 +1,39 @@
 ---
 layout: base/default
 title: Contact Information
-# banner_image: null
 permalink: /contact/
-assistant_email: doe-asst@umich.edu
 ---
 
-### Administrative Assistant
+### Laboratory Head
 
-**Admin Asst Name**  
-<a href="mailto:{{ page.assistant_email }}">{{ page.assistant_email }}</a>
+**Assoc. Prof. Lukman Heryawan, Ph.D.**  
+Head of Software Engineering and Data Lab  
+Department of Computer Science and Electronics  
+Faculty of Mathematics and Natural Sciences  
+Universitas Gadjah Mada  
 
-### Principal Investigator
+Email: <a href="mailto:lukmanh@ugm.ac.id">lukmanh@ugm.ac.id</a>  
+Research Focus: Medical Informatics
 
-**John Doe, Ph.D.**  
-etc.
+### Laboratory Address
 
-Pronouns: he/his/him
+**Software Engineering and Data Lab (SENADA)**  
+Department of Computer Science and Electronics  
+Faculty of Mathematics and Natural Sciences  
+Universitas Gadjah Mada  
+Sekip Utara, Yogyakarta 55281  
+Indonesia
+
+### General Inquiries
+
+For general laboratory inquiries, collaboration opportunities, or research partnerships, please contact the laboratory head directly or reach out through our official website.
+
+### Research Collaboration
+
+We welcome collaboration opportunities with:
+- International research institutions
+- Industry partners
+- Government agencies
+- Non-profit organizations
+
+Our lab has active collaborations with institutions worldwide, including Deakin University Australia and various research programs funded by international grants.

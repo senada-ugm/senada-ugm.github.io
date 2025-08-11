@@ -3,17 +3,17 @@
 #-------------------------------------------------------------------------------------
 version: 1 # increment version to force a site rebuild and update Recent News even if content is unchanged
 title: Software and Data Engineering Lab # in top navigation bar (navbar) and <head>
-description: Software and Data Engineering Lab, University of Michigan Medical School # description in <head>
-author: John Doe                    # for copyright statement in footer
+description: Software Engineering and Data Lab (SENADA), Universitas Gadjah Mada # description in <head>
+author: SENADA-UGM Lab              # for copyright statement in footer
 url: "https://senada-ugm.github.io" # no slash at the end
 # baseurl: "/sitename"              # only required if your site is on a subdomain e.g. https://username.github.io/sitename
                                     # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
 #-------------------------------------------------------------------------------------
 # social profile of the principal investigator; icon links shown in footer
 #-------------------------------------------------------------------------------------
-email: jdoe@umich.edu
+email: lukmanh@ugm.ac.id
 twitter_username: null
-github_username: jdoe-umich
+github_username: senada-ugm
 #-------------------------------------------------------------------------------------
 # theme display settings
 #-------------------------------------------------------------------------------------
