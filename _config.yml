@@ -23,7 +23,7 @@ max_posts_other: 10     # Show x number of recent news posts on other pages
 max_projects_home: 12   # Show x number of active projects on home page
 max_words_card_short: 25  # truncate project, people and news descriptions after this many words in cards
 max_words_card_long: 50   # truncate other descriptions after this many words in cards
-logo: /assets/images/senada-ugm.png  # Logo in navbar, will be displayed at 30px height
+logo: /assets/images/senada-ugm.jpeg  # Logo in navbar, will be displayed at 30px height
 colors:
   links:  "#2F65A7"    # Color for links: use a readable color that contrasts well with dark text
 
