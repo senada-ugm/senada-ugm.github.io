@@ -2,8 +2,8 @@
 # site settings
 #-------------------------------------------------------------------------------------
 version: 1 # increment version to force a site rebuild and update Recent News even if content is unchanged
-title: John Doe Laboratory # in top navigation bar (navbar) and <head>
-description: John Doe Laboratory, University of Michigan Medical School # description in <head>
+title: Software and Data Engineering Lab # in top navigation bar (navbar) and <head>
+description: Software and Data Engineering Lab, University of Michigan Medical School # description in <head>
 author: John Doe                    # for copyright statement in footer
 url: "https://senada-ugm.github.io" # no slash at the end
 # baseurl: "/sitename"              # only required if your site is on a subdomain e.g. https://username.github.io/sitename
