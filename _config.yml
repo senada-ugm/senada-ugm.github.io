@@ -5,7 +5,7 @@ version: 1 # increment version to force a site rebuild and update Recent News ev
 title: John Doe Laboratory # in top navigation bar (navbar) and <head>
 description: John Doe Laboratory, University of Michigan Medical School # description in <head>
 author: John Doe                    # for copyright statement in footer
-url: "https://jdoe-umich.github.io" # no slash at the end
+url: "https://senada-ugm.github.io" # no slash at the end
 # baseurl: "/sitename"              # only required if your site is on a subdomain e.g. https://username.github.io/sitename
                                     # which has url: "https://username.github.io" (no slash) and baseurl: "/sitename" (leading slash)
 #-------------------------------------------------------------------------------------
@@ -23,7 +23,7 @@ max_posts_other: 10     # Show x number of recent news posts on other pages
 max_projects_home: 12   # Show x number of active projects on home page
 max_words_card_short: 25  # truncate project, people and news descriptions after this many words in cards
 max_words_card_long: 50   # truncate other descriptions after this many words in cards
-logo: /assets/images/1280px-Michigan_Wolverines_logo-90px_height.png  # Logo in navbar, will be displayed at 30px height
+logo: /assets/images/senada-ugm.png  # Logo in navbar, will be displayed at 30px height
 colors:
   links:  "#2F65A7"    # Color for links: use a readable color that contrasts well with dark text
 
