@@ -35,7 +35,7 @@
 - id: LH # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Assoc. Prof Lukman Heryawan, Ph.D. # as display on the web page People item
   role: Head of Software and Data Engineering Lab # will appear next to name
-  image: assets/images/people/john-doe-cropped.jpg # can be external link
+  image: assets/images/people/Lukman-Heryawan-S.T.-M.T.-Ph.D-683x1024.jpg # can be external link
   orcid: 0000-0000-0000-0000
   email: lukmanh@ugm.ac.id
   github: null
