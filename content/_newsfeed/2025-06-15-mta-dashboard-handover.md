@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: items/post
 title: "SENADA-UGM Delivers Digital Dashboard for MTA Playen Gunung Kidul"
 date: 2025-06-15
 subtitle: "Community service project delivers attendance monitoring system for religious study groups"

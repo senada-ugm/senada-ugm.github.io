@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: items/post
 title: "SENADA-UGM Faculty Participates in KONEKSI Connect #8 Workshop for Climate Policy Dissemination"
 date: 2025-06-16
 subtitle: "IndoClimate chatbot presented at international climate communication workshop"

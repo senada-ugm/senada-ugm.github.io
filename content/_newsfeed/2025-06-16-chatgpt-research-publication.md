@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: items/post
 title: "SENADA-UGM Faculty Publishes ChatGPT Research in Behaviour & Information Technology"
 date: 2025-06-16
 subtitle: "International collaboration explores AI for identifying human values in software systems"
