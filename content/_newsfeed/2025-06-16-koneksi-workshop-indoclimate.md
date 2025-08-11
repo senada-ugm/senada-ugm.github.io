@@ -5,7 +5,7 @@ date: 2025-06-16
 subtitle: "IndoClimate chatbot presented at international climate communication workshop"
 description: "Arif Nurwidyantoro presents UGM-Deakin collaboration results on climate change news dissemination through AI chatbot"
 event_type: event
-banner_image: /assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg
+banner_image: /assets/images/news/koneksi-workshop-2025.jpg
 badges:
   - person=AN
 ---
@@ -23,6 +23,12 @@ The chatbot development was carried out by a team from the Department of Compute
 - Faturahman Yudanto
 
 The presentation about this chatbot took place during a focused discussion session in the second afternoon session, attended by academics, media, and representatives from various institutions, including the Meteorology, Climatology and Geophysics Agency (BMKG) Yogyakarta and local government of Cangkringan District, Sleman, Yogyakarta.
+
+![KONEKSI Workshop Presentation]({{ "/assets/images/news/koneksi-workshop-2025.jpg" | relative_url }})
+*SENADA-UGM faculty presenting IndoClimate chatbot at KONEKSI Connect #8 workshop.*
+
+![KONEKSI Workshop Discussion]({{ "/assets/images/news/koneksi-workshop-2025-2.jpg" | relative_url }})
+*Workshop participants discussing climate policy communication strategies.*
 
 ## Workshop Program
 

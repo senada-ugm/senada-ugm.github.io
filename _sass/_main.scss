@@ -58,6 +58,38 @@ body > main {
   margin-bottom: 20px;
 }
 
+// News post styling
+.post-card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+}
+
+// News post content styling
+.content {
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  // Image captions
+  p + em, img + em {
+    display: block;
+    text-align: center;
+    font-style: italic;
+    color: #666;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+  }
+}
+
 // Responsive adjustments
 @media (max-width: 768px) {
   .year-header {

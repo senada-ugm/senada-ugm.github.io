@@ -5,7 +5,7 @@ date: 2025-06-16
 subtitle: "International collaboration explores AI for identifying human values in software systems"
 description: "Arif Nurwidyantoro co-authors research on using ChatGPT to detect human values like privacy and security in mobile API documentation"
 event_type: publication
-banner_image: /assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg
+banner_image: /assets/images/news/chatgpt-research-2025.png
 badges:
   - person=AN
 ---
@@ -19,6 +19,9 @@ The research team consists of members from various countries including the Unite
 This research uses ChatGPT to analyze mobile API documentation and uncover the presence of human values embedded within them. Through interactive dialogue between researchers and ChatGPT, the study also highlights the need for expert validation to ensure that AI-generated interpretations are accurate and precise, considering that artificial intelligence models can sometimes produce incorrect or hallucinated information.
 
 The research results show that ChatGPT has potential as a tool for detecting human values in software artifacts, but still requires human involvement in the evaluation and verification process.
+
+![ChatGPT Research Publication]({{ "/assets/images/news/chatgpt-research-2025.png" | relative_url }})
+*SENADA-UGM faculty collaboration in international ChatGPT research published in Behaviour & Information Technology journal.*
 
 ## SDGs Impact
 

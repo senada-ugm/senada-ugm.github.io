@@ -5,7 +5,7 @@ date: 2025-06-15
 subtitle: "Community service project delivers attendance monitoring system for religious study groups"
 description: "Lab RPLD UGM hands over digital dashboard and attendance system to MTA Playen as pilot project for Gunung Kidul region"
 event_type: project
-banner_image: /assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg
+banner_image: /assets/images/news/mta-dashboard-2025.jpg
 badges:
   - person=LH
   - person=EW
@@ -63,5 +63,11 @@ The highlight of the event was the symbolic handover of the dashboard by RPLD La
 This activity directly supports the Sustainable Development Goals (SDGs), particularly:
 - **SDG 9** (Innovation and Infrastructure)
 - **SDG 17** (Partnerships for the Goals)
+
+![MTA Dashboard Handover Event]({{ "/assets/images/news/mta-dashboard-2025.jpg" | relative_url }})
+*SENADA-UGM faculty and students at the MTA dashboard handover ceremony.*
+
+![Dashboard System Demonstration]({{ "/assets/images/news/mta-dashboard-2025-2.jpg" | relative_url }})
+*Faculty members demonstrating the digital attendance monitoring dashboard system.*
 
 The dashboard system represents SENADA-UGM's commitment to leveraging technology for community empowerment and organizational efficiency.

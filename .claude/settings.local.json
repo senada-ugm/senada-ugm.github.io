@@ -2,7 +2,10 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:scholar.google.com)",
-      "Bash(rm:*)"
+      "Bash(rm:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(bundle exec:*)"
     ],
     "deny": []
   }
