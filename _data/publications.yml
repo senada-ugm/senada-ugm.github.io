@@ -387,5 +387,6 @@
   year: 2025
   url: null
   badges:
-    - person=AN,ASN
+    - person=AN
+    - person=ASN
     - resource=deep_learning
