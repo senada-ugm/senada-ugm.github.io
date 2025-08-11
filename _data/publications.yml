@@ -16,6 +16,21 @@
 #-------------------------------------------------------------------------------------
 
 # 2025 Publications
+- id: bustoni_2025_manipulating_perceptions
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bustoni IA
+  title: Toward manipulating user perceptions of objects by altering interaction sounds
+  journal: University of Glasgow
+  citation: null
+  year: 2025
+  url: null
+  abstract: This research explores techniques for manipulating user perceptions of physical objects through strategic alteration of interaction sounds, investigating the impact of auditory feedback on tactile perception.
+  badges:
+    - person=IAB
+
 - id: latubessy_2025_gaming_disorder
   date: 2025-01-01
   pmid: null
@@ -150,6 +165,40 @@
     - person=AN
 
 # 2024 Publications
+- id: bustoni_2024_auditory_ar_noise
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bustoni IA
+    - McGill M
+    - Brewster SA
+  title: Exploring the Alteration and Masking of Everyday Noise Sounds using Auditory Augmented Reality
+  journal: Proceedings of the 26th International Conference on Multimodal Interaction
+  citation: null
+  year: 2024
+  url: null
+  abstract: This study investigates the use of auditory augmented reality for altering and masking everyday noise sounds, exploring applications for enhanced user experience in multimodal interaction contexts.
+  badges:
+    - person=IAB
+
+- id: bustoni_2024_tap_perception
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bustoni IA
+    - McGill M
+    - Brewster S
+  title: The Perception of a Tap Using Auditory Augmented Reality to Alter the Contact Properties of a Physical Object
+  journal: ACM Transactions on Computer-Human Interaction
+  citation: null
+  year: 2024
+  url: null
+  abstract: This research demonstrates how auditory augmented reality can be used to alter users' perceptions of contact properties when interacting with physical objects, investigating the relationship between auditory and tactile feedback.
+  badges:
+    - person=IAB
+
 - id: chrismanto_2024_emoji_spam
   date: 2024-01-01
   pmid: null
@@ -1319,6 +1368,25 @@
     - person=AN
 
 # 2020 Publications
+- id: bustoni_2020_activity_recognition
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bustoni IA
+    - Hidayatulloh I
+    - Ningtyas AM
+    - Purwaningsih A
+    - Azhari SN
+  title: Classification methods performance on human activity recognition
+  journal: Journal of Physics Conference Series
+  citation: "1456 (1), 012027"
+  year: 2020
+  url: null
+  abstract: This study compares various classification methods for human activity recognition, evaluating their performance in identifying and classifying different types of human activities using sensor data.
+  badges:
+    - person=IAB
+
 - id: abdullah_2020_boost_kmeans
   date: 2020-01-01
   pmid: null
@@ -2097,6 +2165,25 @@
     - person=AN
 
 # 2019 Publications
+- id: sari_2019_automatic_scoring_platform
+  date: 2019-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Sari Y
+    - Herwanto GB
+    - Riasetiawan M
+    - Prastowo BN
+    - Bustoni IA
+  title: A PLATFORM VIEW OF AUTOMATIC SHORT ANSWER SCORING SYSTEM
+  journal: ICEAP 2019
+  citation: "264-270"
+  year: 2019
+  url: null
+  abstract: This paper presents a platform view of an automatic short answer scoring system, discussing the architectural considerations and implementation approach for automated assessment of student responses.
+  badges:
+    - person=IAB
+
 - id: somya_2019_data_gathering
   date: 2019-01-01
   pmid: null
@@ -2265,7 +2352,42 @@
   badges:
     - person=AN
 
+# 2015 Publications
+- id: permanasari_2015_bandwidth_management
+  date: 2015-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Permanasari AE
+    - Hidayah I
+    - Bustoni IA
+  title: Forecasting model for hotspot bandwidth management at Department of Electrical Engineering and Information Technology UGM
+  journal: Int. J. Appl. Math. Stat
+  citation: "53 (4), 227"
+  year: 2015
+  url: null
+  abstract: This research develops a forecasting model for hotspot bandwidth management specifically for the Department of Electrical Engineering and Information Technology at UGM, optimizing network resource allocation.
+  badges:
+    - person=IAB
+
 # 2013 Publications
+- id: permanasari_2013_malaria_sarima
+  date: 2013-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Permanasari AE
+    - Hidayah I
+    - Bustoni IA
+  title: SARIMA (Seasonal ARIMA) implementation on time series to forecast the number of Malaria incidence
+  journal: 2013 international conference on information technology and electrical engineering
+  citation: null
+  year: 2013
+  url: null
+  abstract: This study implements SARIMA (Seasonal ARIMA) on time series data to forecast malaria incidence patterns, contributing to public health surveillance and epidemic prediction capabilities.
+  badges:
+    - person=IAB
+
 - id: nurwidyantoro_2013_executive
   date: 2013-01-01
   pmid: null
@@ -2319,6 +2441,40 @@
     - person=EW
 
 # 2017 Publications
+- id: bustoni_2017_fuzzy_bandwidth
+  date: 2017-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bustoni IA
+    - Permanasari AE
+    - Hidayah I
+    - Hidayatulloh I
+  title: Fuzzy Logic Tsukamoto for SARIMA On Automation of Bandwidth Allocation
+  journal: International Journal of Advanced Computer Science and Applications
+  citation: "8 (11)"
+  year: 2017
+  url: null
+  abstract: This research applies Fuzzy Logic Tsukamoto method combined with SARIMA for automated bandwidth allocation, optimizing network resource management through intelligent prediction and allocation algorithms.
+  badges:
+    - person=IAB
+
+- id: hidayatulloh_2017_sarima_egarch
+  date: 2017-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Hidayatulloh I
+    - Bustoni IA
+  title: SARIMA-EGARCH Model to Reduce Heteroscedasticity Effects in Network Traffic Forecasting
+  journal: Journal of Theoretical and Applied Information Technology
+  citation: "95 (3), 554-560"
+  year: 2017
+  url: null
+  abstract: This study presents a SARIMA-EGARCH model designed to reduce heteroscedasticity effects in network traffic forecasting, improving the accuracy of network performance predictions.
+  badges:
+    - person=IAB
+
 - id: winarko_2017_sarcasm_whatsapp
   date: 2017-01-01
   pmid: null
@@ -2334,6 +2490,62 @@
   abstract: This research develops techniques for recognizing sarcastic statements in WhatsApp group conversations using Indonesian language text analysis and natural language processing.
   badges:
     - person=EW
+
+- id: herwanto_2018_ukara_scoring
+  date: 2018-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+    - Sari Y
+    - Prastowo BN
+    - Riasetiawan M
+    - Bustoni IA
+  title: UKARA A fast and simple automatic short answer scoring system for Bahasa Indonesia
+  journal: Proceeding Book of 1st International Conference on Educational Assessment
+  citation: null
+  year: 2018
+  url: null
+  abstract: UKARA is introduced as a fast and simple automatic short answer scoring system specifically designed for Bahasa Indonesia, addressing the unique linguistic challenges of Indonesian language assessment.
+  badges:
+    - person=IAB
+
+- id: bustoni_2018_earcon_interaction
+  date: 2018-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bustoni IA
+    - Hidayatulloh I
+    - Azhari
+    - Augoestien NG
+  title: Multidimensional Earcon Interaction Design for The Blind a Proposal and Evaluation
+  journal: The 2018 International Seminar on Research of Information Technology and Intelligent Systems
+  citation: null
+  year: 2018
+  url: null
+  abstract: This research proposes and evaluates a multidimensional earcon interaction design specifically tailored for blind users, investigating how audio cues can enhance accessibility in human-computer interaction.
+  badges:
+    - person=IAB
+
+- id: prastowo_2018_essay_processing
+  date: 2018-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Prastowo BN
+    - Riasetiawan M
+    - Herwanto GB
+    - Sari Y
+    - Busthoni IA
+  title: A Proposed Framework for Essay Answer Processing based on Computational
+  journal: ICEAP 2019
+  citation: "2, 54-58"
+  year: 2018
+  url: null
+  abstract: This paper proposes a computational framework for processing essay answers, focusing on automated evaluation methods for extended written responses in educational assessments.
+  badges:
+    - person=IAB
 
 - id: ratnawati_2018_movie_sentiment
   date: 2018-01-01
