@@ -50,28 +50,6 @@
   badges:
     - person=KM
 
-- id: hussain_2022
-  date: 2022-12-01
-  pmid: null
-  pmcid: null
-  authors:
-    - Hussain W
-    - Shahin M
-    - Hoda R
-    - Whittle J
-    - Perera H
-    - Nurwidyantoro A
-    - Shams RA
-    - Oliver G
-  title: How can human values be addressed in agile methods? a case study on safe
-  journal: IEEE Transactions on Software Engineering
-  citation: 48(12):5158-5175
-  year: 2022
-  url: null
-  abstract: This study investigates how human values can be effectively integrated into agile software development methodologies through a comprehensive case study on the Scaled Agile Framework (SAFe).
-  badges:
-    - person=AN
-
 - id: rahman_2022
   date: 2022-06-01
   pmid: null
@@ -137,3 +115,277 @@
   abstract: This study explores the application of Semantic Web Rule Language (SWRL) to extract and represent knowledge from Indonesian traditional medicine (Jamu) for improved information accessibility and knowledge management.
   badges:
     - person=KM
+
+- id: perera_2019
+  date: 2019
+  pmid: null
+  pmcid: null
+  authors:
+    - Perera H
+    - Hussain W
+    - Mougouei D
+    - Shams RA
+    - Nurwidyantoro A
+    - Whittle J
+  title: Towards Integrating Human Values into Software: Mapping Principles and Rights of GDPR to Values
+  journal: 2019 IEEE 27th International Requirements Engineering Conference (RE)
+  citation: null
+  year: 2019
+  url: null
+  badges:
+    - person=AN
+    - resource=software_engineering
+
+- id: perera_2020
+  date: 2020
+  pmid: null
+  pmcid: null
+  authors:
+    - Perera H
+    - Hussain W
+    - Whittle J
+    - Nurwidyantoro A
+    - Mougouei D
+    - Shams RA
+  title: A study on the prevalence of human values in software engineering publications, 2015--2018
+  journal: Proceedings of the ACM/IEEE 42nd International Conference on Software Engineering
+  citation: null
+  year: 2020
+  url: null
+  badges:
+    - person=AN
+    - resource=software_engineering
+
+- id: hussain_2020
+  date: 2020
+  pmid: null
+  pmcid: null
+  authors:
+    - Hussain W
+    - Perera H
+    - Whittle J
+    - Nurwidyantoro A
+    - Hoda R
+    - Shams RA
+  title: Human values in software engineering: Contrasting case studies of practice
+  journal: IEEE Transactions on Software Engineering
+  citation: null
+  year: 2020
+  url: null
+  badges:
+    - person=AN
+    - resource=software_engineering
+
+- id: perera_2020_goal_model
+  date: 2020
+  pmid: null
+  pmcid: null
+  authors:
+    - Perera H
+    - Mussbacher G
+    - Hussain W
+    - Shams RA
+    - Nurwidyantoro A
+  title: Continual human value analysis in software development: A goal model based approach
+  journal: 2020 IEEE 28th International Requirements Engineering Conference (RE)
+  citation: null
+  year: 2020
+  url: null
+  badges:
+    - person=AN
+    - resource=software_engineering
+
+- id: bergstrom_2022
+  date: 2022
+  pmid: null
+  pmcid: null
+  authors:
+    - Bergström G
+    - Hujainah F
+    - Ho-Quang T
+    - Jolak R
+    - Rukmono SA
+    - Nurwidyantoro A
+  title: Evaluating the layout quality of UML class diagrams using machine learning
+  journal: Journal of Systems and Software
+  citation: null
+  year: 2022
+  url: null
+  badges:
+    - person=AN
+    - resource=uml_machine_learning
+
+- id: hussain_2022_agile
+  date: 2022
+  pmid: null
+  pmcid: null
+  authors:
+    - Hussain W
+    - Shahin M
+    - Hoda R
+    - Whittle J
+    - Perera H
+    - Nurwidyantoro A
+  title: How Can Human Values Be Addressed in Agile Methods: A Case Study on SAFe
+  journal: IEEE Transactions on Software Engineering
+  citation: null
+  year: 2022
+  url: null
+  badges:
+    - person=AN
+    - resource=agile_methods
+
+- id: shahin_2022_survey
+  date: 2022
+  pmid: null
+  pmcid: null
+  authors:
+    - Shahin M
+    - Hussain W
+    - Nurwidyantoro A
+    - Perera H
+    - Shams R
+    - Grundy J
+  title: Operationalizing Human Values in Software Engineering: A Survey
+  journal: IEEE Access
+  citation: null
+  year: 2022
+  url: null
+  badges:
+    - person=AN
+    - resource=software_engineering
+
+- id: nurwidyantoro_2022_artefacts
+  date: 2022
+  pmid: null
+  pmcid: null
+  authors:
+    - Nurwidyantoro A
+    - Shahin M
+    - Chaudron MRV
+    - Hussain W
+    - Shams R
+  title: Human values in software development artefacts: A case study on issue discussions in three Android applications
+  journal: Information and Software Technology
+  citation: null
+  year: 2022
+  url: null
+  badges:
+    - person=AN
+    - resource=software_engineering
+
+- id: hoquang_2022_role_stereotypes
+  date: 2022
+  pmid: null
+  pmcid: null
+  authors:
+    - Ho-Quang T
+    - Nurwidyantoro A
+    - Rukmono SA
+    - Chaudron MRV
+    - Fröding F
+  title: Role stereotypes in software designs and their evolution
+  journal: Journal of Systems and Software
+  citation: null
+  year: 2022
+  url: null
+  badges:
+    - person=AN
+    - resource=software_design
+
+- id: nurwidyantoro_2021_dashboard
+  date: 2021
+  pmid: null
+  pmcid: null
+  authors:
+    - Nurwidyantoro A
+    - Shahin M
+    - Chaudron M
+    - Hussain W
+    - Perera H
+  title: Towards a Human Values Dashboard for Software Development: An Exploratory Study
+  journal: Proceedings of the 15th ACM/IEEE International Symposium on Empirical Software Engineering and Measurement
+  citation: null
+  year: 2021
+  url: null
+  badges:
+    - person=AN
+    - resource=software_engineering
+
+- id: nurwidyantoro_2023_dashboard
+  date: 2023
+  pmid: null
+  pmcid: null
+  authors:
+    - Nurwidyantoro A
+    - Shahin M
+    - Chaudron M
+    - Hussain W
+    - Perera H
+  title: Integrating human values in software development using a human values dashboard
+  journal: Empirical Software Engineering
+  citation: null
+  year: 2023
+  url: null
+  badges:
+    - person=AN
+    - resource=software_engineering
+
+- id: wu_2025_clear
+  date: 2025
+  pmid: null
+  pmcid: null
+  authors:
+    - Wu Y
+    - Ran K
+    - Liu M
+    - Cardilini APA
+    - Nurwidyantoro A
+    - Liu X
+  title: CLEAR: Climate Policy Retrieval and Summarization Using LLMs
+  journal: Companion Proceedings of the ACM on Web Conference 2025
+  citation: null
+  year: 2025
+  url: null
+  badges:
+    - person=AN
+    - resource=climate_policy
+
+- id: mougouei_2025_chatgpt
+  date: 2025
+  pmid: null
+  pmcid: null
+  authors:
+    - Mougouei D
+    - Rafi S
+    - Fahmideh M
+    - Mougouei E
+    - Khan JA
+    - Dam HK
+    - Nurwidyantoro A
+  title: Venturing ChatGPT's lens to explore human values in software artifacts: a case study of mobile APIs
+  journal: Behaviour and Information Technology
+  citation: null
+  year: 2025
+  url: null
+  badges:
+    - person=AN
+    - resource=chatgpt_software
+
+
+- id: prestiliano_2025_deep_learning
+  date: 2025
+  pmid: null
+  pmcid: null
+  authors:
+    - Prestiliano J
+    - Azhari A
+    - Nurwidyantoro A
+  title: Enhanced Deep Learning Model to Detect Violence and Gore in Child-Friendly Online Game.
+  journal: International Journal of Intelligent Engineering & Systems
+  citation: null
+  year: 2025
+  url: null
+  badges:
+    - person=AN,ASN
+    - resource=deep_learning
