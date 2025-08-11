@@ -11,8 +11,8 @@
 # "authors[1] lastname et al. year" (e.g., 'Wilson et al. 2021') is used as the badge label
 #-------------------------------------------------------------------------------------
 
-# - id: bazzano_2021 # required, must be a string (e.g., quote a pmid as "00000000")
-#   date: 2021-09-30 # the day the publication appeared
+# - id: author_year # required, must be a string (e.g., quote a pmid as "00000000")
+#   date: YYYY-MM-DD # the day the publication appeared
 #   pmid:  00000000   # e.g., 00000000, can be missing or null
 #   pmcid: PMC0000000 # e.g., PMC0000000, can be missing or null  
 #   authors:  
@@ -21,47 +21,119 @@
 #   title:    Title of the manuscript
 #   journal:  Journal or other source
 #   citation: xxxx  # typically volume(issue):page-page, or an online publication id
-#   year:     2021
+#   year:     YYYY
 #   url:      null # a non-PubMed (Central) link; used only if pmid and pmcid are both null
 #   abstract: text # typically entered using the CMS, use on card
 #   badges:
 #     - TYPE=ID # e.g. person=John_Doe, project=project1 (no spaces)
-      
-- id: bazzano_2021
-  date:  2021-09-21
-  pmid:  34263309
-  pmcid: null
-  authors:  
-    - Bazzano D
-    - Lomonaco S
-    - Wilson TE
-  title:    Mapping yeast mitotic 5' resection at base resolution reveals the sequence and positional dependence of nucleases in vivo
-  journal:  Nucleic Acids Research
-  citation: 10.1093/nar/gkab597
-  year:     2021
-  url: null
-  abstract: adflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjas adflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjasadflkajd aflsdjf adslfkj asdlfkjas fdlkajsdf sdafjsldfkjas dlfkjasd flksdjf asdlfkjsad flkdjsa fsadklfjas  
-  badges:
-    - person=Dominic_Bazzano
-    - resource=cell_protocol
 
-- id: park_2020
-  date:  2020-07-15
-  pmid:  34181717
-  pmcid: PMC8287918
-  authors:  
-    - Park SH
-    - Bennett-Baker P
-    - Ahmed S
-    - Arlt MF
-    - Ljungman M
-    - Glover TW
-    - Wilson TE
-  title:    Locus-specific transcription silencing at the FHIT gene suppresses replication stress-induced copy number variant formation and associated replication delay
-  journal:  Nucleic Acids Research
-  citation: 49(13):7507-7524  
-  year:     2020
-  url: null 
-  badges: 
-    - funding=My_R01
-    - project=project1
+#-------------------------------------------------------------------------------------
+# SENADA-UGM Lab Publications
+#-------------------------------------------------------------------------------------
+
+- id: karim_2023
+  date: 2023-04-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Karim A
+    - Shahroz M
+    - Belhaouari SB
+    - Joga SRKJ
+    - Mustofa K
+  title: Phishing Detection System Through Hybrid Machine Learning Based on URL
+  journal: IEEE Access
+  citation: 11:36805-36822
+  year: 2023
+  url: null
+  abstract: This paper presents a comprehensive phishing detection system using hybrid machine learning approaches based on URL analysis to enhance cybersecurity measures.
+  badges:
+    - person=KM
+
+- id: hussain_2022
+  date: 2022-12-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Hussain W
+    - Shahin M
+    - Hoda R
+    - Whittle J
+    - Perera H
+    - Nurwidyantoro A
+    - Shams RA
+    - Oliver G
+  title: How can human values be addressed in agile methods? a case study on safe
+  journal: IEEE Transactions on Software Engineering
+  citation: 48(12):5158-5175
+  year: 2022
+  url: null
+  abstract: This study investigates how human values can be effectively integrated into agile software development methodologies through a comprehensive case study on the Scaled Agile Framework (SAFe).
+  badges:
+    - person=AN
+
+- id: rahman_2022
+  date: 2022-06-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Rahman A
+    - Winarko E
+    - Mustofa K
+  title: Product image retrieval using category-aware siamese convolutional neural network feature
+  journal: Journal of King Saud University - Computer and Information Sciences
+  citation: 34(6A):2680-2687
+  year: 2022
+  url: null
+  abstract: This research proposes a novel approach for product image retrieval using category-aware siamese convolutional neural networks to improve feature extraction and matching accuracy.
+  badges:
+    - person=EW
+    - person=KM
+
+- id: amalia_sentiment_2023
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Amalia R
+    - Winarko E
+  title: Aspect-Based Sentiment Analysis on Indonesian Restaurant Review Using a Combination of Convolutional Neural Network and Contextualized Word Embedding
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: null
+  year: 2023
+  url: https://jurnal.ugm.ac.id/ijccs/article/view/67306
+  abstract: This study presents an aspect-based sentiment analysis approach for Indonesian restaurant reviews using advanced deep learning techniques combining CNN and contextualized word embeddings.
+  badges:
+    - person=EW
+
+- id: rifai_stemming_2023
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Rifai M
+    - Winarko E
+  title: Modification of Stemming Algorithm Using A Non Deterministic Approach To Indonesian Text
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: null
+  year: 2023
+  url: https://jurnal.ugm.ac.id/ijccs/article/view/49072
+  abstract: This research proposes modifications to stemming algorithms for Indonesian text processing using non-deterministic approaches to improve accuracy in morphological analysis.
+  badges:
+    - person=EW
+
+- id: gunawan_2017
+  date: 2017-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Gunawan G
+    - Mustofa K
+  title: Finding Knowledge from Indonesian Traditional Medicine using Semantic Web Rule Language
+  journal: International Journal of Electrical and Computer Engineering (IJECE)
+  citation: null
+  year: 2017
+  url: https://www.researchgate.net/publication/320856029_Finding_Knowledge_from_Indonesian_Traditional_Medicine_using_Semantic_Web_Rule_Language
+  abstract: This study explores the application of Semantic Web Rule Language (SWRL) to extract and represent knowledge from Indonesian traditional medicine (Jamu) for improved information accessibility and knowledge management.
+  badges:
+    - person=KM
