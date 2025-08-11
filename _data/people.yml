@@ -32,26 +32,26 @@
 #-------------------------------------------------------------------------------------
 # Principal Investigator; many fields not relevant, they always apply to the PI for their own page
 #-------------------------------------------------------------------------------------
-- id: John_Doe # used internally to identify this person, e.g., in a Newsfeed post "people" field
-  name: John Doe # as display on the web page People item
-  role: Principal Investigator # will appear next to name
+- id: LH # used internally to identify this person, e.g., in a Newsfeed post "people" field
+  name: Assoc. Prof Lukman Heryawan, Ph.D. # as display on the web page People item
+  role: Head of Software and Data Engineering Lab # will appear next to name
   image: assets/images/people/john-doe-cropped.jpg # can be external link
   orcid: 0000-0000-0000-0000
-  email: jdoe@umich.edu
-  github: jdoe-umich
+  email: lukmanh@ugm.ac.id
+  github: null
   twitter: null
   status: active
 
 #-------------------------------------------------------------------------------------
 # current group members
 #-------------------------------------------------------------------------------------
-- id: Research_Tech # used internally to identify this person, e.g., in a Newsfeed post "people" field
-  name: Research Tech # as display on the web page People item
-  role: Research Technician # will appear next to name
+- id: ASN # used internally to identify this person, e.g., in a Newsfeed post "people" field
+  name: Prof. Dr. Azhari, S.N. # as display on the web page People item
+  role: Professor # will appear next to name
   program: null # omit if not applicable
   image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
   orcid: null
-  email: rtech11@umich.edu
+  email: arisn@ugm.ac.id
   github: null
   twitter: null
   description: Master of all trades, fills many roles as needed
