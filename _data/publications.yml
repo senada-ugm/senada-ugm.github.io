@@ -16,6 +16,59 @@
 #-------------------------------------------------------------------------------------
 
 # 2025 Publications
+- id: latubessy_2025_gaming_disorder
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Latubessy A
+    - Winarko E
+    - Musdholifah A
+    - Kusrohmaniah S
+  title: Robust Feature Management for Gaming Disorder Classification Using Modified Partial Instance Reduction and Fine-Tune Attribute-Weighted Naïve Bayes
+  journal: Journal of Artificial Intelligence and Technology
+  citation: null
+  year: 2025
+  url: null
+  abstract: This research proposes robust feature management techniques for gaming disorder classification using modified partial instance reduction and fine-tuned attribute-weighted Naïve Bayes algorithms.
+  badges:
+    - person=EW
+
+- id: winarko_2025_abstractive_summarization
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Winarko E
+    - Tanoto L
+    - Reza MH
+  title: Indonesian Abstractive Text Summarization Using Stacked Embeddings and Transformer Decoder
+  journal: IAENG International Journal of Computer Science
+  citation: "52(4)"
+  year: 2025
+  url: null
+  abstract: This work presents an Indonesian abstractive text summarization approach using stacked embeddings and transformer decoder architecture to generate coherent summaries for Indonesian text.
+  badges:
+    - person=EW
+
+- id: purwaningsih_2025_flood_detection
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Purwaningsih T
+    - Winarko E
+    - Mustofa K
+  title: INDOBERT embedding for flood detection in Indonesia
+  journal: AIP Conference Proceedings
+  citation: "3248(1)"
+  year: 2025
+  url: null
+  abstract: This research applies INDOBERT embedding techniques for flood detection in Indonesia, utilizing natural language processing to identify flood-related information from Indonesian text sources.
+  badges:
+    - person=EW
+    - person=KM
+
 - id: wu_2025_clear
   date: 2025-01-01
   pmid: null
@@ -67,7 +120,7 @@
     - Nurwidyantoro A
   title: Enhanced Deep Learning Model to Detect Violence and Gore in Child-Friendly Online Game
   journal: International Journal of Intelligent Engineering & Systems
-  citation: null
+  citation: "18(1)"
   year: 2025
   url: null
   abstract: This research develops an enhanced deep learning model specifically designed to detect violence and gore content in online games to ensure child-friendly gaming environments.
@@ -75,16 +128,181 @@
     - person=ASN
     - person=AN
 
+- id: shams_2025_strategies
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Shams RA
+    - Shahin M
+    - Oliver G
+    - Whittle J
+    - Hussain W
+    - Perera H
+    - Nurwidyantoro A
+  title: Strategies to Embed Human Values in Mobile Apps - What do End-Users and Practitioners Think?
+  journal: "2025 IEEE/ACM 47th International Conference on Software Engineering"
+  citation: null
+  year: 2025
+  url: null
+  abstract: This study investigates strategies for embedding human values in mobile application development through empirical research with end-users and software practitioners, providing insights into values-aware mobile app design.
+  badges:
+    - person=AN
+
 # 2024 Publications
-- id: herwanto_2024
+- id: chrismanto_2024_emoji_spam
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Chrismanto AR
+    - Winarko E
+    - Suyanto Y
+  title: EiAP-BC - A Novel Emoji Aware Inter-Attention Pair Model for Contextual Spam Comment Detection Based on Posting Text
+  journal: ACM Transactions on Asian and Low-Resource Language Information Processing
+  citation: null
+  year: 2024
+  url: null
+  abstract: This work presents EiAP-BC, a novel emoji-aware inter-attention pair model for contextual spam comment detection, incorporating emoji semantics into text-based spam classification.
+  badges:
+    - person=EW
+
+- id: tsaneva_2024_benchmarking
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Tsaneva S
+    - Herwanto GB
+    - Sabou M
+  title: Benchmarking ontology validation capabilities of llms
+  journal: The Semantic Web-ISWC
+  citation: null
+  year: 2024
+  url: null
+  abstract: This research benchmarks the capabilities of large language models in validating ontologies, providing insights into their effectiveness for semantic web knowledge engineering tasks.
+  badges:
+    - person=GBH
+
+- id: herwanto_2024_ontology_corpora
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto G
+    - Tsaneva S
+    - Sabou M
+  title: Ontology Corpora for LLM-based Knowledge Engineering Research
+  journal: Proceedings of the Special Session on Harmonising Generative AI and Semantic Technologies
+  citation: null
+  year: 2024
+  url: null
+  abstract: This work presents ontology corpora designed to support knowledge engineering research using large language models, bridging the gap between generative AI and semantic technologies.
+  badges:
+    - person=GBH
+
+- id: adamovic_2024_materials
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Adamovic N
+    - Bleken F
+    - Calvio A
+    - Cantrill V
+    - Beber VC
+    - Courtney S
+    - Herwanto GB
+  title: Semantic Knowledge Management for Materials - the benefits of a FAIR data and model-based approach in industrial research and development
+  journal: Materials Research Conference
+  citation: null
+  year: 2024
+  url: null
+  abstract: This study demonstrates the benefits of FAIR (Findable, Accessible, Interoperable, Reusable) data and model-based approaches in industrial materials research and development using semantic knowledge management.
+  badges:
+    - person=GBH
+
+- id: herwanto_2024_contextual_integrity
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+    - Putri DUK
+    - Ningtyas AM
+    - Fuad A
+    - Quirchmayr G
+    - Tjoa AM
+  title: Integrating Contextual Integrity in Privacy Requirements Engineering - A Study Case in Personal E-Health Applications
+  journal: International Conference on Innovations for Community Services
+  citation: 237-256
+  year: 2024
+  url: null
+  abstract: This research integrates contextual integrity theory into privacy requirements engineering, with a specific focus on personal e-health applications to ensure comprehensive privacy protection.
+  badges:
+    - person=GBH
+
+- id: herwanto_2024_data_flow
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+  title: Automating data flow diagram generation from user stories using large language models
+  journal: 7th Workshop on Natural Language Processing for Requirements Engineering
+  citation: null
+  year: 2024
+  url: null
+  abstract: This work presents an automated approach for generating data flow diagrams from user stories using large language models, streamlining the requirements engineering process.
+  badges:
+    - person=GBH
+
+- id: herwanto_2024_privacy_patterns
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+    - Quirchmayr G
+    - Tjoa AM
+  title: Learning to Rank Privacy Design Patterns - A Semantic Approach to Meeting Privacy Requirements
+  journal: International Working Conference on Requirements Engineering - Foundation for Software Quality
+  citation: null
+  year: 2024
+  url: null
+  abstract: This research proposes a semantic approach for learning to rank privacy design patterns, enabling better selection of appropriate patterns to meet specific privacy requirements.
+  badges:
+    - person=GBH
+
+- id: herwanto_2024_holistic_privacy
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+    - Ekaputra FJ
+    - Quirchmayr G
+    - Tjoa AM
+  title: Toward a Holistic Privacy Requirements Engineering Process - Insights From a Systematic Literature Review
+  journal: IEEE Access
+  citation: 12:47518-47542
+  year: 2024
+  url: null
+  abstract: This systematic literature review provides insights toward developing a holistic privacy requirements engineering process, identifying gaps and opportunities in current approaches.
+  badges:
+    - person=GBH
+
+- id: herwanto_2024_nlp_privacy
   date: 2024-02-15
   pmid: null
   pmcid: null
   authors:
     - Herwanto GB
-  title: Leveraging NLP Techniques for Privacy Requirements Engineering in User Stories
+    - Quirchmayr G
+    - Tjoa AM
+  title: Leveraging NLP techniques for privacy requirements engineering in user stories
   journal: IEEE Access
-  citation: 10.1109/ACCESS.2024.3364533
+  citation: 12:22167-22189
   year: 2024
   url: null
   abstract: Development of a machine learning-based approach for identifying privacy requirements in an agile software development environment, employing natural language processing (NLP) techniques to address challenges in privacy engineering methodologies.
@@ -136,27 +354,178 @@
     - Perera H
   title: Integrating human values in software development using a human values dashboard
   journal: Empirical Software Engineering
-  citation: null
+  citation: "28(3):67"
   year: 2023
   url: null
   abstract: This research presents a human values dashboard approach for systematically integrating human values considerations into software development processes and decision-making.
   badges:
     - person=AN
 
-- id: herwanto_2023
+- id: shams_2023_agriculture
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Shams RA
+    - Shahin M
+    - Oliver G
+    - Perera H
+    - Whittle J
+    - Nurwidyantoro A
+    - Hussain W
+  title: Investigating end-users' values in agriculture mobile applications development - An empirical study on Bangladeshi female farmers
+  journal: Journal of Systems and Software
+  citation: "200:111648"
+  year: 2023
+  url: null
+  abstract: This empirical study investigates end-user values in agriculture mobile applications development through research with Bangladeshi female farmers, providing insights into culturally-sensitive agricultural technology design.
+  badges:
+    - person=AN
+
+- id: sari_2023_satirical
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Sari Y
+    - Hastuti RP
+    - Herwanto GB
+  title: Using Linguistic and Stylometric Features for Satirical News Detection in Bahasa Indonesia
+  journal: 2023 International Conference on Computer, Control, Informatics and its Applications
+  citation: null
+  year: 2023
+  url: null
+  abstract: This research explores the use of linguistic and stylometric features for detecting satirical news in Bahasa Indonesia, addressing misinformation challenges in Indonesian media landscape.
+  badges:
+    - person=GBH
+
+- id: herwanto_2023_knowledge_graph
   date: 2023-11-06
   pmid: null
   pmcid: null
   authors:
     - Herwanto GB
-  title: Towards a Knowledge Graph-based Exploratory Search for Privacy Engineering
-  journal: 8th International Workshop on Visualization and Interaction for Ontologies, Linked Data and Knowledge Graphs (ISWC 2023)
-  citation: null
+    - Ekaputra FJ
+    - Piroi F
+    - Sabou M
+  title: Towards A Knowledge Graph-based Exploratory Search for Privacy Engineering
+  journal: VOILA@ISWC
+  citation: 49-56
   year: 2023
   url: null
   abstract: This research proposes a knowledge graph-based Exploratory Search system to help organizations complete privacy engineering tasks by combining semantic web technologies with privacy engineering methodologies.
   badges:
     - person=GBH
+
+- id: kropatschek_2023_security_safety
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kropatschek S
+    - Kurniawan K
+    - Hollerer S
+    - Bhosale PR
+    - Kiesling E
+  title: Towards A Knowledge Graph-based Framework for Integrated Security and Safety Analysis in Digital Production Systems
+  journal: International Semantic Web Conference (ISWC) 2023
+  citation: null
+  year: 2023
+  url: null
+  abstract: This work proposes a knowledge graph-based framework for integrating security and safety analysis in digital production systems, enabling comprehensive risk assessment and mitigation strategies.
+  badges:
+    - person=KK
+
+- id: krause_2023_bpmn
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Krause F
+    - Kurniawan K
+    - Kiesling E
+    - Paulheim H
+    - Polleres A
+  title: On the Representation of Dynamic BPMN Process Executions in Knowledge Graphs
+  journal: Knowledge Graphs and Semantic Web
+  citation: 97-105
+  year: 2023
+  url: null
+  abstract: This research explores the representation of dynamic BPMN process executions in knowledge graphs, providing a foundation for process-aware knowledge management and analysis.
+  badges:
+    - person=KK
+
+- id: martinez_2023_manufacturing_kg
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Martinez-Gil J
+    - Hoch T
+    - Pichler M
+    - Heinzl B
+    - Moser B
+    - Kurniawan K
+  title: Examining the Adoption of Knowledge Graphs in the Manufacturing Industry - A Comprehensive Review
+  journal: Artificial Intelligence in Manufacturing - Enabling Intelligent, Flexible and Connected Manufacturing
+  citation: null
+  year: 2023
+  url: null
+  abstract: This comprehensive review examines the adoption of knowledge graphs in the manufacturing industry, analyzing current trends, challenges, and opportunities for intelligent manufacturing systems.
+  badges:
+    - person=KK
+
+- id: krause_2023_semantic_representations
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Krause F
+    - Kurniawan K
+    - Kiesling E
+    - Martinez-Gil J
+    - Hoch T
+    - Pichler M
+  title: Leveraging Semantic Representations via Knowledge Graph Embeddings
+  journal: Artificial Intelligence in Manufacturing - Enabling Intelligent, Flexible and Connected Manufacturing
+  citation: null
+  year: 2023
+  url: null
+  abstract: This work explores the use of knowledge graph embeddings to leverage semantic representations in manufacturing contexts, improving data integration and decision-making processes.
+  badges:
+    - person=KK
+
+- id: widodo_2023_ui_testing
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Widodo AP
+    - Wibowo A
+    - Kurniawan K
+  title: Enhancing Software User Interface Testing Through Few Shot Deep Learning - A Novel Approach for Automated Accuracy and Usability Evaluation
+  journal: International Journal of Advanced Computer Science and Applications (IJACSA)
+  citation: null
+  year: 2023
+  url: null
+  abstract: This research presents a novel few-shot deep learning approach for enhancing software user interface testing, enabling automated evaluation of interface accuracy and usability.
+  badges:
+    - person=KK
+
+- id: kurniawan_2023_semantic_monitoring
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kurniawan K
+  title: Improving Cybersecurity through Semantic Log Monitoring, Analysis and Attack Reconstruction
+  journal: PhD Thesis
+  citation: null
+  year: 2023
+  url: null
+  abstract: This thesis explores how semantic technologies can improve cybersecurity through enhanced log monitoring, analysis, and attack reconstruction capabilities using knowledge graphs and semantic reasoning.
+  badges:
+    - person=KK
 
 - id: karim_2023
   date: 2023-04-01
@@ -229,7 +598,157 @@
   badges:
     - person=EW
 
+- id: yazid_2023_bert_pos
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Yazid AS
+    - Winarko E
+  title: Fine-tuning BERT untuk menangani ambiguitas pada POS tagging bahasa Indonesia
+  journal: Jurnal Linguistik Komputasional (JLK)
+  citation: "6(2):57-64"
+  year: 2023
+  url: null
+  abstract: This research presents fine-tuning techniques for BERT to handle ambiguity in Indonesian POS tagging, improving accuracy in morphological analysis of Indonesian text.
+  badges:
+    - person=EW
+
+- id: gunawan_2023_bpso_mining
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Gunawan R
+    - Winarko E
+    - Pulungan R
+  title: Performance comparison of inertia weight and acceleration coefficients of BPSO in the context of high-utility itemset mining
+  journal: Evolutionary Intelligence
+  citation: "16(3):943-961"
+  year: 2023
+  url: null
+  abstract: This study compares the performance of different inertia weight and acceleration coefficients configurations in Binary Particle Swarm Optimization for high-utility itemset mining applications.
+  badges:
+    - person=EW
+
+- id: rahajoe_2023_vectorization
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Rahajoe AD
+    - Winarko E
+    - Guritno S
+  title: Vectorization Method Based on High Correlation for Multivariate Time Series Hybrid Filter Wrapper Feature Selection
+  journal: ICIC Express Letters
+  citation: "17(4):471-478"
+  year: 2023
+  url: null
+  abstract: This research proposes a vectorization method based on high correlation for multivariate time series hybrid filter wrapper feature selection, improving time series analysis accuracy.
+  badges:
+    - person=EW
+
+- id: davi_2023_lstm_forecasting
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Davi M
+    - Winarko E
+  title: Rancang bangun aplikasi peramalan jumlah penumpang menggunakan Long Short-Term Memory (LSTM)
+  journal: Infotekmesin
+  citation: "14(02):303-310"
+  year: 2023
+  url: null
+  abstract: This work presents the design and development of a passenger forecasting application using Long Short-Term Memory (LSTM) neural networks for transportation demand prediction.
+  badges:
+    - person=EW
+
 # 2022 Publications
+- id: linando_2022_privacy_concerns
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Linando JA
+    - Herwanto GB
+  title: Concerns for digital privacy in business and management - an overview and future discourses recommendation
+  journal: Bulletin of Social Informatics Theory and Application
+  citation: 6(2):146-150
+  year: 2022
+  url: null
+  abstract: This paper provides an overview of digital privacy concerns in business and management contexts, offering recommendations for future research discourses in this evolving field.
+  badges:
+    - person=GBH
+
+- id: ningtyas_2022_medical_concept
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Ningtyas AM
+    - El-Ebshihy A
+    - Herwanto GB
+    - Piroi F
+    - Hanbury A
+  title: Leveraging wikipedia knowledge for distant supervision in medical concept normalization
+  journal: International Conference of the Cross-Language Evaluation Forum for European Languages
+  citation: null
+  year: 2022
+  url: null
+  abstract: This research leverages Wikipedia knowledge for distant supervision in medical concept normalization, addressing challenges in biomedical text processing and concept mapping.
+  badges:
+    - person=GBH
+
+- id: herwanto_2022_privacystory
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+    - Quirchmayr G
+    - Tjoa AM
+  title: Privacystory - Tool support for extracting privacy requirements from user stories
+  journal: 2022 IEEE 30th International Requirements Engineering Conference (RE)
+  citation: 264-265
+  year: 2022
+  url: null
+  abstract: This work presents Privacystory, a tool that provides automated support for extracting privacy requirements from user stories, enhancing privacy-aware software development.
+  badges:
+    - person=GBH
+
+- id: herwanto_2022_data_flow_preview
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+    - Quirchmayr G
+    - Tjoa AM
+  title: From user stories to data flow diagrams for privacy awareness - A research preview
+  journal: International Working Conference on Requirements Engineering - Foundation for Software Quality
+  citation: null
+  year: 2022
+  url: null
+  abstract: This research preview presents an approach for automatically generating data flow diagrams from user stories to enhance privacy awareness in software development.
+  badges:
+    - person=GBH
+
+- id: herwanto_2022_intelligent_systems
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+  title: An Intelligent Systems Approach for Supporting Privacy Awareness in Agile Software Development
+  journal: REFSQ Workshops
+  citation: null
+  year: 2022
+  url: null
+  abstract: This work proposes an intelligent systems approach to support privacy awareness in agile software development environments, integrating automated privacy analysis tools.
+  badges:
+    - person=GBH
+
 - id: hussain_2022
   date: 2022-12-01
   pmid: null
@@ -251,6 +770,83 @@
   abstract: This study investigates how human values can be effectively integrated into agile software development methodologies through a comprehensive case study on the Scaled Agile Framework (SAFe).
   badges:
     - person=AN
+
+- id: bachhofner_2022_machine_parameterization
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bachhofner S
+    - Kurniawan K
+    - Kiesling E
+    - Revoredo K
+    - Bayomie D
+  title: Knowledge graph supported machine parameterization for the injection moulding industry
+  journal: Iberoamerican Knowledge Graphs and Semantic Web Conference
+  citation: 106-120
+  year: 2022
+  url: null
+  abstract: This work presents a knowledge graph-supported approach for machine parameterization in the injection molding industry, improving manufacturing process optimization and quality control.
+  badges:
+    - person=KK
+
+- id: kurniawan_2022_krystal
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kurniawan K
+    - Ekelhart A
+    - Kiesling E
+    - Quirchmayr G
+    - Tjoa AM
+  title: KRYSTAL - Knowledge graph-based framework for tactical attack discovery in audit data
+  journal: Computers & Security
+  citation: 121:102828
+  year: 2022
+  url: null
+  abstract: KRYSTAL is a knowledge graph-based framework for tactical attack discovery in audit data, enabling advanced threat detection and cybersecurity analysis through semantic reasoning and pattern recognition.
+  badges:
+    - person=KK
+
+- id: kurniawan_2022_vlograph
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kurniawan K
+    - Ekelhart A
+    - Kiesling E
+    - Winkler D
+    - Quirchmayr G
+    - Tjoa AM
+  title: Vlograph - a virtual knowledge graph framework for distributed security log analysis
+  journal: Machine Learning and Knowledge Extraction
+  citation: 4(2)
+  year: 2022
+  url: null
+  abstract: Vlograph is a virtual knowledge graph framework designed for distributed security log analysis, enabling scalable and efficient cybersecurity monitoring across distributed systems.
+  badges:
+    - person=KK
+
+- id: bayomie_2022_process_mining
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bayomie D
+    - Revoredo K
+    - Bachhofner S
+    - Kurniawan K
+    - Kiesling E
+  title: Analyzing Manufacturing Process By Enabling Process Mining on Sensor Data
+  journal: PoEM 2022 Workshops and Models
+  citation: null
+  year: 2022
+  url: null
+  abstract: This work enables process mining on sensor data to analyze manufacturing processes, providing insights into production efficiency and quality optimization through data-driven approaches.
+  badges:
+    - person=KK
 
 - id: priyatna_2022
   date: 2022-12-01
@@ -379,18 +975,327 @@
     - person=MD
 
 # 2021 Publications
-- id: kurniawan_2021
+- id: gunawan_2021_high_utility
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Gunawan R
+    - Winarko E
+    - Pulungan R
+  title: High-Utility Association Rules Mining Based-on Binary Particle Swarm Optimization
+  journal: International Conference on Innovation in Science and Technology (ICIST 2021)
+  citation: null
+  year: 2021
+  url: null
+  abstract: This research presents a binary particle swarm optimization approach for high-utility association rules mining, improving efficiency in discovering valuable patterns from transactional data.
+  badges:
+    - person=EW
+
+- id: cherid_2021_nlp_office
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Cherid A
+    - Winarko E
+    - Sadikin M
+    - Reno A
+  title: Building Natural Language Understanding System from User Manual to Execute Office Application Functions
+  journal: 2021 1st International Conference on Computer Science and Artificial Intelligence
+  citation: null
+  year: 2021
+  url: null
+  abstract: This work develops a natural language understanding system that translates user manual instructions into executable office application functions using NLP techniques.
+  badges:
+    - person=EW
+
+- id: neruda_2021_traffic_event
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Neruda GA
+    - Winarko E
+  title: Traffic event detection from Twitter using a combination of CNN and BERT
+  journal: 2021 International Conference on Advanced Computer Science and Information Systems
+  citation: null
+  year: 2021
+  url: null
+  abstract: This study presents traffic event detection from Twitter data using a combination of Convolutional Neural Networks and BERT for real-time traffic monitoring and management.
+  badges:
+    - person=EW
+
+- id: somya_2021_market_behavior
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Somya R
+    - Winarko E
+    - Priyanta S
+  title: A Novel Approach to Collect and Analyze Market Customer Behavior Data on Online Shop
+  journal: 2021 2nd International Conference on Innovative and Creative Information Technology
+  citation: null
+  year: 2021
+  url: null
+  abstract: This research proposes novel approaches for collecting and analyzing customer behavior data in online shopping environments using advanced data mining techniques.
+  badges:
+    - person=EW
+
+- id: hermawan_2021_multi_prime
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Hermawan NTE
+    - Winarko E
+    - Ashari A
+  title: Multi prime numbers principle to expand implementation of CRT method on RSA algorithm
+  journal: AIP Conference Proceedings
+  citation: "2331(1):060009"
+  year: 2021
+  url: null
+  abstract: This work expands the implementation of the Chinese Remainder Theorem method on RSA algorithm using multi prime numbers principle for enhanced cryptographic security.
+  badges:
+    - person=EW
+
+- id: hermawan_2021_eight_prime
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Hermawan NTE
+    - Winarko E
+    - Ashari A
+  title: Eight Prime Numbers of Modified RSA Algorithm Method for More Secure Single Board Computer Implementation
+  journal: International Journal on Advanced Science, Engineering and Information Technology
+  citation: null
+  year: 2021
+  url: null
+  abstract: This research presents a modified RSA algorithm using eight prime numbers for enhanced security in single board computer implementations.
+  badges:
+    - person=EW
+
+- id: soares_2021_question_answering
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Soares TG
+    - Azhari A
+    - Rokhman N
+    - Winarko E
+  title: Education Question Answering Systems - A Survey
+  journal: International MultiConference of Engineers and Computer Scientists (IMECS) 2021
+  citation: null
+  year: 2021
+  url: null
+  abstract: This survey provides a comprehensive overview of education question answering systems, analyzing current approaches and challenges in automated educational assistance.
+  badges:
+    - person=EW
+
+- id: fuad_2021_tomo_app
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Fuad A
+    - Herwanto GB
+    - Pertiwi AAP
+    - Wahyuningtias SD
+    - Harsini H
+  title: Design and prototype of TOMO - an app for improving drug resistant TB treatment adherence
+  journal: F1000Research
+  citation: 10:983
+  year: 2021
+  url: null
+  abstract: This research presents the design and prototype of TOMO, a mobile application designed to improve treatment adherence for drug-resistant tuberculosis patients through digital health interventions.
+  badges:
+    - person=GBH
+
+- id: herwanto_2021_named_entity
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+    - Quirchmayr G
+    - Tjoa AM
+  title: A named entity recognition based approach for privacy requirements engineering
+  journal: 2021 IEEE 29th International Requirements Engineering Conference Workshops
+  citation: null
+  year: 2021
+  url: null
+  abstract: This work proposes a named entity recognition-based approach for automatically identifying and extracting privacy requirements from software documentation, enhancing privacy engineering processes.
+  badges:
+    - person=GBH
+
+- id: herwanto_2021_hate_speech
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+    - Ningtyas AM
+    - Mujiyatna IG
+    - Nugraha KE
+    - Trisna INP
+  title: Hate Speech Detection in Indonesian Twitter using Contextual Embedding Approach
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: 15(2):177-188
+  year: 2021
+  url: null
+  abstract: This research presents a contextual embedding approach for detecting hate speech in Indonesian Twitter content, addressing challenges in multilingual text processing and social media analysis.
+  badges:
+    - person=GBH
+    - person=IGM
+
+- id: kurniawan_2024_ics_sec
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kurniawan K
+    - Kiesling E
+    - Winkler D
+    - Ekelhart A
+  title: The ICS-SEC KG - An Integrated Cybersecurity Resource for Industrial Control Systems
+  journal: International Semantic Web Conference (ISWC)
+  citation: null
+  year: 2024
+  url: null
+  abstract: This work presents the ICS-SEC KG, a comprehensive knowledge graph that integrates cybersecurity resources specifically designed for Industrial Control Systems, enhancing threat intelligence and security analysis in industrial environments.
+  badges:
+    - person=KK
+
+- id: kurniawan_2024_cykg_rag
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kurniawan K
+    - Kiesling E
+    - Ekelhart A
+  title: CyKG-RAG - Towards knowledge-graph enhanced retrieval augmented generation for cybersecurity
+  journal: International Semantic Web Conference (ISWC)
+  citation: null
+  year: 2024
+  url: null
+  abstract: This research introduces CyKG-RAG, a novel approach that enhances retrieval augmented generation systems with cybersecurity knowledge graphs to improve automated threat intelligence and security analysis.
+  badges:
+    - person=KK
+
+- id: moser_2024_human_ai
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Moser BA
+    - Krause F
+    - Paulheim H
+    - Kiesling E
+    - Kurniawan K
+    - Leva MC
+  title: Managing Human-AI Collaborations within Industry 5.0 Scenarios via Knowledge Graphs - Key Challenges and Lessons Learned
+  journal: Frontiers in Artificial Intelligence
+  citation: 7:1247712
+  year: 2024
+  url: null
+  abstract: This study explores the management of human-AI collaborations in Industry 5.0 scenarios using knowledge graphs, identifying key challenges and providing insights for effective implementation.
+  badges:
+    - person=KK
+
+- id: anjomshoaa_2024_solid
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Anjomshoaa A
+    - Kurniawan K
+    - Mahdavi A
+  title: Empowering Digital Humanism in Smart Built Environments through SOLID Data Spaces
+  journal: Solid Symposium 2024
+  citation: null
+  year: 2024
+  url: null
+  abstract: This work explores how SOLID data spaces can empower digital humanism in smart built environments, addressing data sovereignty and privacy concerns in IoT-enabled buildings.
+  badges:
+    - person=KK
+
+- id: heinzl_2024_industry_kg
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heinzl B
+    - Silvina A
+    - Krause F
+    - Schwarz N
+    - Kurniawan K
+    - Kiesling E
+  title: Towards Integrating Knowledge Graphs into Process-Oriented Human-AI Collaboration in Industry
+  journal: Software Quality as a Foundation for Security. SWQD 2024
+  citation: 505
+  year: 2024
+  url: null
+  abstract: This research investigates the integration of knowledge graphs into process-oriented human-AI collaboration systems in industrial settings, focusing on improving workflow efficiency and decision-making.
+  badges:
+    - person=KK
+
+- id: bachhofner_2021_kg_modularization
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Bachhofner S
+    - Kiesling E
+    - Kurniawan K
+    - Sallinger E
+    - Waibel P
+  title: Knowledge Graph Modularization for Cyber-Physical Production Systems
+  journal: International Semantic Web Conference (ISWC) 2021
+  citation: null
+  year: 2021
+  url: null
+  abstract: This work presents knowledge graph modularization techniques specifically designed for cyber-physical production systems, enabling scalable and maintainable semantic representations of manufacturing environments.
+  badges:
+    - person=KK
+
+- id: kurniawan_2021_attack_kg
   date: 2021-08-01
   pmid: null
   pmcid: null
   authors:
     - Kurniawan K
+    - Ekelhart A
+    - Kiesling E
   title: An ATT&CK-KG for Linking Cybersecurity Attacks to Adversary Tactics and Techniques
   journal: International Semantic Web Conference (ISWC 2021)
   citation: null
   year: 2021
   url: null
   abstract: This work presents a knowledge graph approach for mapping cybersecurity attacks to adversary tactics and techniques using the MITRE ATT&CK framework, enhancing threat intelligence and security analysis capabilities.
+  badges:
+    - person=KK
+
+- id: kurniawan_2021_virtual_kg
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kurniawan K
+    - Ekelhart A
+    - Kiesling E
+    - Winkler D
+    - Quirchmayr G
+    - Tjoa AM
+  title: Virtual knowledge graphs for federated log analysis
+  journal: Proceedings of the 16th International Conference on Availability, Reliability and Security
+  citation: null
+  year: 2021
+  url: null
+  abstract: This work introduces virtual knowledge graphs for federated log analysis, enabling distributed cybersecurity monitoring and analysis across heterogeneous systems while preserving data locality and privacy.
   badges:
     - person=KK
 
@@ -414,7 +1319,594 @@
     - person=AN
 
 # 2020 Publications
-- id: heryawan_2020_soap
+- id: abdullah_2020_boost_kmeans
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Abdullah AI
+    - Winarko E
+    - Musdholifah A
+  title: Metode Boost-K-means untuk Clustering Puskesmas berdasarkan Persentase Bayi yang Diimunisasi
+  journal: JRST (Jurnal Riset Sains dan Teknologi)
+  citation: "4(2):89-96"
+  year: 2020
+  url: null
+  abstract: This research proposes the Boost-K-means method for clustering community health centers based on immunization percentages of infants, improving health service planning and resource allocation.
+  badges:
+    - person=EW
+
+- id: cahyo_2020_intrusion_survey
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Cahyo AN
+    - Winarko E
+    - Musdholifah A
+  title: Survey of data mining techniques for intrusion detection systems
+  journal: 2020 Fifth International Conference on Informatics and Computing (ICIC)
+  citation: "1-8"
+  year: 2020
+  url: null
+  abstract: This survey examines data mining techniques applied to intrusion detection systems, analyzing various approaches for network security and threat detection.
+  badges:
+    - person=EW
+
+- id: yuniarti_2020_elearning_survey
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Yuniarti WD
+    - Winarko E
+    - Musdholifah A
+  title: Data mining for student assessment in e-learning - A survey
+  journal: 2020 Fifth International Conference on Informatics and Computing (ICIC)
+  citation: "1-6"
+  year: 2020
+  url: null
+  abstract: This survey reviews data mining techniques for student assessment in e-learning environments, focusing on learning analytics and educational data mining approaches.
+  badges:
+    - person=EW
+
+- id: paryudi_2020_personality_modeling
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Paryudi I
+    - Winarko E
+    - Priyanta S
+    - Nursari SRC
+  title: Modeling of Personality Traits based on Demographic Data on Multi-Races Samples of Ages from 13 to 50 Years Old - Investigating the Effect of Race on Model
+  journal: 2020 6th International Conference on Science and Technology (ICST)
+  citation: "1:1-6"
+  year: 2020
+  url: null
+  abstract: This research investigates personality trait modeling based on demographic data across multi-racial samples, examining the effect of race on personality prediction models.
+  badges:
+    - person=EW
+
+- id: prasetyo_2020_satellite_aridity
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Prasetyo SYJ
+    - Hartomo KD
+    - Paseleng MC
+    - Chandra DW
+    - Winarko E
+  title: Satellite Imagery and Machine Learning for Aridity Disaster Classification using Vegetation Indices
+  journal: Bulletin of Electrical Engineering and Informatics
+  citation: "9(3):1149-1158"
+  year: 2020
+  url: null
+  abstract: This study applies satellite imagery and machine learning techniques for aridity disaster classification using vegetation indices for environmental monitoring and disaster management.
+  badges:
+    - person=EW
+
+- id: gunawan_2020_bpso_utility
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Gunawan R
+    - Winarko E
+    - Pulungan R
+  title: A BPSO-based method for high-utility itemset mining without minimum utility threshold
+  journal: Knowledge-Based Systems
+  citation: "190:105164"
+  year: 2020
+  url: null
+  abstract: This research presents a Binary Particle Swarm Optimization method for high-utility itemset mining that operates without requiring a minimum utility threshold, improving mining flexibility.
+  badges:
+    - person=EW
+
+- id: rusnandi_2020_multimodal_survey
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Rusnandi E
+    - Winarko E
+    - Azhari SN
+  title: A Survey on Multimodal Information Retrieval Approach
+  journal: 2020 International Conference on Smart Technology and Applications (ICoSTA)
+  citation: "1-6"
+  year: 2020
+  url: null
+  abstract: This survey examines multimodal information retrieval approaches, analyzing techniques that combine multiple data modalities for enhanced search and retrieval systems.
+  badges:
+    - person=EW
+
+- id: albariqi_2020_bitcoin_prediction
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Albariqi R
+    - Winarko E
+  title: Prediction of bitcoin price change using neural networks
+  journal: 2020 international conference on smart technology and applications (ICoSTA)
+  citation: "1-4"
+  year: 2020
+  url: null
+  abstract: This study applies neural networks for Bitcoin price change prediction, contributing to cryptocurrency market analysis and financial forecasting using deep learning techniques.
+  badges:
+    - person=EW
+
+- id: chandra_2020_adwords_decision
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Chandra SA
+    - Winarko E
+    - Priyanta S
+  title: Adwords Keyword Set Selection Decision Support System Using AHP and TOPSIS Method
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: "14(2):135-146"
+  year: 2020
+  url: null
+  abstract: This research develops a decision support system for Adwords keyword selection using AHP and TOPSIS methods to optimize digital marketing campaigns.
+  badges:
+    - person=EW
+
+- id: abbas_2020_kg_evolution
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Abbas N
+    - Alghamdi K
+    - Alinam M
+    - Alloatti F
+    - Amaral G
+    - d'Amato C
+    - Kurniawan K
+  title: Knowledge Graphs Evolution and Preservation--A Technical Report from ISWS 2019
+  journal: arXiv preprint arXiv:2012.11936
+  citation: null
+  year: 2020
+  url: null
+  abstract: This technical report from ISWS 2019 provides insights into knowledge graph evolution and preservation challenges, addressing scalability, versioning, and maintenance of large-scale semantic knowledge bases.
+  badges:
+    - person=KK
+
+- id: adorada_2020_feature_selection
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Adorada A
+    - Wirawan PW
+    - Kurniawan K
+  title: The comparison of feature selection methods in software defect prediction
+  journal: 2020 4th International Conference on Informatics and Computational Sciences
+  citation: null
+  year: 2020
+  url: null
+  abstract: This study compares various feature selection methods for software defect prediction, analyzing their effectiveness in identifying relevant features for improving defect detection accuracy.
+  badges:
+    - person=KK
+
+- id: santoso_2020_blockchain
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Santoso DB
+    - Fuad A
+    - Herwanto GB
+    - Maula AW
+  title: Blockchain technology implementation on medical records data management - a review of recent studies
+  journal: Jurnal Riset Kesehatan
+  citation: 9(2):107-112
+  year: 2020
+  url: null
+  abstract: This review examines recent studies on blockchain technology implementation for medical records data management, analyzing benefits, challenges, and future directions in healthcare data security.
+  badges:
+    - person=GBH
+
+- id: heryawan_2025_fhir_interoperability
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Mori Y
+    - Yamamoto G
+    - Kume N
+    - Lazuardi L
+    - Fuad A
+    - Kuroda T
+  title: Fast Healthcare Interoperability Resources (FHIR)–Based Interoperability Design in Indonesia - Content Analysis of Developer Hub's Social Networking Service
+  journal: JMIR Formative Research
+  citation: 9:e51270
+  year: 2025
+  url: null
+  abstract: This study analyzes FHIR-based interoperability design in Indonesia through content analysis of developer hub social networking services, addressing healthcare data standardization and exchange challenges in Indonesian healthcare systems.
+  badges:
+    - person=LH
+
+- id: salsabila_2024_easympasi
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Salsabila A
+    - Heryawan L
+    - Amalia E
+    - Siagian D
+    - Ongan RH
+  title: Web-based Software Development for Complementary Feeding Recommendation System (EasyMPASI) Using Rule-Based Reasoning
+  journal: 2024 International Conference on Computer, Control, Informatics and its Applications
+  citation: null
+  year: 2024
+  url: null
+  abstract: This work presents EasyMPASI, a web-based complementary feeding recommendation system using rule-based reasoning to support infant nutrition and feeding guidelines for healthcare providers and parents.
+  badges:
+    - person=LH
+
+- id: heryawan_2024_medical_search
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Novitaningrum D
+    - Nastiti KR
+    - Mahmudah SN
+  title: Medical Record Document Search with TF-IDF and Vector Space Model (VSM)
+  journal: International Journal on Advanced Science, Engineering and Information Technology
+  citation: null
+  year: 2024
+  url: null
+  abstract: This research implements TF-IDF and Vector Space Model for efficient medical record document search, improving information retrieval capabilities in electronic health record systems.
+  badges:
+    - person=LH
+
+- id: wahyuni_2024_interoperability_challenges
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Wahyuni I
+    - Heryawan L
+    - Sanjaya GY
+    - Prabowo T
+  title: Tantangan Interoperabilitas Rekam Medis - Studi Kasus Di Rumah Sakit Singaparna Medika Citrautama
+  journal: Jurnal Manajemen Kesehatan Indonesia
+  citation: 12(3):229-238
+  year: 2024
+  url: null
+  abstract: This case study examines medical record interoperability challenges at Singaparna Medika Citrautama Hospital, identifying barriers and solutions for healthcare data integration in Indonesian hospitals.
+  badges:
+    - person=LH
+
+- id: rahmadewi_2023_immunization_registry
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Rahmadewi P
+    - Heryawan L
+    - Lazuardi L
+  title: KESIAPAN PENERAPAN REGISTER IMUNISASI ELEKTRONIK NASIONAL DI PROVINSI BANTEN DAN MALUKU UTARA
+  journal: Jurnal Kesehatan Masyarakat
+  citation: 11(4):406-417
+  year: 2023
+  url: null
+  abstract: This study assesses the readiness for implementing the National Electronic Immunization Registry in Banten and North Maluku provinces, evaluating infrastructure, human resources, and policy requirements.
+  badges:
+    - person=LH
+
+- id: rasyid_2023_tb_classification
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Rasyid A
+    - Heryawan L
+  title: Klasifikasi Penyakit Tuberculosis (TB) Organ Paru Manusia Berdasarkan Citra Rontgen Thorax Menggunakan Metode Convolutional Neural Network (CNN)
+  journal: Jurnal Manajemen Informasi Kesehatan Indonesia
+  citation: 11(1)
+  year: 2023
+  url: null
+  abstract: This research develops a CNN-based tuberculosis classification system using chest X-ray images, supporting automated TB detection for improved diagnostic accuracy in Indonesian healthcare settings.
+  badges:
+    - person=LH
+
+- id: aszani_2023_disease_detection
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Aszani A
+    - Wicaksono HI
+    - Nadzima U
+    - Heryawan L
+  title: Information Retrieval for Early Detection of Disease Using Semantic Similarity
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: 17(1):45-54
+  year: 2023
+  url: null
+  abstract: This study develops an information retrieval system for early disease detection using semantic similarity techniques, enabling proactive healthcare monitoring and intervention.
+  badges:
+    - person=LH
+
+- id: rahmani_2023_hpc_power
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Rahmani F
+    - Heryawan L
+    - Amrizal MA
+  title: MANAJEMEN DAYA PADA SISTEM HPC MENGGUNAKAN METODE DEEP REINFORCEMENT LEARNING BERBASIS ADVANTAGE ACTOR-CRITIC
+  journal: Universitas Gadjah Mada Thesis
+  citation: null
+  year: 2023
+  url: null
+  abstract: This thesis explores power management in HPC systems using deep reinforcement learning with Advantage Actor-Critic method, optimizing energy efficiency in high-performance computing environments.
+  badges:
+    - person=LH
+
+- id: winarko_2022_context_aware
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Winarko E
+    - Heryawan L
+  title: Context-Aware Recommendation System Survey - Recommendation When Adding Contextual Information
+  journal: 2022 6th International Conference on Information Technology, Information Systems and Electrical Engineering
+  citation: null
+  year: 2022
+  url: null
+  abstract: This survey examines context-aware recommendation systems, analyzing how contextual information enhances recommendation accuracy and user experience across various domains.
+  badges:
+    - person=LH
+    - person=EW
+
+- id: somya_2022_hybrid_recommender
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Somya R
+    - Winarko E
+    - Priyanta S
+  title: A hybrid recommender system based on customer behavior and transaction data using generalized sequential pattern algorithm
+  journal: Bulletin of Electrical Engineering and Informatics
+  citation: "11(6):3422-3432"
+  year: 2022
+  url: null
+  abstract: This research develops a hybrid recommender system combining customer behavior analysis and transaction data using generalized sequential pattern algorithms to improve recommendation accuracy.
+  badges:
+    - person=EW
+
+- id: heldiansyah_2022_emotion_detection
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heldiansyah MF
+    - Winarko E
+  title: Emotion Detection on Indonesian Tweets Using CNN and Contextualized Word Embedding
+  journal: 2022 International Conference on Data and Software Engineering (ICoDSE)
+  citation: "53-58"
+  year: 2022
+  url: null
+  abstract: This work presents emotion detection techniques for Indonesian tweets using Convolutional Neural Networks and contextualized word embeddings for social media sentiment analysis.
+  badges:
+    - person=EW
+
+- id: sulistianingsih_2022_gn_ppn
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Sulistianingsih N
+    - Winarko E
+    - Sari AK
+  title: GN-PPN - Parallel Girvan-Newman-Based Algorithm to Detect Communities in Graph with Positive and Negative Weights
+  journal: International Journal of Intelligent Engineering & Systems
+  citation: "15(6)"
+  year: 2022
+  url: null
+  abstract: This research proposes GN-PPN, a parallel Girvan-Newman-based algorithm for detecting communities in graphs with both positive and negative weights, improving community detection accuracy.
+  badges:
+    - person=EW
+
+- id: dharma_2022_disaster_classification
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Dharma LSA
+    - Winarko E
+  title: Classifying natural disaster tweet using a convolutional neural network and BERT embedding
+  journal: 2022 2nd international conference on information technology and education
+  citation: null
+  year: 2022
+  url: null
+  abstract: This study develops natural disaster tweet classification using convolutional neural networks and BERT embeddings for emergency response and disaster management applications.
+  badges:
+    - person=EW
+
+- id: heryawan_2022_mesh_comparison
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Bukhori A
+  title: Comparison of machine learning and deep learning model for medical subject headings indexation
+  journal: Proceedings of the 2022 International Conference on Computer, Control, Informatics and its Applications
+  citation: null
+  year: 2022
+  url: null
+  abstract: This study compares machine learning and deep learning approaches for Medical Subject Headings (MeSH) indexation, evaluating their effectiveness in automated medical literature classification.
+  badges:
+    - person=LH
+
+- id: heryawan_2022_diagnosis_detection
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Febriansyah F
+    - Bukhori A
+  title: Deep learning and machine learning model comparison for diagnosis detection from medical records
+  journal: Proceedings of the 2022 International Conference on Computer, Control, Informatics and its Applications
+  citation: null
+  year: 2022
+  url: null
+  abstract: This research compares deep learning and machine learning models for automated diagnosis detection from medical records, assessing their accuracy and clinical applicability.
+  badges:
+    - person=LH
+
+- id: choironi_2022_cloud_emr
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Choironi EA
+    - Heryawan L
+  title: Persepsi Dokter Klinik Dalam Menggunakan Rekam Medis Elektronik Berbasis Cloud Computing - Survei Penggunaan rekmed.com
+  journal: Jurnal Ilmiah Informatika Global
+  citation: 13(3)
+  year: 2022
+  url: null
+  abstract: This study surveys clinical doctors' perceptions of using cloud-based electronic medical records through rekmed.com, analyzing adoption barriers and benefits in Indonesian healthcare practice.
+  badges:
+    - person=LH
+
+- id: sujudi_2022_openemr_fhir
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Sujudi HM
+    - Heryawan L
+  title: An Automatic Data Mapping for Interoperability of OpenEMR Medical Practice Management Software Using the Fast Healthcare Interoperability Resources
+  journal: Advanced Biomedical Engineering
+  citation: 11:186-193
+  year: 2022
+  url: null
+  abstract: This work develops automatic data mapping for OpenEMR interoperability using FHIR standards, enabling seamless healthcare data exchange between different medical practice management systems.
+  badges:
+    - person=LH
+
+- id: heryawan_2021_medical_coding
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Febriansyah F
+  title: An Electronic Medical Records' Keywords Detection Using Supervised Learning for Supporting Medical Coding
+  journal: Proceedings of the 2021 International Conference on Computer, Control, Informatics and its Applications
+  citation: null
+  year: 2021
+  url: null
+  abstract: This research develops a supervised learning approach for keyword detection in electronic medical records to support automated medical coding and classification processes.
+  badges:
+    - person=LH
+
+- id: heryawan_2021_mesh_unsupervised
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Subiantoro A
+  title: Medical Subject Headings (MeSH) Indexing Using Unsupervised Learning for Low-resource Controlled Vocabulary
+  journal: Proceedings of the 2021 International Conference on Computer, Control, Informatics and its Applications
+  citation: null
+  year: 2021
+  url: null
+  abstract: This work applies unsupervised learning techniques for MeSH indexing in low-resource controlled vocabulary environments, addressing challenges in multilingual medical literature indexing.
+  badges:
+    - person=LH
+
+- id: heryawan_2020_computer_mediated
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+  title: A Computer-mediated Support for Writing Medical Notes with Coder's Perspective
+  journal: Kyoto University PhD Thesis
+  citation: null
+  year: 2020
+  url: null
+  abstract: This PhD thesis explores computer-mediated support systems for medical note writing from a coder's perspective, developing intelligent assistance tools for clinical documentation.
+  badges:
+    - person=LH
+
+- id: suzanti_2020_sebi
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Suzanti IO
+    - Pramudita YD
+    - Putro SS
+    - Heryawan L
+  title: Web Service for Search Engine Bahasa Indonesia (SEBI)
+  journal: Journal of Physics - Conference Series
+  citation: 1569(2):022087
+  year: 2020
+  url: null
+  abstract: This work presents a web service for the Indonesian Language Search Engine (SEBI), developing specialized search capabilities for Bahasa Indonesia content and improving information retrieval in Indonesian.
+  badges:
+    - person=LH
+
+- id: heryawan_2020_abbreviations
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Heryawan L
+    - Sugiyama O
+    - Yamamoto G
+    - Khotimah PH
+    - Santos LHO
+  title: A detection of informal abbreviations from free text medical notes using deep learning
+  journal: European Journal of Biomedical Informatics (EJBI)
+  citation: 16(1):29-37
+  year: 2020
+  url: null
+  abstract: This study presents a deep learning approach for detecting and standardizing informal abbreviations in free-text medical notes, addressing challenges in medical text processing and information extraction.
+  badges:
+    - person=LH
+
+- id: heryawan_2020_soap_agent
   date: 2020-06-01
   pmid: null
   pmcid: null
@@ -424,28 +1916,31 @@
     - Sugiyama O
     - Yamamoto G
   title: Toward Design of an Agent-based Writing Support System for the SOAP Note - A Content Analysis of the Video-based Survey
-  journal: Medical Informatics Conference
-  citation: null
+  journal: Advanced Biomedical Engineering
+  citation: 9:146-153
   year: 2020
   url: null
   abstract: This research focuses on developing an agent-based writing support system for SOAP notes in medical informatics, utilizing content analysis to improve clinical documentation efficiency.
   badges:
     - person=LH
 
-- id: heryawan_2020_medical
-  date: 2020-03-01
+- id: khotimah_2019_agent_completion
+  date: 2019-01-01
   pmid: null
   pmcid: null
   authors:
+    - Khotimah PH
     - Heryawan L
-    - Sugiyama O
+    - Kuroda T
+    - Hiragi S
     - Yamamoto G
-  title: A Detection of Informal Abbreviations from Free Text Medical Notes Using Deep Learning
-  journal: Medical Text Processing Journal
+    - Okamoto K
+  title: Agent-based Completion for Collecting Medical Note Parameters
+  journal: Proceedings of the 7th International Conference on Human-Agent Interaction
   citation: null
-  year: 2020
+  year: 2019
   url: null
-  abstract: This study presents a deep learning approach for detecting and standardizing informal abbreviations in free-text medical notes, addressing challenges in medical text processing and information extraction.
+  abstract: This work develops an agent-based completion system for collecting medical note parameters, improving clinical documentation efficiency through intelligent assistance and parameter suggestion.
   badges:
     - person=LH
 
@@ -501,14 +1996,206 @@
     - Nurwidyantoro A
   title: Continual human value analysis in software development - A goal model based approach
   journal: 2020 IEEE 28th International Requirements Engineering Conference (RE)
-  citation: null
+  citation: "192-203"
   year: 2020
   url: null
   abstract: This work proposes a goal model-based approach for continual analysis and integration of human values throughout software development lifecycles.
   badges:
     - person=AN
 
+- id: shams_2020_agriculture
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Shams RA
+    - Hussain W
+    - Oliver G
+    - Nurwidyantoro A
+    - Perera H
+    - Whittle J
+  title: Society-oriented applications development - Investigating users' values from bangladeshi agriculture mobile applications
+  journal: "2020 IEEE/ACM 42nd International Conference on Software Engineering"
+  citation: null
+  year: 2020
+  url: null
+  abstract: This research investigates user values from Bangladeshi agriculture mobile applications to inform society-oriented application development practices and culturally-sensitive design approaches.
+  badges:
+    - person=AN
+
+- id: shams_2020_measuring
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Shams RA
+    - Shahin M
+    - Oliver G
+    - Hussain W
+    - Perera H
+    - Nurwidyantoro A
+    - Whittle J
+  title: Measuring Bangladeshi Female Farmers' Values for Agriculture Mobile Applications Development
+  journal: Proceedings of the 54th Hawaii International Conference on System Sciences
+  citation: null
+  year: 2020
+  url: null
+  abstract: This study measures values held by Bangladeshi female farmers to inform the development of culturally-appropriate agriculture mobile applications and technology solutions.
+  badges:
+    - person=AN
+
+- id: hoquang_2020_interactive
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Ho-Quang T
+    - Bergel A
+    - Nurwidyantoro A
+    - Jolak R
+    - Chaudron MRV
+  title: Interactive Role Stereotype-Based Visualization To Comprehend Software Architecture
+  journal: 8th IEEE Working Conference on Software Visualization
+  citation: null
+  year: 2020
+  url: null
+  abstract: This work presents an interactive visualization approach based on role stereotypes to improve software architecture comprehension and analysis.
+  badges:
+    - person=AN
+
+- id: trisna_2020_keywords
+  date: 2020-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Trisna INP
+    - Nurwidyantoro A
+  title: Single document keywords extraction in Bahasa Indonesia using phrase chunking
+  journal: Telkomnika
+  citation: "18(4):1917-1925"
+  year: 2020
+  url: null
+  abstract: This research develops a method for single document keyword extraction in Bahasa Indonesia using phrase chunking techniques to improve information retrieval and text analysis capabilities.
+  badges:
+    - person=AN
+
+- id: nurwidyantoro_2019_classification
+  date: 2019-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Nurwidyantoro A
+    - Ho-Quang T
+    - Chaudron MRV
+  title: Automated classification of class role-stereotypes via machine learning
+  journal: Proceedings of the 23rd International Conference on Evaluation and Assessment in Software Engineering
+  citation: null
+  year: 2019
+  url: null
+  abstract: This work presents a machine learning approach for automated classification of class role-stereotypes in object-oriented software design, supporting software architecture analysis and design quality assessment.
+  badges:
+    - person=AN
+
 # 2019 Publications
+- id: somya_2019_data_gathering
+  date: 2019-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Somya R
+    - Winarko E
+    - Priyanta S
+  title: Data Gathering Architecture for Clickstream Data Mining on Online Shop
+  journal: 2019 5th International Conference on Science and Technology (ICST)
+  citation: "1:1-4"
+  year: 2019
+  url: null
+  abstract: This research presents a data gathering architecture for clickstream data mining in online shopping environments, enabling comprehensive customer behavior analysis.
+  badges:
+    - person=EW
+
+- id: defiyanti_2019_hierarchical_survey
+  date: 2019-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Defiyanti S
+    - Winarko E
+    - Priyanta S
+  title: A survey of hierarchical classification algorithms with big-bang approach
+  journal: 2019 5th International Conference on Science and Technology (ICST)
+  citation: "1:1-6"
+  year: 2019
+  url: null
+  abstract: This survey examines hierarchical classification algorithms using big-bang approach, analyzing various methods for multi-level classification tasks.
+  badges:
+    - person=EW
+
+- id: indra_2019_trending_topics
+  date: 2019-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Indra
+    - Winarko E
+    - Pulungan R
+  title: Trending Topics Detection of Indonesian Tweets using BN-grams and Doc-p
+  journal: Journal of King Saud University-Computer and Information Sciences
+  citation: "31(2)"
+  year: 2019
+  url: null
+  abstract: This research presents trending topics detection methods for Indonesian tweets using BN-grams and Doc-p techniques for social media analysis and monitoring.
+  badges:
+    - person=EW
+
+- id: rifai_2019_stemming_modification
+  date: 2019-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Rifai W
+    - Winarko E
+  title: Modification of Stemming Algorithm Using A Non Deterministic Approach To Indonesian Text
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: "13(4):379-388"
+  year: 2019
+  url: null
+  abstract: This work modifies stemming algorithms for Indonesian text using non-deterministic approaches to improve morphological analysis accuracy in Indonesian language processing.
+  badges:
+    - person=EW
+
+- id: ikhsanudin_2019_parallel_filtering
+  date: 2019-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Ikhsanudin R
+    - Winarko E
+  title: Parallelization of Hybrid Content Based and Collaborative Filtering Method in Recommendation System with Apache Spark
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: "13(2):149-158"
+  year: 2019
+  url: null
+  abstract: This research implements parallelization of hybrid content-based and collaborative filtering methods using Apache Spark for scalable recommendation systems.
+  badges:
+    - person=EW
+
+- id: patihullah_2019_hate_speech
+  date: 2019-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Patihullah J
+    - Winarko E
+  title: Hate Speech Detection for Indonesia Tweets using Word Embedding and Gated Recurrent Unit
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: "13(1):43-52"
+  year: 2019
+  url: null
+  abstract: This study develops hate speech detection for Indonesian tweets using word embeddings and Gated Recurrent Units for social media content moderation.
+  badges:
+    - person=EW
+
 - id: perera_2019
   date: 2019-01-01
   pmid: null
@@ -529,7 +2216,220 @@
   badges:
     - person=AN
 
+# 2016 Publications
+- id: zamahsyari_2016_sentiment
+  date: 2016-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Zamahsyari
+    - Nurwidyantoro A
+  title: Sentiment analysis of economic news in Bahasa Indonesia using majority vote classifier
+  journal: Data and Software Engineering (ICoDSE), 2016 International Conference on
+  citation: null
+  year: 2016
+  url: null
+  abstract: This research develops a sentiment analysis system for economic news in Bahasa Indonesia using a majority vote classifier approach to analyze market sentiment and economic indicators.
+  badges:
+    - person=AN
+
+- id: murazza_2016_cassandra
+  date: 2016-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Murazza MR
+    - Nurwidyantoro A
+  title: Cassandra and SQL database comparison for near real-time Twitter data warehouse
+  journal: 2016 International Seminar on Intelligent Technology and Its Applications
+  citation: null
+  year: 2016
+  url: null
+  abstract: This study compares Cassandra and SQL databases for near real-time Twitter data warehousing, evaluating performance and scalability characteristics for social media analytics.
+  badges:
+    - person=AN
+
+- id: syaifudin_2016_quotations
+  date: 2016-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Syaifudin Y
+    - Nurwidyantoro A
+  title: Quotations identification from Indonesian online news using rule-based method
+  journal: 2016 International Seminar on Intelligent Technology and Its Applications
+  citation: null
+  year: 2016
+  url: null
+  abstract: This work develops a rule-based method for identifying quotations from Indonesian online news sources, supporting automated content analysis and information extraction from news media.
+  badges:
+    - person=AN
+
+# 2013 Publications
+- id: nurwidyantoro_2013_executive
+  date: 2013-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Nurwidyantoro A
+    - Hakim B
+    - Utomo EP
+  title: Perancangan Sistem Informasi Eksekutif (Studi Kasus di UGM)
+  journal: Seminar Nasional Aplikasi Teknologi Informasi (SNATI)
+  citation: null
+  year: 2013
+  url: null
+  abstract: This work presents the design of an Executive Information System through a case study at Universitas Gadjah Mada, focusing on strategic information management for executive decision-making.
+  badges:
+    - person=AN
+
+- id: nurwidyantoro_2013_event_detection
+  date: 2013-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Nurwidyantoro A
+    - Winarko E
+  title: Event detection in social media - A survey
+  journal: International Conference on ICT for Smart Society
+  citation: "1-5"
+  year: 2013
+  url: null
+  abstract: This survey paper provides a comprehensive overview of event detection techniques in social media, analyzing various approaches and challenges in identifying real-time events from social media streams.
+  badges:
+    - person=AN
+    - person=EW
+
+# 2012 Publications  
+- id: nurwidyantoro_2012_pos_tagging
+  date: 2012-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Nurwidyantoro A
+    - Winarko E
+  title: Parallelization of Maximum Entropy POS Tagging for Bahasa Indonesia with MapReduce
+  journal: International Journal of Computer Science Issues (IJCSI)
+  citation: "9(4)"
+  year: 2012
+  url: null
+  abstract: This research presents a parallelization approach for Maximum Entropy POS tagging in Bahasa Indonesia using MapReduce framework to improve processing efficiency for Indonesian text processing.
+  badges:
+    - person=AN
+    - person=EW
+
 # 2017 Publications
+- id: winarko_2017_sarcasm_whatsapp
+  date: 2017-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Winarko E
+    - Cherid A
+  title: Recognizing the sarcastic statement on WhatsApp Group with Indonesian language text
+  journal: 2017 International Conference on Broadband Communication, Wireless Sensors and Powering
+  citation: null
+  year: 2017
+  url: null
+  abstract: This research develops techniques for recognizing sarcastic statements in WhatsApp group conversations using Indonesian language text analysis and natural language processing.
+  badges:
+    - person=EW
+
+- id: ratnawati_2018_movie_sentiment
+  date: 2018-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Ratnawati F
+    - Winarko E
+  title: Sentiment analysis of movie opinion in twitter using dynamic convolutional neural network algorithm
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: "12(1):1-10"
+  year: 2018
+  url: null
+  abstract: This study applies dynamic convolutional neural networks for sentiment analysis of movie opinions in Twitter, improving opinion mining accuracy for entertainment content.
+  badges:
+    - person=EW
+
+- id: winarko_2017_sentiment_dbn
+  date: 2017-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Winarko E
+  title: Sentimen analisis tweet berbahasa Indonesia dengan deep belief network
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: "11(2):187-198"
+  year: 2017
+  url: null
+  abstract: This highly-cited research presents sentiment analysis of Indonesian tweets using deep belief networks, significantly contributing to Indonesian natural language processing and social media analysis.
+  badges:
+    - person=EW
+
+- id: putranti_2014_sentiment_maxent
+  date: 2014-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Putranti ND
+    - Winarko E
+  title: Analisis sentimen twitter untuk teks berbahasa Indonesia dengan maximum entropy dan support vector machine
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: "8(1):91-100"
+  year: 2014
+  url: null
+  abstract: This highly-cited work applies maximum entropy and support vector machine methods for sentiment analysis of Indonesian Twitter text, establishing foundational techniques for Indonesian sentiment analysis.
+  badges:
+    - person=EW
+
+- id: rodiyansyah_2012_traffic_classification
+  date: 2012-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Rodiyansyah SF
+    - Winarko E
+  title: Klasifikasi Posting Twitter Kemacetan Lalu Lintas Kota Bandung Menggunakan Naive Bayesian Classification
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: "6(1)"
+  year: 2012
+  url: null
+  abstract: This research classifies traffic congestion tweets for Bandung city using Naive Bayesian Classification, contributing to intelligent transportation systems and traffic monitoring.
+  badges:
+    - person=EW
+
+- id: winarko_2008_signature_indexing
+  date: 2008-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Winarko E
+    - Roddick JF
+  title: A signature-based indexing method for efficient content-based retrieval of relative temporal patterns
+  journal: IEEE Transactions on Knowledge and Data Engineering
+  citation: "20(6):825-835"
+  year: 2008
+  url: null
+  abstract: This research presents a signature-based indexing method for efficient content-based retrieval of relative temporal patterns, contributing to temporal data mining and pattern recognition.
+  badges:
+    - person=EW
+
+- id: winarko_2007_armada_algorithm
+  date: 2007-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Winarko E
+    - Roddick JF
+  title: ARMADA–An algorithm for discovering richer relative temporal association rules from interval-based data
+  journal: Data & Knowledge Engineering
+  citation: "63(1):76-90"
+  year: 2007
+  url: null
+  abstract: This highly-cited work presents the ARMADA algorithm for discovering richer relative temporal association rules from interval-based data, making significant contributions to temporal data mining.
+  badges:
+    - person=EW
+
 - id: bustoni_2017
   date: 2017-01-01
   pmid: null
