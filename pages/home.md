@@ -2,7 +2,7 @@
 layout: base/home
 title: Software and Data Engineering Research Laboratory
 title2: Universitas Gadjah Mada # same font size as title, but forced onto a second line
-subtitle: Research in software engineering, data systems, and information technology # smaller font size, shown below title+title2
+subtitle: Research in software engineering, data & knowledge management, and extended reality # smaller font size, shown below title+title2
 # banner_image: /assets/images/doe-lab.jpg
 permalink: /
 ---
