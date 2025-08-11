@@ -159,7 +159,7 @@
     - project=project1
 
 - id: IGM # used internally to identify this person, e.g., in a Newsfeed post "people" field
-  name: I Gede Mujiyatna # as display on the web page People item
+  name: I Gede Mujiyatna, S.Kom., M.Kom. # as display on the web page People item
   role: Lecturer # will appear next to name
   program: null # omit if not applicable
   image: assets/images/people/IGM.jpg # can be external link
