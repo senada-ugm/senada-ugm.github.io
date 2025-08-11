@@ -1,24 +1,25 @@
 ---
 layout: base/home
-title: John Doe Laboratory
+title: Software and Data Engineering Research Laboratory
 title2: University of Michigan # same font size as title, but forced onto a second line
-subtitle: Research laboratory and other projects # smaller font size, shown below title+title2
+subtitle: Research in software engineering, data systems, and information technology # smaller font size, shown below title+title2
 # banner_image: /assets/images/doe-lab.jpg
 permalink: /
 ---
 
 <style>mark{ color:rgb(200,0,0); background-color:white; }</style>
-> <mark>This is a demo site for the</mark> [umich-labs](https://github.com/wilsonte-umich/umich-labs) <mark> Jekyll theme for GitHub Pages. It is not intended as a real laboratory web page. When you copy the template, replace the contents of this and other files with your information.</mark>
+> <mark>This site presents information about the</mark> Software and Data Engineering Research Laboratory <mark>—its research focus, ongoing projects, and academic activities.</mark>
 
-Welcome to the web site of the John Doe laboratory.
-Here is some general information about our group
-and what we do.
+Welcome to the website of the Software and Data Engineering Research Laboratory.  
+Our laboratory focuses on developing and discovering methods and techniques for producing software products that are efficient, maintainable, reliable, secure, and user-acceptable. As both individuals and groups increasingly depend on advanced software systems, our research also emphasizes software reuse, component-based software engineering, distributed software engineering, and aspect-oriented software engineering.  
 
-### Section Title
+Another key area of interest is the development of information infrastructure, data management systems, data mining, and text mining. Beyond numerical data, we work with diverse data types such as documents, imagery, sensor data, web documents, and biological data. The lab accommodates and facilitates research conducted by faculty and students who share interests in these topics.  
 
-Section text, add an image, whatever you'd like.
-See <https://www.markdownguide.org/basic-syntax/>
-for how to write page content in markdown (it's easy!).
+**Research themes of the Software and Data Engineering Research Laboratory include:**
+
+1. Data mining, opinion mining and analysis, classification.  
+2. Modeling for testing, validation, and verification in the software development process.  
+3. Software project management and IT governance.  
+4. Semantic web and ontologies: retrieving data or documents based on semantic meaning.  
 
 ![Glassware]({{ "assets/images/chemical-reaction-science-chemistry.jpg" | relative_url }})
-
