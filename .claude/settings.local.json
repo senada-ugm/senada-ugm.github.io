@@ -5,7 +5,8 @@
       "Bash(rm:*)",
       "Bash(mkdir:*)",
       "Bash(cp:*)",
-      "Bash(bundle exec:*)"
+      "Bash(bundle exec:*)",
+      "WebFetch(domain:polyglot.untra.io)"
     ],
     "deny": []
   }

@@ -1,6 +1,6 @@
 ---
 layout: items/post
-title: "ITB, UGM, dan TU Wien Merancang Masa Depan Manajemen Data Riset"
+title: "ITB, UGM, and TU Wien Design the Future of Research Data Management"
 date: 2025-06-17
 author: SENADA-UGM
 categories: [collaboration, research, data-management, international]
@@ -10,38 +10,38 @@ badges:
   - person=KM
 ---
 
-**Bandung, 17 Juni 2025** – Di tengah lanskap riset global yang semakin bertumpu pada data, sebuah langkah strategis diambil di kampus Institut Teknologi Bandung (ITB). Para pakar dari Indonesia dan Austria berkumpul dalam sebuah pertemuan kunci untuk merumuskan masa depan manajemen data riset profesional, sebuah inisiatif yang didorong oleh kemitraan dalam jaringan ASEA-UNINET.
+**Bandung, June 17, 2025** – In an increasingly data-driven global research landscape, a strategic step was taken at the Institut Teknologi Bandung (ITB) campus. Experts from Indonesia and Austria gathered in a key meeting to formulate the future of professional research data management, an initiative driven by partnerships within the ASEA-UNINET network.
 
-![Pertemuan kolaborasi ITB, UGM, dan TU Wien](/assets/images/news/tu-wien-collaboration-2025-1.jpg)
+![ITB, UGM, and TU Wien collaboration meeting](/assets/images/news/tu-wien-collaboration-2025-1.jpg)
 
-Pertemuan ini menyatukan keahlian dari tiga institusi terkemuka: ITB sebagai tuan rumah, Universitas Gadjah Mada (UGM), dan TU Wien dari Austria. Diskusi yang berlangsung hangat dan konstruktif ini bertujuan untuk membangun fondasi bagi pengembangan sistem manajemen data riset yang mandiri dan berstandar internasional di Indonesia.
+This meeting brought together expertise from three leading institutions: ITB as host, Universitas Gadjah Mada (UGM), and TU Wien from Austria. The warm and constructive discussions aimed to build the foundation for developing autonomous, internationally standardized research data management systems in Indonesia.
 
-## Delegasi dan Kolaborasi
+## Delegation and Collaboration
 
-Delegasi UGM, yang terdiri dari **Dr.techn. Guntur Budi Herwanto** dan **Dr. techn. Khabib Mustofa**, membawa perspektif mendalam mengenai kebutuhan dan tantangan di lingkungan akademik UGM. Mereka berdialog intensif dengan mitra dari TU Wien, yaitu Florina Piroi, Andreas Rauber, dan Martin Weise, yang berbagi pengalaman dan praktik terbaik dari Eropa. Dari pihak ITB, Wikan Danar Sunindyo bersama timnya dari Informatika memandu jalannya diskusi, memastikan relevansi solusi dengan konteks lokal.
+The UGM delegation, consisting of **Dr.techn. Guntur Budi Herwanto** and **Dr. techn. Khabib Mustofa**, brought deep insights into the needs and challenges within UGM's academic environment. They engaged in intensive dialogue with partners from TU Wien - Florina Piroi, Andreas Rauber, and Martin Weise - who shared European experiences and best practices. From ITB, Wikan Danar Sunindyo and his Informatics team guided the discussions, ensuring solution relevance within the local context.
 
-![Diskusi intensif para ahli](/assets/images/news/tu-wien-collaboration-2025-2.jpg)
+![Intensive expert discussions](/assets/images/news/tu-wien-collaboration-2025-2.jpg)
 
-## Platform dan Teknologi
+## Platforms and Technologies
 
-Fokus utama pembahasan adalah bagaimana mengintegrasikan berbagai platform teknologi menjadi sebuah ekosistem yang kohesif. Para peserta mengeksplorasi arsitektur infrastruktur repositori yang ideal, membahas pemanfaatan:
+The main focus of discussion was how to integrate various technology platforms into a cohesive ecosystem. Participants explored ideal repository infrastructure architecture, discussing the utilization of:
 
-- **DSpace** untuk publikasi ilmiah
-- **GitLab** untuk mengelola kode sumber
-- **Invenio** yang dikembangkan TU Wien untuk arsip data riset mentah
-- **DBRepo** untuk repositori basis data
-- **DAMAP** sebagai alat bantu untuk menyusun perencanaan manajemen data
+- **DSpace** for scientific publications
+- **GitLab** for source code management
+- **Invenio** developed by TU Wien for raw research data archiving
+- **DBRepo** for database repositories
+- **DAMAP** as an essential tool for structured data management planning
 
 ## Virtual Research Environment
 
-Lebih dari sekadar penyimpanan, visi kolaborasi ini adalah menciptakan **Lingkungan Riset Virtual (Virtual Research Environment)** yang dinamis. Hal ini mencakup implementasi platform komputasi seperti JupyterHub yang memberi peneliti kekuatan untuk menganalisis data secara interaktif. Di sisi lain, keamanan data-data sensitif juga menjadi prioritas, dengan menjajaki penerapan platform seperti OSSDIP.
+Beyond mere storage, the vision of this collaboration is to create a dynamic **Virtual Research Environment**. This includes implementing computational platforms like JupyterHub that provide researchers with the power to analyze data interactively. Security of sensitive data is also a priority, with exploration of platforms like OSSDIP.
 
-## Dampak untuk Masa Depan
+## Future Impact
 
-Melalui pertukaran studi kasus dan ide proyek percontohan, pertemuan ini berhasil memetakan jalan ke depan. Harapan besarnya adalah agar ITB dan UGM dapat segera mengembangkan sistem manajemen data risetnya sendiri. Langkah ini tidak hanya akan meningkatkan kualitas dan transparansi penelitian, tetapi juga mendorong inovasi dan memperkuat posisi Indonesia dalam komunitas ilmiah global.
+Through the exchange of case studies and pilot project ideas, this meeting successfully mapped the path forward. The great hope is that ITB and UGM can soon develop their own research data management systems. This step will not only improve research quality and transparency but also drive innovation and strengthen Indonesia's position in the global scientific community.
 
-Inisiatif ini merupakan cerminan dari semangat **Tujuan Pembangunan Berkelanjutan (SDGs)**. Dengan membangun infrastruktur riset yang tangguh (SDG 9), meningkatkan kualitas pendidikan tinggi (SDG 4), serta menggalang kemitraan global untuk transfer pengetahuan (SDG 17), kolaborasi ini berkontribusi langsung pada agenda pembangunan yang lebih luas.
+This initiative reflects the spirit of the **Sustainable Development Goals (SDGs)**. By building robust research infrastructure (SDG 9), improving higher education quality (SDG 4), and forging global partnerships for knowledge transfer (SDG 17), this collaboration directly contributes to the broader development agenda.
 
 ---
 
-*Ini adalah investasi jangka panjang untuk masa depan riset Indonesia yang lebih terbuka, kolaboratif, dan berdampak.*
+*This is a long-term investment for Indonesia's more open, collaborative, and impactful research future.*
