@@ -1,7 +1,7 @@
 ---
-title: Human Values in Software Systems
+title: Human Values in Software Artifacts
 subtitle: AI-assisted identification of human values in software artifacts
-description: Exploring the use of large language models like ChatGPT to identify and analyze human values such as privacy, security, and fairness embedded in software documentation and APIs.
+description: Exploring the use of AI to identify and analyze human values such as privacy, security, and fairness embedded in software artifacts.
 order: 2
 active: true
 card_image: "/assets/images/news/chatgpt-research-2025.png"
