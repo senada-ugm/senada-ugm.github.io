@@ -19,6 +19,9 @@
 - text: Resources # simpler data set set in funding.yml
   href: /resources/  
 
+- text: Contact
+  href: /contact/
+
 # - text: More
 #   menu: # Dropdown menu (one level deep only) 
 
