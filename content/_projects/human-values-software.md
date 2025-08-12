@@ -20,7 +20,7 @@ This research initiative investigates the integration and operationalization of 
 
 The project has significantly advanced understanding of the role human values play in software systems, offering practical tools for both academic and industry stakeholders. The development of a Human Values Dashboard enables practitioners to visualize and assess value representation in software repositories, facilitating value-aware decision-making. These findings have applications in the design of ethical, user-centered software, the refinement of agile methodologies, and the improvement of requirements engineering processes, thereby promoting responsible innovation in technology.
 
-## Internal Collaborations
+## International Collaborations
 
 The research is characterized by strong interdisciplinary collaboration among faculty and researchers from Universitas Gadjah Mada, Monash University, RMIT University, and other partner institutions. These partnerships have enriched the project by combining expertise in software engineering, data mining, and human-computer interaction, fostering a holistic approach to the study and implementation of human values in software development.
 
