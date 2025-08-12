@@ -67,7 +67,7 @@ This project exemplifies international academic collaboration, involving:
 
 ## Current Status
 
-The chatbot has been successfully developed and presented at the KONEKSI Connect #8 workshop, demonstrating its capabilities to academics, media representatives, and government stakeholders. The system is currently accessible in the (IndoClimate)[https://indoclimate.id/] or (Counterinfodemics)[https://next.counterinfodemic.org/tool/indo-chatbot] websites. **The project has been concluded in June 2025**.
+The chatbot has been successfully developed and presented at the KONEKSI Connect #8 workshop, demonstrating its capabilities to academics, media representatives, and government stakeholders. The system is currently accessible in the [IndoClimate](https://indoclimate.id/) or [Counterinfodemics](https://next.counterinfodemic.org/tool/indo-chatbot) websites. **The project has been concluded in June 2025**.
 
 ## Future Directions
 
