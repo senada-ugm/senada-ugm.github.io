@@ -7,112 +7,36 @@ active: true
 card_image: "/assets/images/news/chatgpt-research-2025.png"
 categories: 
     - Software Engineering
-    - Human-Computer Interaction
-    - Ethics in AI
+    - Human Aspects
 badges:
     - person=AN
 ---
 
 ## Project Overview
 
-This research project investigates the application of artificial intelligence, particularly large language models like ChatGPT, to identify and analyze human values embedded within software artifacts. Our focus centers on mobile Application Programming Interface (API) documentation, examining how AI can detect values such as privacy, inclusivity, justice, and security.
-
-## Research Questions
-
-- How effectively can AI models identify human values in software documentation?
-- What are the limitations and biases of AI-driven value detection?
-- How can expert validation improve AI-generated interpretations?
-- What methodologies ensure reliable value identification in software systems?
-
-## Methodology
-
-### AI-Assisted Analysis
-Our approach leverages ChatGPT's natural language understanding capabilities to:
-- Parse technical documentation for value-laden statements
-- Categorize identified values into established frameworks
-- Generate explanations for value classifications
-- Flag potential ethical concerns in software design
-
-### Human Expert Validation
-Recognizing AI limitations, our methodology incorporates:
-- Expert review of AI-generated classifications
-- Iterative refinement of detection algorithms
-- Cross-validation with multiple domain experts
-- Bias detection and mitigation strategies
-
-### Case Study: Mobile APIs
-We focus on mobile API documentation as our primary case study because:
-- Mobile apps handle sensitive personal data
-- APIs often embed implicit value assumptions
-- Documentation provides rich textual data for analysis
-- Mobile platforms impact billions of users globally
-
-## Key Findings
-
-### AI Capabilities
-- ChatGPT demonstrates promising ability to identify explicit value statements
-- Pattern recognition enables detection of implicit value assumptions
-- Context-aware analysis improves accuracy over simple keyword matching
-- Multi-turn dialogue enhances understanding of complex value interactions
-
-### Limitations Identified
-- AI models can produce hallucinated or incorrect interpretations
-- Bias in training data affects value identification accuracy
-- Context-dependent meanings challenge consistent classification
-- Cultural and regional value differences require careful consideration
-
-### Validation Importance
-- Expert review significantly improves classification accuracy
-- Human oversight essential for nuanced value interpretations
-- Collaborative AI-human approaches outperform purely automated methods
-- Domain expertise crucial for context-appropriate value assessment
+This research initiative investigates the integration and operationalization of human values within software engineering practices. By leveraging advanced analytical tools, such as large language models and bespoke dashboards, the project examines how values are embedded in software artifacts, including mobile APIs and issue discussions in open-source Android applications. The overarching goal is to provide actionable insights and frameworks that enable developers to systematically identify, visualize, and incorporate human values throughout the software development lifecycle.
 
 ## Impact and Applications
 
-### Software Development
-- **Design Guidelines**: Helping developers recognize value implications in their code
-- **API Documentation**: Improving clarity of value commitments in technical specifications
-- **Code Review**: Automated screening for potential ethical concerns
+The project has significantly advanced understanding of the role human values play in software systems, offering practical tools for both academic and industry stakeholders. The development of a Human Values Dashboard enables practitioners to visualize and assess value representation in software repositories, facilitating value-aware decision-making. These findings have applications in the design of ethical, user-centered software, the refinement of agile methodologies, and the improvement of requirements engineering processes, thereby promoting responsible innovation in technology.
 
-### Research Contributions
-- **Methodology Development**: Establishing frameworks for AI-assisted value detection
-- **Tool Creation**: Building reusable systems for software ethics analysis
-- **Academic Collaboration**: Fostering international research partnerships
+## Internal Collaborations
 
-### Industry Applications
-- **Compliance Checking**: Automated verification of privacy and security commitments
-- **Risk Assessment**: Early identification of potential ethical issues in software design
-- **User Trust**: Enhanced transparency in software value propositions
+The research is characterized by strong interdisciplinary collaboration among faculty and researchers from Universitas Gadjah Mada, Monash University, RMIT University, and other partner institutions. These partnerships have enriched the project by combining expertise in software engineering, data mining, and human-computer interaction, fostering a holistic approach to the study and implementation of human values in software development.
 
-## International Collaboration
+## Publications
 
-This project represents a multi-national research effort involving institutions from:
-- **Indonesia**: Universitas Gadjah Mada
-- **Australia**: Deakin University  
-- **United Kingdom**: Various research institutions
-- **Iran**: Academic partners
-- **Netherlands**: Research collaborators
+Key outputs from this project include:
 
-## Publications and Dissemination
+1. D. Mougouei, S. Rafi, M. Fahmideh, E. Mougouei, J. A. Khan, H. K. Dam, A. Nurwidyantoro, and M. Chaudron, "Venturing ChatGPT's lens to explore human values in software artifacts: a case study of mobile APIs," *Behaviour and Information Technology*, pp. 1–37, May 2025. [Online]. Available: [https://doi.org/10.1080/0144929X.2025.2478278](https://doi.org/10.1080/0144929X.2025.2478278)
 
-Our research has been published in the prestigious *Behaviour & Information Technology* journal, contributing to the growing body of knowledge on AI ethics and human values in technology. The work has been presented at international conferences and workshops, fostering dialogue between researchers, practitioners, and policymakers.
+2. A. Nurwidyantoro, M. Shahin, M. R. V. Chaudron, W. Hussain, R. Shams, H. Perera, G. Oliver, and J. Whittle, "Human values in software development artefacts: A case study on issue discussions in three Android applications," *Information and Software Technology*, vol. 141, p. 106731, Jan. 2022. [Online]. Available: [https://doi.org/10.1016/j.infsof.2021.106731](https://doi.org/10.1016/j.infsof.2021.106731)
+
+3. A. Nurwidyantoro, M. Shahin, M. Chaudron, W. Hussain, H. Perera, R. A. Shams, "Integrating human values in software development using a human values dashboard," *Empirical Software Engineering*, vol. 28, no. 3, art. 67, 2023. [Online]. Available: [https://doi.org/10.1007/s10664-023-09000-0](https://doi.org/10.1007/s10664-023-09000-0)
+
+4. A. Nurwidyantoro, M. Shahin, M. Chaudron, W. Hussain, H. Perera, "Towards a Human Values Dashboard for Software Development: An Exploratory Study," in *Proc. 15th ACM/IEEE Int. Symp. Empirical Software Engineering and Measurement (ESEM)*, 2021, pp. 1–6. [Online]. Available: [https://doi.org/10.1145/3475716.3475720](https://doi.org/10.1145/3475716.3475720)
+These publications collectively contribute novel methodologies and empirical findings to the field, establishing a foundation for future research and practical adoption.
 
 ## Future Research Directions
 
-### Technical Enhancements
-- Development of specialized value detection models
-- Integration with code analysis tools
-- Real-time value monitoring systems
-- Cross-platform value comparison frameworks
-
-### Broader Applications
-- Extension to other software artifact types
-- Analysis of open-source project value alignments
-- Corporate software ethics auditing
-- Educational tools for software engineering curricula
-
-### Societal Impact
-- Policy recommendations for AI ethics in software development
-- Guidelines for responsible AI-assisted software analysis
-- Public awareness of hidden values in technology systems
-- Framework development for value-conscious software design
+Ongoing and future work will focus on expanding the capabilities of the Human Values Dashboard, integrating more sophisticated natural language processing techniques and machine learning models. The project aims to explore value alignment in additional software domains, investigate the longitudinal impact of value integration on project outcomes, and develop guidelines for embedding human values in emerging software engineering paradigms, such as AI-driven development and privacy engineering.
