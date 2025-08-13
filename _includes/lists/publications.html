@@ -56,7 +56,25 @@
   <div class="col-12">
     <div class="card bg-light">
       <div class="card-body">
-        <h5 class="card-title">Filter Publications</h5>
+        <h5 class="card-title">Search & Filter Publications</h5>
+        <div class="row">
+          <div class="col-md-12 mb-3">
+            <label for="keywordSearch">Search by Keywords:</label>
+            <div class="input-group">
+              <input type="text" id="keywordSearch" class="form-control" 
+                     placeholder="Search in titles, abstracts, authors, journals..." 
+                     aria-label="Search publications">
+              <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="clearSearch">
+                  <i class="fa fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <small class="form-text text-muted">
+              Search supports multiple keywords separated by spaces. All keywords must match.
+            </small>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-6">
             <label for="yearFilter">Filter by Year:</label>
@@ -80,9 +98,10 @@
             </select>
           </div>
         </div>
-        <div class="row mt-2">
+        <div class="row mt-3">
           <div class="col-12">
             <button id="clearFilters" class="btn btn-secondary btn-sm">Clear All Filters</button>
+            <span id="searchResults" class="ml-3 text-muted"></span>
           </div>
         </div>
       </div>
@@ -106,14 +125,15 @@
   <div class="col-12 year-group" data-year="{{ year_group.name }}">
     <h3 class="year-header mt-4 mb-3" style="color: #2F65A7; border-bottom: 2px solid #2F65A7; padding-bottom: 10px;">
       <i class="fa fa-calendar"></i> {{ year_group.name }}
-      <small class="text-muted">({{ year_group.items.size }} publications)</small>
+      <small class="text-muted year-count">({{ year_group.items.size }} publications)</small>
     </h3>
   </div>
   
   {% for publication in year_group.items | sort: "pmid" | reverse %}
   <div class="{% if page.layout == 'publications' %}col-xl-6{% else %}col-12{% endif %} publication-item" 
        data-year="{{ publication.year }}" 
-       data-authors="{% for badge in publication.badges %}{% if badge contains 'person=' %}{{ badge | remove: 'person=' }} {% endif %}{% endfor %}">
+       data-authors="{% for badge in publication.badges %}{% if badge contains 'person=' %}{{ badge | remove: 'person=' }} {% endif %}{% endfor %}"
+       data-search-content="{{ publication.title | downcase | escape }} {{ publication.abstract | downcase | escape }} {{ publication.journal | downcase | escape }} {{ publication.authors | downcase | escape }} {{ publication.keywords | downcase | escape }}">
     {% include cards/publication-card.html %}
   </div>
   {% endfor %}
@@ -121,33 +141,108 @@
 
 </div>
 
-<!-- JavaScript for filtering -->
+<!-- No results message -->
+<div id="noResults" class="row" style="display: none;">
+  <div class="col-12">
+    <div class="alert alert-info text-center">
+      <h5>No publications found</h5>
+      <p>Try adjusting your search terms or filters to find more results.</p>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript for filtering and searching -->
 {% if page.layout == 'publications' %}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    const keywordSearch = document.getElementById('keywordSearch');
     const yearFilter = document.getElementById('yearFilter');
     const authorFilter = document.getElementById('authorFilter');
     const clearFilters = document.getElementById('clearFilters');
+    const clearSearch = document.getElementById('clearSearch');
+    const searchResults = document.getElementById('searchResults');
+    const noResults = document.getElementById('noResults');
+    
+    function highlightText(element, searchTerms) {
+        if (!searchTerms.length) return;
+        
+        const textNodes = [];
+        const walker = document.createTreeWalker(
+            element,
+            NodeFilter.SHOW_TEXT,
+            null,
+            false
+        );
+        
+        let node;
+        while (node = walker.nextNode()) {
+            textNodes.push(node);
+        }
+        
+        textNodes.forEach(textNode => {
+            let text = textNode.textContent;
+            let highlightedText = text;
+            
+            searchTerms.forEach(term => {
+                const regex = new RegExp(`(${term})`, 'gi');
+                highlightedText = highlightedText.replace(regex, '<mark>$1</mark>');
+            });
+            
+            if (highlightedText !== text) {
+                const wrapper = document.createElement('span');
+                wrapper.innerHTML = highlightedText;
+                textNode.parentNode.replaceChild(wrapper, textNode);
+            }
+        });
+    }
+    
+    function removeHighlights() {
+        const highlights = document.querySelectorAll('.publication-item mark');
+        highlights.forEach(mark => {
+            const parent = mark.parentNode;
+            parent.replaceChild(document.createTextNode(mark.textContent), mark);
+            parent.normalize();
+        });
+    }
     
     function filterPublications() {
+        const searchKeywords = keywordSearch.value.toLowerCase().trim();
         const selectedYear = yearFilter.value;
         const selectedAuthor = authorFilter.value;
         
         const publications = document.querySelectorAll('.publication-item');
         const yearHeaders = document.querySelectorAll('.year-group');
         
+        // Remove previous highlights
+        removeHighlights();
+        
         // Hide all year headers first
         yearHeaders.forEach(header => {
             header.style.display = 'none';
         });
         
-        let visibleYears = new Set();
+        let visibleYears = new Map(); // Use Map to count publications per year
+        let visibleCount = 0;
+        
+        // Split search keywords into individual terms
+        const searchTerms = searchKeywords ? searchKeywords.split(/\s+/).filter(term => term.length > 0) : [];
         
         publications.forEach(pub => {
             const pubYear = pub.dataset.year;
             const pubAuthors = pub.dataset.authors;
+            const searchContent = pub.dataset.searchContent;
             
             let showPub = true;
+            
+            // Filter by keywords
+            if (searchTerms.length > 0) {
+                const allTermsMatch = searchTerms.every(term => 
+                    searchContent.includes(term.toLowerCase())
+                );
+                if (!allTermsMatch) {
+                    showPub = false;
+                }
+            }
             
             // Filter by year
             if (selectedYear && pubYear !== selectedYear) {
@@ -161,30 +256,131 @@ document.addEventListener('DOMContentLoaded', function() {
             
             if (showPub) {
                 pub.style.display = 'block';
-                visibleYears.add(pubYear);
+                visibleCount++;
+                
+                // Count publications per year
+                if (!visibleYears.has(pubYear)) {
+                    visibleYears.set(pubYear, 0);
+                }
+                visibleYears.set(pubYear, visibleYears.get(pubYear) + 1);
+                
+                // Highlight search terms
+                if (searchTerms.length > 0) {
+                    highlightText(pub, searchTerms);
+                }
             } else {
                 pub.style.display = 'none';
             }
         });
         
-        // Show year headers that have visible publications
+        // Show year headers that have visible publications and update counts
         yearHeaders.forEach(header => {
-            if (visibleYears.has(header.dataset.year)) {
+            const year = header.dataset.year;
+            if (visibleYears.has(year)) {
                 header.style.display = 'block';
+                const countElement = header.querySelector('.year-count');
+                if (countElement) {
+                    const count = visibleYears.get(year);
+                    countElement.textContent = `(${count} publication${count !== 1 ? 's' : ''})`;
+                }
             }
         });
+        
+        // Update search results info
+        if (searchKeywords || selectedYear || selectedAuthor) {
+            const totalPubs = publications.length;
+            searchResults.textContent = `Showing ${visibleCount} of ${totalPubs} publications`;
+            searchResults.style.display = 'inline';
+        } else {
+            searchResults.style.display = 'none';
+        }
+        
+        // Show/hide no results message
+        if (visibleCount === 0 && (searchKeywords || selectedYear || selectedAuthor)) {
+            noResults.style.display = 'block';
+        } else {
+            noResults.style.display = 'none';
+        }
     }
+    
+    // Event listeners
+    keywordSearch.addEventListener('input', function() {
+        // Add a small delay to avoid filtering on every keystroke
+        clearTimeout(this.searchTimeout);
+        this.searchTimeout = setTimeout(filterPublications, 300);
+    });
     
     yearFilter.addEventListener('change', filterPublications);
     authorFilter.addEventListener('change', filterPublications);
     
     clearFilters.addEventListener('click', function() {
+        keywordSearch.value = '';
         yearFilter.value = '';
         authorFilter.value = '';
         filterPublications();
     });
+    
+    clearSearch.addEventListener('click', function() {
+        keywordSearch.value = '';
+        filterPublications();
+        keywordSearch.focus();
+    });
+    
+    // Allow Enter key to trigger search
+    keywordSearch.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            clearTimeout(this.searchTimeout);
+            filterPublications();
+        }
+    });
 });
 </script>
+
+<style>
+/* Search highlighting styles */
+.publication-item mark {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 0 2px;
+    border-radius: 2px;
+    font-weight: 500;
+}
+
+/* Search input styles */
+#keywordSearch {
+    border-radius: 4px;
+}
+
+#clearSearch {
+    border-left: none;
+}
+
+#clearSearch:hover {
+    background-color: #e9ecef;
+}
+
+/* Results counter */
+#searchResults {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+/* No results message */
+#noResults .alert {
+    margin-top: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .input-group {
+        margin-bottom: 1rem;
+    }
+    
+    .form-control {
+        font-size: 16px; /* Prevents zoom on iOS */
+    }
+}
+</style>
 {% endif %}
 
 {% endif %}
