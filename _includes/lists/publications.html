@@ -1,14 +1,137 @@
+{% assign collection = site.data.publications %}
+{% include lists/filtered-list.html %}
+
+{% if filtered.size > 0 %}
+
+<!-- Statistics Overview -->
+{% if page.layout == 'publications' %}
+<div class="row mb-4">
+  <div class="col-12">
+    <div class="year-stats">
+      <div class="row text-center">
+        <div class="col-md-3 col-6">
+          <h4>{{ filtered.size }}</h4>
+          <small>Total Publications</small>
+        </div>
+        <div class="col-md-3 col-6">
+          {% assign years = filtered | map: "year" | uniq %}
+          <h4>{{ years.size }}</h4>
+          <small>Years Covered</small>
+        </div>
+        <div class="col-md-3 col-6">
+          {% assign faculty_count = 0 %}
+          {% for person in site.data.people %}
+            {% if person.status == 'active' %}
+              {% for pub in filtered %}
+                {% for badge in pub.badges %}
+                  {% if badge contains 'person=' %}
+                    {% assign person_id = badge | remove: 'person=' %}
+                    {% if person_id == person.id %}
+                      {% assign faculty_count = faculty_count | plus: 1 %}
+                      {% break %}
+                    {% endif %}
+                  {% endif %}
+                {% endfor %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+          {% assign active_faculty = site.data.people | where: "status", "active" | size %}
+          <h4>{{ active_faculty }}</h4>
+          <small>Active Faculty</small>
+        </div>
+        <div class="col-md-3 col-6">
+          {% assign latest_year = filtered | map: "year" | sort | reverse | first %}
+          <h4>{{ latest_year }}</h4>
+          <small>Latest Publication</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- Filter Controls -->
+{% if page.layout == 'publications' %}
+<div class="row mb-4">
+  <div class="col-12">
+    <div class="card bg-light">
+      <div class="card-body">
+        <h5 class="card-title">Filter Publications</h5>
+        <div class="row">
+          <div class="col-md-6">
+            <label for="yearFilter">Filter by Year:</label>
+            <select id="yearFilter" class="form-control">
+              <option value="">All Years</option>
+              {% assign years = filtered | map: "year" | uniq | sort | reverse %}
+              {% for year in years %}
+              <option value="{{ year }}">{{ year }}</option>
+              {% endfor %}
+            </select>
+          </div>
+          <div class="col-md-6">
+            <label for="authorFilter">Filter by Faculty:</label>
+            <select id="authorFilter" class="form-control">
+              <option value="">All Faculty</option>
+              {% for person in site.data.people %}
+                {% if person.status == 'active' %}
+                <option value="{{ person.id }}">{{ person.name }}</option>
+                {% endif %}
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12">
+            <button id="clearFilters" class="btn btn-secondary btn-sm">Clear All Filters</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="row publications">
+{% if layout.embedded_lists %}
+<h4 class="col mt-2"><a class="section-header-link" href="{{ 'publications' | relative_url }}">
+    Publications
+    <i class="fa fa-caret-right" style="font-size: 0.8em;"></i>
+</a></h4>
+{% endif %}
+
+{% assign group_by_year = filtered | group_by: "year" %}
+{% assign by_year_desc = group_by_year | sort: "name" | reverse %}
+
+{% for year_group in by_year_desc %}
+  <div class="col-12 year-group" data-year="{{ year_group.name }}">
+    <h3 class="year-header mt-4 mb-3" style="color: #2F65A7; border-bottom: 2px solid #2F65A7; padding-bottom: 10px;">
+      <i class="fa fa-calendar"></i> {{ year_group.name }}
+      <small class="text-muted">({{ year_group.items.size }} publications)</small>
+    </h3>
+  </div>
+  
+  {% for publication in year_group.items | sort: "pmid" | reverse %}
+  <div class="{% if page.layout == 'publications' %}col-xl-6{% else %}col-12{% endif %} publication-item" 
+       data-year="{{ publication.year }}" 
+       data-authors="{% for badge in publication.badges %}{% if badge contains 'person=' %}{{ badge | remove: 'person=' }} {% endif %}{% endfor %}">
+    {% include cards/publication-card.html %}
+  </div>
+  {% endfor %}
+{% endfor %}
+
+</div>
+
+<!-- JavaScript for filtering -->
+{% if page.layout == 'publications' %}
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const yearFilter = document.getElementById('yearFilter');
     const authorFilter = document.getElementById('authorFilter');
-    const keywordFilter = document.getElementById('keywordFilter');
     const clearFilters = document.getElementById('clearFilters');
     
     function filterPublications() {
-        const selectedYear = yearFilter.value.trim();
-        const selectedAuthor = authorFilter.value.trim();
-        const keyword = keywordFilter.value.trim().toLowerCase();
+        const selectedYear = yearFilter.value;
+        const selectedAuthor = authorFilter.value;
         
         const publications = document.querySelectorAll('.publication-item');
         const yearHeaders = document.querySelectorAll('.year-group');
@@ -23,7 +146,6 @@ document.addEventListener('DOMContentLoaded', function() {
         publications.forEach(pub => {
             const pubYear = pub.dataset.year;
             const pubAuthors = pub.dataset.authors;
-            const pubKeywords = pub.dataset.keywords;
             
             let showPub = true;
             
@@ -34,11 +156,6 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Filter by author
             if (selectedAuthor && !pubAuthors.includes(selectedAuthor)) {
-                showPub = false;
-            }
-
-            // Filter by keyword
-            if (keyword && (!pubKeywords || !pubKeywords.includes(keyword))) {
                 showPub = false;
             }
             
@@ -60,13 +177,14 @@ document.addEventListener('DOMContentLoaded', function() {
     
     yearFilter.addEventListener('change', filterPublications);
     authorFilter.addEventListener('change', filterPublications);
-    keywordFilter.addEventListener('input', filterPublications);
     
     clearFilters.addEventListener('click', function() {
         yearFilter.value = '';
         authorFilter.value = '';
-        keywordFilter.value = '';
         filterPublications();
     });
 });
 </script>
+{% endif %}
+
+{% endif %}
