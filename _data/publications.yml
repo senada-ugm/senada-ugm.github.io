@@ -16,6 +16,24 @@
 #-------------------------------------------------------------------------------------
 
 # 2025 Publications
+- id: dewi_2025_diesel_backup_forecasting
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Dewi NPNP
+    - Leu Y
+    - Mustofa K
+    - Riasetiawan M
+  title: Enhancing Diesel Backup Power Forecasting With LSTM, GRU, and Autoencoder-based Input Encoding
+  journal: Jurnal Nasional Pendidikan Teknik Informatika - JANAPATI
+  citation: "14(1)"
+  year: 2025
+  url: null
+  abstract: This research presents advanced deep learning approaches for diesel backup power forecasting using LSTM, GRU, and autoencoder-based input encoding techniques to improve prediction accuracy for power management systems.
+  badges:
+    - person=KM
+
 - id: bustoni_2025_manipulating_perceptions
   date: 2025-01-01
   pmid: null
@@ -165,6 +183,22 @@
     - person=AN
 
 # 2024 Publications
+- id: delima_2024_requirements_engineering_quality
+  date: 2024-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Delima R
+    - Mustofa K
+  title: Requirements Engineering Quality - a Literature Review
+  journal: Jurnal Nasional Pendidikan Teknik Informatika - JANAPATI
+  citation: "13(2):225-233"
+  year: 2024
+  url: null
+  abstract: This literature review examines the current state of requirements engineering quality, analyzing methodologies, tools, and best practices for improving software requirements specification and validation processes.
+  badges:
+    - person=KM
+
 - id: bustoni_2024_auditory_ar_noise
   date: 2024-01-01
   pmid: null
@@ -391,6 +425,41 @@
     - person=SP
 
 # 2023 Publications
+- id: pramusita_2023_smartphone_tourism
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Pramusita A
+    - Priyambodo TK
+    - Mustofa K
+    - Arymami D
+  title: Analysis Of Factors Affecting The Use Of Smartphone Digital Applications By Tourists In Yogyakarta When Traveling In The New Normal Period
+  journal: Journal of Social Science (JoSS)
+  citation: "2(10):943-957"
+  year: 2023
+  url: null
+  abstract: This study analyzes factors influencing tourist adoption of smartphone digital applications during travel in Yogyakarta in the new normal period, examining user behavior and technology acceptance patterns.
+  badges:
+    - person=KM
+
+- id: delima_2023_automatic_requirements
+  date: 2023-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Delima R
+    - Mustofa K
+    - Sari AK
+  title: Automatic requirements engineering - Activities, methods, tools, and domains–a systematic literature review
+  journal: Jurnal RESTI-Rekayasa Sistem dan Teknologi Informasi
+  citation: "7(3):564-578"
+  year: 2023
+  url: null
+  abstract: This systematic literature review examines automatic requirements engineering approaches, analyzing current activities, methods, tools, and application domains in automated requirements specification and validation.
+  badges:
+    - person=KM
+
 - id: nurwidyantoro_2023_dashboard
   date: 2023-01-01
   pmid: null
@@ -714,6 +783,62 @@
     - person=EW
 
 # 2022 Publications
+- id: karim_2022_ldsvm_leukemia
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Karim A
+    - Azhari A
+    - Shahroz M
+    - Belhaouri SB
+    - Mustofa K
+  title: LDSVM - Leukemia cancer classification using machine learning
+  journal: Manara-Qatar Research Repository
+  citation: null
+  year: 2022
+  url: null
+  abstract: This research presents a machine learning approach using LDSVM (Linear Discriminant Support Vector Machine) for leukemia cancer classification, contributing to automated medical diagnosis systems.
+  badges:
+    - person=KM
+    - person=ASN
+
+- id: martono_2022_weight_collective_influence
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Martono GH
+    - Azhari A
+    - Mustofa K
+  title: An extended approach of weight collective influence graph for detection influence actor
+  journal: International Journal of Advances in Intelligent Informatics
+  citation: "8(1)"
+  year: 2022
+  url: null
+  abstract: This work presents an extended approach using weight collective influence graphs for detecting influential actors in social networks and complex systems.
+  badges:
+    - person=KM
+    - person=ASN
+
+- id: paryudi_2022_personality_recommender
+  date: 2022-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Paryudi I
+    - Ashari A
+    - Mustofa K
+  title: The performance of personality-based recommender system for fashion with demographic data-based personality prediction
+  journal: International Journal of Advanced Computer Science and Applications
+  citation: "13(1)"
+  year: 2022
+  url: null
+  abstract: This research evaluates personality-based recommender systems for fashion using demographic data to predict personality traits and improve recommendation accuracy.
+  badges:
+    - person=KM
+    - person=ASN
+
 - id: linando_2022_privacy_concerns
   date: 2022-01-01
   pmid: null
@@ -1024,6 +1149,23 @@
     - person=MD
 
 # 2021 Publications
+- id: delima_2021_automatic_requirements_model
+  date: 2021-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Delima R
+    - Wardoyo R
+    - Mustofa K
+  title: Automatic Requirements Engineering Model using Goal-Oriented Modelling with Text Pre-Processing Technique
+  journal: 2021 Sixth International Conference on Informatics and Computing (ICIC)
+  citation: "1-8"
+  year: 2021
+  url: null
+  abstract: This research presents an automatic requirements engineering model that combines goal-oriented modeling with text pre-processing techniques to improve software requirements extraction and specification processes.
+  badges:
+    - person=KM
+
 - id: gunawan_2021_high_utility
   date: 2021-01-01
   pmid: null

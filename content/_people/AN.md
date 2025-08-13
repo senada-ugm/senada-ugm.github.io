@@ -23,11 +23,18 @@ His work encompasses multiple aspects of software engineering including software
 
 Recent research directions include advanced software analytics, machine learning applications in software engineering, and collaborative software development processes. His work on mining software repositories provides valuable insights into developer behavior, code quality patterns, and software project dynamics.
 
-![Profile Picture](/assets/images/people/AN.jpg){: .profile-image}
-
-## Research Focus
-
-Dr. Nurwidyantoro is a prominent researcher in software engineering with particular expertise in mining software repositories and empirical software engineering. His research focuses on understanding and improving software development processes through data-driven approaches and evidence-based methodologies.
+<div style="display: flex; gap: 30px; margin-bottom: 30px; flex-wrap: wrap;">
+  <div style="flex: 0 0 220px;">
+    <img src="/assets/images/people/AN.jpg" alt="Arif Nurwidyantoro, Ph.D." style="width: 100%; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" />
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <h2 style="color: #2c3e50; margin-top: 0; border-bottom: 2px solid #27ae60; padding-bottom: 8px;">About</h2>
+    <p style="font-size: 16px; line-height: 1.6; color: #34495e;">Arif Nurwidyantoro, Ph.D., is an Assistant Professor at the Software Engineering and Data Lab (SENADA) at Universitas Gadjah Mada (UGM). He specializes in Software Engineering and Mining Software Repositories with extensive research in software development processes, empirical software engineering, and software analytics.</p>
+    
+    <h2 style="color: #2c3e50; border-bottom: 2px solid #27ae60; padding-bottom: 8px;">Research Focus</h2>
+    <p style="font-size: 16px; line-height: 1.6; color: #34495e;">Dr. Nurwidyantoro is a prominent researcher in software engineering with particular expertise in mining software repositories and empirical software engineering. His research focuses on understanding and improving software development processes through data-driven approaches and evidence-based methodologies.</p>
+  </div>
+</div>
 
 ## Contact
 
