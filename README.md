@@ -9,7 +9,7 @@ SENADA (Software Engineering and Data Lab) is a research laboratory in the Depar
 - **Medical Informatics**
 - **Data Mining and Machine Learning**
 - **Natural Language Processing** (especially for Indonesian language)
-- **Semantic Web Technologies**
+- **Semantic Web & Knowledge Graph Technologies**
 - **Software Engineering and Mining Software Repositories**
 - **Cybersecurity and Privacy Engineering**
 - **Augmented/Virtual/Mixed Reality**

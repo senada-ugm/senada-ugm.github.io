@@ -3,7 +3,7 @@ title: IndoClimate Chatbot
 subtitle: AI-powered climate change information dissemination system
 description: Developing an intelligent chatbot for disseminating climate change news and policy information in Indonesian language using natural language processing and machine learning techniques.
 order: 1
-active: true
+active: false
 card_image: "/assets/images/news/koneksi-workshop-2025.jpg"
 categories: 
     - Natural Language Processing
@@ -58,9 +58,16 @@ This project exemplifies international academic collaboration, involving:
 - **Funding Support**: KONEKSI grant (Australian DFAT, Ministry PPN/Bappenas, BRIN, Ministry of Education)
 - **Community Engagement**: Workshops with stakeholders including BMKG and local government representatives
 
+## Project Team Members (UGM)
+
+- Dr. Yunita Sari
+- Dr. Arif Nurwidyantoro
+- Muhammad Oriza Nurfajri
+- Faturahman Yudanto
+
 ## Current Status
 
-The chatbot has been successfully developed and presented at the KONEKSI Connect #8 workshop, demonstrating its capabilities to academics, media representatives, and government stakeholders. The system is currently accessible through the KONEKSI project platform.
+The chatbot has been successfully developed and presented at the KONEKSI Connect #8 workshop, demonstrating its capabilities to academics, media representatives, and government stakeholders. The system is currently accessible in the [IndoClimate](https://indoclimate.id/) or [Counterinfodemics](https://next.counterinfodemic.org/tool/indo-chatbot) websites. **The project has been concluded in June 2025**.
 
 ## Future Directions
 

@@ -3,7 +3,7 @@ layout: base/home
 title: Software Engineering and Data Lab
 title2: Universitas Gadjah Mada
 subtitle: Advancing research in software engineering, data science, and emerging technologies
-banner_image: /assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg
+banner_image: /assets/images/bg-image.png
 permalink: /
 ---
 
@@ -21,7 +21,7 @@ Our research spans multiple cutting-edge domains:
 
 **🗣️ Natural Language Processing** - Specializing in Indonesian language processing and multilingual text analysis
 
-**🌐 Semantic Web Technologies** - Building knowledge-driven systems for intelligent information retrieval
+**🌐 Semantic Web & Knowledge Graph Technologies** - Building knowledge-driven systems for intelligent information retrieval
 
 **⚙️ Software Engineering** - Mining software repositories and developing values-aware software systems
 
