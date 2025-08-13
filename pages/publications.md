@@ -2,7 +2,7 @@
 layout: publications
 title: Publications
 subtitle: Research articles and scholarly works from SENADA-UGM Lab
-banner_image: /assets/images/pexels-stanislav-kondratiev-2908984-downsize.jpg
+banner_image: /assets/images/bg-image.png
 permalink: /publications/
 ---
 
