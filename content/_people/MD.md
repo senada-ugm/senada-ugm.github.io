@@ -1,7 +1,7 @@
 ---
 title: "Drs. Medi M.Kom."
 subtitle: "Assistant Professor - Software Development & Data Communication"
-card_image: "/assets/images/people/MEDI.jpg"
+card_image: "/assets/images/senada-ugm.jpeg"
 ---
 
 ## About
@@ -23,10 +23,11 @@ His expertise encompasses both theoretical aspects of data communication and pra
 
 As a member of SENADA Lab, Drs. Medi contributes to projects that require expertise in both software engineering principles and communication system design.
 
-## Publications
+![Profile Picture](/assets/images/people/MEDI.jpg){: .profile-image}
 
-### 2022 (1 publication)
-1. **Medi, M.** (2022). Inverter DC-AC 3 Phase SPWM Based on ATMega16 Microcontroller. *Technical Report*.
+## Research Focus
+
+Drs. Medi's research focuses on software development with particular emphasis on data communication and network-based systems. His work contributes to understanding and improving communication protocols, distributed system architectures, and network application development.
 
 ## Contact
 

@@ -1,7 +1,7 @@
 ---
 title: "Dr. Sigit Priyatna"
 subtitle: "Assistant Professor - Sentiment Analysis & Data Warehouse Expert"
-card_image: "/assets/images/people/SP.jpg"
+card_image: "/assets/images/senada-ugm.jpeg"
 ---
 
 ## About
@@ -23,13 +23,11 @@ His expertise in sentiment analysis encompasses multiple domains including socia
 
 As a member of SENADA Lab, Dr. Priyatna contributes to projects that require both analytical depth in sentiment analysis and technical expertise in data management systems.
 
-## Publications
+![Profile Picture](/assets/images/people/SP.jpg){: .profile-image}
 
-### 2024 (1 publication)
-1. **Priyatna, S.**, et al. (2024). Detecting sarcasm in public opinion about COVID-19 using NBC and RBF. *Conference Paper*.
+## Research Focus
 
-### 2022 (1 publication)
-2. **Priyatna, S.**, et al. (2022). A hybrid recommender system based on customer behavior and transaction data using generalized sequential pattern algorithm. *Article*.
+Dr. Priyatna's research focuses on sentiment analysis and data warehousing technologies, particularly in the context of Indonesian language processing and social media analytics. His work contributes to understanding public opinion through computational approaches and developing efficient data management systems.
 
 ## Contact
 

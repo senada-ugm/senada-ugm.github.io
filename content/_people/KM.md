@@ -1,7 +1,7 @@
 ---
 title: "Assoc. Prof. Dr.techn. Khabib Mustofa"
 subtitle: "Associate Professor - Semantic Web Specialist"
-card_image: "/assets/images/people/KM.jpg"
+card_image: "/assets/images/senada-ugm.jpeg"
 ---
 
 ## About
@@ -23,19 +23,11 @@ His expertise in semantic technologies positions him as a key contributor to pro
 
 Through his work at SENADA Lab, Dr. Mustofa collaborates on interdisciplinary projects that leverage semantic technologies for enhanced data understanding and intelligent information systems.
 
-## Publications
+![Profile Picture](/assets/images/people/KM.jpg){: .profile-image}
 
-### 2025 (1 publication)
-1. Purwaningsih, T., Winarko, E., & **Mustofa, K.** (2025). INDOBERT embedding for flood detection in Indonesia. *AIP Conference Proceedings*, 3248(1).
+## Research Focus
 
-### 2023 (1 publication)
-2. Karim, A., **Mustofa, K.**, et al. (2023). Phishing Detection System Through Hybrid Machine Learning Based on URL. *IEEE Access*, 11:36805-36822.
-
-### 2022 (1 publication)
-3. Rahman, A., Winarko, E., & **Mustofa, K.** (2022). Product image retrieval using category-aware siamese convolutional neural network feature. *Journal of King Saud University - Computer and Information Sciences*, 34(6A):2680-2687.
-
-### 2017 (1 publication)
-4. Gunawan, H., & **Mustofa, K.** (2017). Finding Knowledge from Indonesian Traditional Medicine using Semantic Web Rule Language. *International Journal of Electrical and Computer Engineering (IJECE)*.
+Dr. Mustofa's research centers on Semantic Web technologies and their applications in knowledge management and data integration. His work contributes to advancing semantic interoperability and intelligent information processing through formal knowledge representation approaches.
 
 ## Contact
 

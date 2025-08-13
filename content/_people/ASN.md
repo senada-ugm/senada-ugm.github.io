@@ -1,7 +1,7 @@
 ---
 title: "Prof. Dr. Azhari, S.N."
 subtitle: "Professor - Intelligent Agent Specialist"
-card_image: "/assets/images/people/ASN.jpg"
+card_image: "/assets/images/senada-ugm.jpeg"
 ---
 
 ## About
@@ -23,10 +23,11 @@ As a senior member of SENADA Lab, Prof. Azhari brings extensive experience in in
 
 His collaboration with other lab members, particularly in interdisciplinary projects, demonstrates his commitment to integrating intelligent agent technologies with practical software engineering solutions.
 
-## Publications
+![Profile Picture](/assets/images/people/ASN.jpg){: .profile-image}
 
-### 2025 (1 publication)
-1. Prestiliano, D., **Azhari, A.**, & Nurwidyantoro, A. (2025). Enhanced Deep Learning Model to Detect Violence and Gore in Child-Friendly Online Game. *International Journal of Intelligent Engineering & Systems*, 18(1).
+## Research Focus
+
+Prof. Azhari's research focuses on the development and application of intelligent agent technologies in software engineering contexts. His work contributes to advancing autonomous software systems and intelligent decision-making processes.
 
 ## Contact
 

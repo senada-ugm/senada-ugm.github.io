@@ -1,7 +1,7 @@
 ---
 title: "I Gede Mujiyatna, S.Kom., M.Kom."
 subtitle: "Lecturer - Mobile Software Engineering"
-card_image: "/assets/images/people/IGM.jpg"
+card_image: "/assets/images/senada-ugm.jpeg"
 ---
 
 ## About
@@ -23,13 +23,11 @@ His expertise encompasses both technical aspects of mobile development and user-
 
 As a member of SENADA Lab, I Gede Mujiyatna contributes to projects that require mobile technology expertise and software engineering principles applied to mobile computing environments.
 
-## Publications
+![Profile Picture](/assets/images/people/IGM.jpg){: .profile-image}
 
-### 2023 (1 publication)
-1. **Mujiyatna, I.G.**, & Herwanto, G.B. (2023). Hate Speech Detection in Indonesian Twitter using Contextual Embedding Approach. *Research Paper*.
+## Research Focus
 
-### 2021 (1 publication)
-2. Herwanto, G.B., & **Mujiyatna, I.G.** (2021). Hate Speech Detection in Indonesian Twitter using Contextual Embedding Approach. *IJCCS (Indonesian Journal of Computing and Cybernetics Systems)*, 15(2):177-188.
+I Gede Mujiyatna's research focuses on mobile software engineering with particular emphasis on developing efficient and user-friendly mobile applications. His work contributes to advancing mobile computing technologies and improving mobile software development practices.
 
 ## Contact
 
