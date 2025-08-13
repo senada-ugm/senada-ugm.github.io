@@ -6,7 +6,9 @@
       "Bash(mkdir:*)",
       "Bash(cp:*)",
       "Bash(bundle exec:*)",
-      "WebFetch(domain:polyglot.untra.io)"
+      "WebFetch(domain:polyglot.untra.io)",
+      "Bash(ruby --version)",
+      "Bash(awk:*)"
     ],
     "deny": []
   }
