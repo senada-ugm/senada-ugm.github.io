@@ -21,7 +21,7 @@ Our research spans multiple cutting-edge domains:
 
 **🗣️ Natural Language Processing** - Specializing in Indonesian language processing and multilingual text analysis
 
-**🌐 Semantic Web Technologies** - Building knowledge-driven systems for intelligent information retrieval
+**🌐 Semantic Web & Knowledge Graph Technologies** - Building knowledge-driven systems for intelligent information retrieval
 
 **⚙️ Software Engineering** - Mining software repositories and developing values-aware software systems
 
