@@ -3,7 +3,7 @@ layout: base/home
 title: Software Engineering and Data Lab
 title2: Universitas Gadjah Mada
 subtitle: Advancing research in software engineering, data science, and emerging technologies
-banner_image: /assets/images/bg-image.jpg
+banner_image: /assets/images/bg-image.png
 permalink: /
 ---
 
