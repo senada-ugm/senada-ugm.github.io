@@ -8,7 +8,10 @@
       "Bash(bundle exec:*)",
       "WebFetch(domain:polyglot.untra.io)",
       "Bash(ruby --version)",
-      "Bash(awk:*)"
+      "Bash(awk:*)",
+      "Bash(grep:*)",
+      "Bash(sed:*)",
+      "Bash(python:*)"
     ],
     "deny": []
   }

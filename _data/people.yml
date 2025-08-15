@@ -55,7 +55,7 @@
   email: arisn@ugm.ac.id
   github: null
   twitter: null
-  description: Intelligent Agent
+  description: Rekayasa Multi Agen Cerdas (Intelligent Multi-Agent Engineering)
   status: active
   badges:
     - project=project1
@@ -69,7 +69,7 @@
   email: ew@ugm.ac.id
   github: null
   twitter: null
-  description: Data Mining, Natural Language Processing
+  description: Rekayasa Pengetahuan (Knowledge Engineering)
   status: active
   badges:
     - project=project1
@@ -83,7 +83,7 @@
   email: khabib@ugm.ac.id
   github: null
   twitter: null
-  description: Semantic Web
+  description: Manajemen Informasi (Information Management)
   status: active
   badges:
     - project=project1
@@ -97,7 +97,7 @@
   email: seagatejogja@ugm.ac.id
   github: null
   twitter: null
-  description: Sentiment Analysis, Datawarehouse
+  description: Sains Data (Data Science)
   status: active
   badges:
     - project=project1
@@ -111,7 +111,7 @@
   email: arifn@ugm.ac.id
   github: null
   twitter: null
-  description: Software Engineering, Mining Software Repositories
+  description: Software Mining
   status: active
   badges:
     - project=project1
@@ -125,7 +125,7 @@
   email: medi@ugm.ac.id
   github: null
   twitter: null
-  description: Software Development, Data Communication
+  description: Sistem Informasi (Information Systems)
   status: active
   badges:
     - project=project1
@@ -139,7 +139,7 @@
   email: gunturbudi@ugm.ac.id
   github: null
   twitter: null
-  description: Privacy Engineering, Intelligent Software Engineering
+  description: Rekayasa Perangkat Lunak Cerdas (Intelligent Software Engineering)
   status: active
   badges:
     - project=project1
@@ -167,7 +167,7 @@
   email: demuji@ugm.ac.id
   github: null
   twitter: null
-  description: Mobile Software Engineering
+  description: Rekayasa Perangkat Lunak Awan (Cloud Software Engineering)
   status: active
   badges:
     - project=project1
@@ -181,7 +181,7 @@
   email: isna@ugm.ac.id
   github: null
   twitter: null
-  description: Augmented Reality, Extended Reality, Mixed Reality
+  description: Realitas Campuran (Mixed Reality)
   status: active
   badges:
     - project=project1
