@@ -9,19 +9,54 @@
 # '_' characters are removed from the 'id' field to create the name used in Badges
 #-------------------------------------------------------------------------------------
 
-# - id: cell_protocol # internal identifier used in newsfeed posts and other places
-#   title: Cell Protocol
-#   type: protocol
-#   description: This is an important protocol for handling cells the way we do it. 
-#   url: https://link.to.protocol/
-#   badges:
-#     - TYPE=ID # e.g. person=John_Doe, project=project1 (no spaces)
+#-------------------------------------------------------------------------------------
+# SENADA-UGM Laboratory Resources
+#-------------------------------------------------------------------------------------
 
-- id: cell_protocol # internal identifier used in newsfeed posts and other places
-  title: Cell Protocol
-  type: protocol
-  description: This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it. This is an important protocol for handling cells the way we do it.
-  url: https://link.to.protocol/
+- id: lab_overview
+  title: Laboratory Overview
+  type: facility
+  description: Comprehensive overview of SENADA Lab's research focus, infrastructure, and capabilities in software engineering, data science, and emerging technologies.
+  url: null
   badges:
-    - person=John_Doe
-    - project=project3
+    - person=LH
+
+- id: lab_facilities
+  title: Laboratory Facilities
+  type: facility
+  description: Information about our computational infrastructure, research equipment, and collaborative spaces supporting cutting-edge research in medical informatics and data engineering.
+  url: null
+  badges:
+    - person=LH
+
+- id: github_repositories
+  title: SENADA GitHub Organization
+  type: code
+  description: Access our open-source projects, research code, and collaborative development repositories. Explore our contributions to software engineering and data science communities.
+  url: https://github.com/senada-ugm/
+  badges:
+    - person=LH
+
+- id: lab_gallery
+  title: Laboratory Gallery
+  type: documentation
+  description: Visual documentation of our laboratory environment, research activities, team collaboration, and academic events showcasing our vibrant research community.
+  url: null
+  badges:
+    - person=LH
+
+- id: research_protocols
+  title: Research Methodologies
+  type: protocol
+  description: Standardized research protocols and methodologies for software engineering research, data analysis techniques, and collaborative research practices ensuring reproducible outcomes.
+  url: null
+  badges:
+    - person=LH
+
+- id: collaboration_guidelines
+  title: Collaboration Guidelines
+  type: documentation
+  description: Guidelines for academic and industry partnerships, international collaboration procedures, and research exchange programs with institutions worldwide.
+  url: null
+  badges:
+    - person=LH
