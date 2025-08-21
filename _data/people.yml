@@ -42,6 +42,9 @@
   twitter: null
   description: Medical Informatics
   status: active
+  badges:
+    - project=hospital-information-systems
+    - project=mta-digital-dashboard
 
 #-------------------------------------------------------------------------------------
 # current group members
@@ -57,8 +60,6 @@
   twitter: null
   description: Rekayasa Multi Agen Cerdas (Intelligent Multi-Agent Engineering)
   status: active
-  badges:
-    - project=project1
 
 - id: EW # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Assoc. Prof. Edi Winarko, Ph.D. # as display on the web page People item
@@ -71,8 +72,6 @@
   twitter: null
   description: Rekayasa Pengetahuan (Knowledge Engineering)
   status: active
-  badges:
-    - project=project1
 
 - id: KM # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Assoc. Prof. Dr.techn. Khabib Mustofa # as display on the web page People item
@@ -86,7 +85,7 @@
   description: Manajemen Informasi (Information Management)
   status: active
   badges:
-    - project=project1
+    - project=research-data-management-collaboration
 
 - id: SP # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Dr. Sigit Priyatna # as display on the web page People item
@@ -100,7 +99,7 @@
   description: Sains Data (Data Science)
   status: active
   badges:
-    - project=project1
+    - project=hospital-information-systems
 
 - id: AN # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Arif Nurwidyantoro, Ph.D. # as display on the web page People item
@@ -114,7 +113,8 @@
   description: Software Mining
   status: active
   badges:
-    - project=project1
+    - project=human-values-software
+    - project=indoclimate-chatbot
 
 - id: MD # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Drs. Medi M.Kom. # as display on the web page People item
@@ -128,7 +128,7 @@
   description: Sistem Informasi (Information Systems)
   status: active
   badges:
-    - project=project1
+    - project=mta-digital-dashboard
 
 - id: GBH # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Dr.techn. Guntur Budi Herwanto # as display on the web page People item
@@ -142,7 +142,8 @@
   description: Rekayasa Perangkat Lunak Cerdas (Intelligent Software Engineering)
   status: active
   badges:
-    - project=project1
+    - project=mixed-reality-applications
+    - project=research-data-management-collaboration
 
 - id: KK # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Dr.techn. Kabul Kurniawan # as display on the web page People item
@@ -155,8 +156,6 @@
   twitter: null
   description: Knowledge Graph, Information Security
   status: active
-  badges:
-    - project=project1
 
 - id: IGM # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: I Gede Mujiyatna, S.Kom., M.Kom. # as display on the web page People item
@@ -170,7 +169,7 @@
   description: Rekayasa Perangkat Lunak Awan (Cloud Software Engineering)
   status: active
   badges:
-    - project=project1
+    - project=mta-digital-dashboard
 
 - id: IAB # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Isna Alfi Bustoni, S.T., M.Eng. # as display on the web page People item
@@ -184,19 +183,6 @@
   description: Realitas Campuran (Mixed Reality)
   status: active
   badges:
-    - project=project1
-#-------------------------------------------------------------------------------------
-# past group members
-#-------------------------------------------------------------------------------------
-- id: Postdoc_Fellow # used internally to identify this person, e.g., in a Newsfeed post "people" field
-  name: Postdoc Fellow # as display on the web page People item
-  role: Postdoctoral Fellow # will appear next to name
-  program: PSTP # omit if not applicable
-  image: assets/images/vippng.com-face-silhouette-png-56170.png # can be external link
-  orcid: null
-  email: pfellow22@umich.edu
-  github: null
-  twitter: null
-  description: Solved really important problems in project 2.
-  status: past
-  current_position: PhD student, Genetics and Genomics Program, University of Michigan # optional, to indicate where people are now
+    - project=mixed-reality-applications
+
+
