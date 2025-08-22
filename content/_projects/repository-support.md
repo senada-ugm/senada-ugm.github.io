@@ -1,5 +1,5 @@
 ---
-title: Intelligent Software Repository System 
+title: Intelligent Software Repository Support System 
 subtitle: AI-assisted support for software repositories
 description: Integrating AI research results to software repositories.
 active: true
