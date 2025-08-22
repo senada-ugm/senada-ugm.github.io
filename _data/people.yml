@@ -37,7 +37,7 @@
   role: Head of Software and Data Engineering Lab # will appear next to name
   image: assets/images/people/Lukman-Heryawan-S.T.-M.T.-Ph.D-683x1024.jpg # can be external link
   email: lukmanh@ugm.ac.id
-  scholar: https://scholar.google.com/citations?user=tY-tr5AAAAAJ
+  scholar: https://scholar.google.com/citations?user=V_iMAWYAAAAJ&hl=en
   github: null
   twitter: null
   description: Medical Informatics
@@ -56,7 +56,7 @@
   image: assets/images/people/ASN.jpg # can be external link
   orcid: null
   email: arisn@ugm.ac.id
-  scholar: https://scholar.google.com/citations?user=435F5sYAAAAJ
+  scholar: https://scholar.google.com/citations?user=qpFAijUAAAAJ&hl=en
   github: null
   twitter: null
   description: Rekayasa Multi Agen Cerdas (Intelligent Multi-Agent Engineering)
@@ -97,6 +97,7 @@
   image: assets/images/people/SP.jpg # can be external link
   orcid: null
   email: seagatejogja@ugm.ac.id
+  scholar: https://scholar.google.com/citations?user=uSc3dIsAAAAJ&hl=en
   github: null
   twitter: null
   description: Sains Data (Data Science)
@@ -111,6 +112,7 @@
   image: assets/images/people/AN.jpg # can be external link
   orcid: null
   email: arifn@ugm.ac.id
+  scholar: https://scholar.google.com/citations?user=LRNOs_AAAAAJ&hl=en
   github: null
   twitter: null
   description: Software Mining
@@ -141,6 +143,7 @@
   image: assets/images/people/GBH.jpg # can be external link
   orcid: null
   email: gunturbudi@ugm.ac.id
+  scholar: https://scholar.google.com/citations?user=jan9BnkAAAAJ&hl=en
   github: null
   twitter: null
   description: Rekayasa Perangkat Lunak Cerdas (Intelligent Software Engineering)
@@ -156,6 +159,7 @@
   image: assets/images/people/KK.jpg # can be external link
   orcid: null
   email: kabul.kurniawan@ugm.ac.id
+  scholar: https://scholar.google.com/citations?user=n2o10_4AAAAJ&hl=en
   github: null
   twitter: null
   description: Knowledge Graph, Information Security
@@ -168,6 +172,7 @@
   image: assets/images/people/IGM.jpg # can be external link
   orcid: null
   email: demuji@ugm.ac.id
+  scholar: https://scholar.google.com/citations?user=777Kug8AAAAJ&hl=en
   github: null
   twitter: null
   description: Rekayasa Perangkat Lunak Awan (Cloud Software Engineering)
