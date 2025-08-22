@@ -1,0 +1,86 @@
+# Qodo Ignore File
+# Specify files and directories to exclude from Qodo analysis
+
+# Dependencies
+node_modules/
+vendor/
+_site/
+
+# Git
+.git/
+.gitignore
+
+# Build outputs
+dist/
+build/
+*.min.js
+*.min.css
+
+# Third-party assets
+assets/theme/
+_sass/bootstrap/
+
+# Logs
+*.log
+logs/
+
+# Cache
+.cache/
+.tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lock files
+package-lock.json
+Gemfile.lock
+yarn.lock
+
+# Temporary files
+*.tmp
+*.temp
+
+# Jekyll specific
+.jekyll-cache/
+.jekyll-metadata
+
+# Qodo reports (avoid scanning own reports)
+.qodo/
+
+# Large media files
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Images (optional - remove if you want to scan for accessibility)
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.svg
+# *.ico
+# *.webp

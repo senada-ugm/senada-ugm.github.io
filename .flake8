@@ -1,0 +1,32 @@
+[flake8]
+# Maximum line length
+max-line-length = 88
+
+# Ignore specific error codes
+ignore = 
+    E203,  # whitespace before ':'
+    E501,  # line too long (handled by black)
+    W503,  # line break before binary operator
+    E231,  # missing whitespace after ','
+
+# Exclude directories
+exclude = 
+    .git,
+    __pycache__,
+    .venv,
+    venv,
+    node_modules,
+    _site,
+    .qodo
+
+# Maximum complexity
+max-complexity = 10
+
+# Show source code for each error
+show-source = True
+
+# Show pep8 violation statistics
+statistics = True
+
+# Count errors and warnings
+count = True

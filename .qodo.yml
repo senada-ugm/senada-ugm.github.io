@@ -1,0 +1,181 @@
+# Qodo Configuration for SENADA-UGM GitHub Pages Website
+# This configuration file sets up code quality checks for the Jekyll-based website
+
+# Project information
+project:
+  name: "senada-ugm.github.io"
+  description: "Software Engineering and Data Lab (SENADA) website - Universitas Gadjah Mada"
+  type: "website"
+  framework: "jekyll"
+
+# File patterns to include/exclude
+files:
+  include:
+    - "**/*.py"
+    - "**/*.js"
+    - "**/*.html"
+    - "**/*.md"
+    - "**/*.yml"
+    - "**/*.yaml"
+    - "**/*.json"
+    - "**/*.css"
+    - "**/*.scss"
+    - "**/*.sass"
+    - "**/*.rb"
+  exclude:
+    - "node_modules/**"
+    - "_site/**"
+    - ".git/**"
+    - "vendor/**"
+    - "assets/theme/**"  # Third-party theme assets
+    - "**/*.min.js"      # Minified files
+    - "**/*.min.css"     # Minified files
+
+# Language-specific configurations
+languages:
+  python:
+    enabled: true
+    version: "3.x"
+    tools:
+      - "pylint"
+      - "flake8"
+      - "black"
+      - "isort"
+    rules:
+      max_line_length: 88
+      ignore_errors:
+        - "E501"  # Line too long (handled by black)
+        - "W503"  # Line break before binary operator
+  
+  javascript:
+    enabled: true
+    tools:
+      - "eslint"
+      - "prettier"
+    rules:
+      indent: 2
+      quotes: "double"
+      semicolons: true
+  
+  markdown:
+    enabled: true
+    tools:
+      - "markdownlint"
+    rules:
+      line_length: 120
+      
+  yaml:
+    enabled: true
+    tools:
+      - "yamllint"
+    rules:
+      indent: 2
+      
+  css:
+    enabled: true
+    tools:
+      - "stylelint"
+    rules:
+      indent: 2
+
+# Code quality checks
+checks:
+  # Security checks
+  security:
+    enabled: true
+    scan_dependencies: true
+    check_secrets: true
+    
+  # Performance checks
+  performance:
+    enabled: true
+    check_large_files: true
+    max_file_size: "1MB"
+    
+  # Documentation checks
+  documentation:
+    enabled: true
+    require_readme: true
+    check_comments: true
+    
+  # Accessibility checks (for web content)
+  accessibility:
+    enabled: true
+    check_alt_text: true
+    check_color_contrast: false  # Disabled for Jekyll themes
+    
+  # SEO checks (for web content)
+  seo:
+    enabled: true
+    check_meta_tags: true
+    check_headings: true
+
+# Git hooks
+git_hooks:
+  pre_commit:
+    enabled: true
+    run_checks: true
+    auto_fix: false
+  
+  pre_push:
+    enabled: true
+    run_full_scan: true
+
+# CI/CD integration
+ci:
+  github_actions:
+    enabled: true
+    workflow_file: ".github/workflows/qodo.yml"
+    
+# Reporting
+reports:
+  format: ["json", "html"]
+  output_dir: ".qodo/reports"
+  include_metrics: true
+  
+# Notifications
+notifications:
+  email:
+    enabled: false
+  slack:
+    enabled: false
+  github:
+    enabled: true
+    create_issues: false
+    comment_on_pr: true
+
+# Custom rules for Jekyll projects
+custom_rules:
+  jekyll:
+    - name: "check_front_matter"
+      description: "Ensure all markdown files have proper front matter"
+      pattern: "**/*.md"
+      rule: "must_have_yaml_front_matter"
+      
+    - name: "check_image_paths"
+      description: "Verify image paths are correct"
+      pattern: "**/*.md"
+      rule: "validate_image_links"
+      
+    - name: "check_collection_structure"
+      description: "Validate Jekyll collection structure"
+      pattern: "content/**/*.md"
+      rule: "validate_collection_front_matter"
+
+# Ignore patterns for specific checks
+ignore:
+  files:
+    - "Gemfile.lock"
+    - "package-lock.json"
+    - "_sass/bootstrap/**"  # Third-party Bootstrap files
+  
+  rules:
+    - "MD013"  # Line length for markdown (handled separately)
+    - "MD033"  # Allow inline HTML in markdown (common in Jekyll)
+
+# Performance settings
+performance:
+  max_scan_time: "5m"
+  parallel_jobs: 4
+  cache_results: true
+  cache_duration: "24h"

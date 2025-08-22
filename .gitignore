@@ -15,3 +15,10 @@ CLAUDE.md
 
 # Raw data processing
 raw/
+
+# Qodo code quality reports and cache
+.qodo/reports/
+.qodo/cache/
+*.qodo.log
+qodo-report.json
+qodo-report.html

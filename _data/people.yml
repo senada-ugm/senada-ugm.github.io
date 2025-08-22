@@ -36,8 +36,8 @@
   name: Assoc. Prof. Lukman Heryawan, Ph.D. # as display on the web page People item
   role: Head of Software and Data Engineering Lab # will appear next to name
   image: assets/images/people/Lukman-Heryawan-S.T.-M.T.-Ph.D-683x1024.jpg # can be external link
-  orcid: 0000-0000-0000-0000
   email: lukmanh@ugm.ac.id
+  scholar: https://scholar.google.com/citations?user=tY-tr5AAAAAJ
   github: null
   twitter: null
   description: Medical Informatics
@@ -56,6 +56,7 @@
   image: assets/images/people/ASN.jpg # can be external link
   orcid: null
   email: arisn@ugm.ac.id
+  scholar: https://scholar.google.com/citations?user=435F5sYAAAAJ
   github: null
   twitter: null
   description: Rekayasa Multi Agen Cerdas (Intelligent Multi-Agent Engineering)
@@ -68,6 +69,7 @@
   image: assets/images/people/EW.jpg # can be external link
   orcid: null
   email: ew@ugm.ac.id
+  scholar: https://scholar.google.com/citations?user=ytILNmIAAAAJ&hl=en
   github: null
   twitter: null
   description: Rekayasa Pengetahuan (Knowledge Engineering)
@@ -80,6 +82,7 @@
   image: assets/images/people/KM.jpg # can be external link
   orcid: null
   email: khabib@ugm.ac.id
+  scholar: https://scholar.google.co.id/citations?user=fCPJjsoAAAAJ&hl=en
   github: null
   twitter: null
   description: Manajemen Informasi (Information Management)
@@ -115,6 +118,7 @@
   badges:
     - project=human-values-software
     - project=indoclimate-chatbot
+    - project=repository-support
 
 - id: MD # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Drs. Medi M.Kom. # as display on the web page People item
@@ -178,6 +182,7 @@
   image: assets/images/people/IAB.jpg # can be external link
   orcid: null
   email: isna@ugm.ac.id
+  scholar: https://scholar.google.com/citations?user=DyrzFsUAAAAJ&hl=en&oi=ao
   github: null
   twitter: null
   description: Realitas Campuran (Mixed Reality)

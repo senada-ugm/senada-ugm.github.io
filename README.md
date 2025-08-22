@@ -36,6 +36,35 @@ bundle exec jekyll serve
 
 The website will be available at `http://localhost:4000`.
 
+### Code Quality with Qodo
+
+This project uses [Qodo](https://qodo.ai) for comprehensive code quality analysis. The setup includes:
+
+- **Automated CI/CD checks** via GitHub Actions
+- **Multi-language support** (Python, JavaScript, Markdown, YAML)
+- **Security scanning** for dependencies and potential secrets
+- **Jekyll-specific rules** for front matter and content validation
+
+#### Running Quality Checks Locally
+
+```bash
+# Install dependencies
+pip install pylint flake8 black isort
+npm install -g markdownlint-cli eslint prettier
+
+# Run all checks
+./scripts/run-qodo-checks.sh
+```
+
+#### Configuration Files
+
+- `.qodo.yml` - Main Qodo configuration
+- `.qodoignore` - Files to exclude from analysis
+- `.github/workflows/qodo.yml` - CI/CD workflow
+- Language-specific configs: `.pylintrc`, `.flake8`, `pyproject.toml`, `.markdownlint.json`
+
+For detailed information about the Qodo setup, see [.qodo/README.md](.qodo/README.md).
+
 ## License
 
 This theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
