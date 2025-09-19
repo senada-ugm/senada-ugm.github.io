@@ -77,7 +77,7 @@
 
 - id: KM # used internally to identify this person, e.g., in a Newsfeed post "people" field
   name: Dr.techn. Khabib Mustofa # as display on the web page People item
-  role: Associate Professor # will appear next to name
+  role: Assistant Professor # will appear next to name
   program: null # omit if not applicable
   image: assets/images/people/KM.jpg # can be external link
   orcid: null
