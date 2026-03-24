@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
   {% include layout/head.html %}
-  <body>
+  <body class="layout-{{ page.layout | default: 'default' }}">
     {% include color/svg-color-defs.html %}    
     {% include layout/navbar.html %}
     <main>
       {% include layout/jumbotron.html %}
-      <div class="container content">
+      <div class="container content content-shell">
         <!-- { % include color/color-demo.html % } -->
         {{ content | replace: '<table', '<table class="table"' }}
       </div>

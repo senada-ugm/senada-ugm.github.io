@@ -22,15 +22,13 @@
 
   <div class="card-body position-relative">
     <a href="{{ project.url | relative_url }}">
-      <h5 class="card-title">
-        <h5>{{ project.title }}</h5>
-      </h5>
+      <h5 class="card-title">{{ project.title }}</h5>
 
       <div class="card-text">
         {% if project.description %}
-          {{ project.description | markdownify | truncatewords: site.max_words_card_short }}
+          {{ project.description | markdownify | strip_html | truncatewords: site.max_words_card_short }}
         {% else %}
-          {{ project.excerpt | truncatewords: site.max_words_card_short }}
+          {{ project.excerpt | strip_html | normalize_whitespace | truncatewords: site.max_words_card_short }}
         {% endif %}
         {% assign collection_name = 'projects' %}
         {% assign item_type = 'project' %}

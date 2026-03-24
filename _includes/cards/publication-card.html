@@ -42,13 +42,12 @@
               {% assign person_id = badge | remove: 'person=' %}
               {% for person in site.data.people %}
                 {% if person.id == person_id and person.status == 'active' %}
-                  <div class="faculty-photo-badge mr-2 mb-2" style="display: inline-block;">
+                  <div class="faculty-photo-badge mr-2 mb-2">
                     <img src="{{ person.image | relative_url }}" 
                          alt="{{ person.name }}" 
-                         class="rounded-circle"
-                         style="width: 40px; height: 40px; object-fit: cover; border: 2px solid #2F65A7;"
+                         class="rounded-circle faculty-photo"
                          title="{{ person.name }} - {{ person.description }}">
-                    <div style="font-size: 0.7em; text-align: center; max-width: 44px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                    <div class="faculty-photo-name">
                       {{ person.name | split: ' ' | first }}
                     </div>
                   </div>

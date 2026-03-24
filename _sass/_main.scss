@@ -1,71 +1,164 @@
 // Main container
 
 body > main {
-  min-height: calc(100vh - 54px); // Viewport height minus medium screen navbar height, to push footer to bottom
+  min-height: calc(100vh - 72px); // Viewport height minus navbar height, to push footer to bottom
   padding-bottom: $grid-gutter-width; // Don't stick to footer
 }
 
 // Publications enhancements
 .publication-card {
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
 }
 
 .year-header {
   position: sticky;
-  top: 70px;
-  background: rgba(255, 255, 255, 0.95);
-  backdrop-filter: blur(5px);
+  top: 72px;
+  background: rgba(248, 250, 252, 0.94);
+  backdrop-filter: blur(8px);
   z-index: 10;
   margin-left: -15px;
   margin-right: -15px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0.45rem 15px 0.58rem;
+  color: #1e3a5f;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.2);
+  font-family: $headings-font-family;
+
+  .year-count {
+    color: #5b6878 !important;
+  }
 }
 
 .faculty-photo-badge {
-  cursor: pointer;
-  transition: transform 0.2s ease-in-out;
-  
-  &:hover {
-    transform: scale(1.1);
+  display: inline-block;
+  text-align: center;
+
+  .faculty-photo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border: 2px solid rgba(37, 99, 235, 0.54);
+    transition: transform 0.2s ease, border-color 0.2s ease;
   }
-  
-  img {
-    transition: border-color 0.2s ease-in-out;
+
+  .faculty-photo-name {
+    margin-top: 0.2rem;
+    font-size: 0.7rem;
+    max-width: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #475569;
   }
-  
-  &:hover img {
-    border-color: #007bff !important;
+
+  &:hover .faculty-photo {
+    transform: scale(1.08);
+    border-color: darken($custom_link_color, 8%);
   }
 }
 
 // Filter controls styling
 .form-control {
-  font-size: 0.9rem;
+  font-size: 0.92rem;
+  border-color: rgba(15, 23, 42, 0.16);
+  border-radius: 0.7rem;
+  min-height: 2.5rem;
+
+  &:focus {
+    border-color: rgba(37, 99, 235, 0.5);
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.14);
+  }
 }
 
 // Year statistics
 .year-stats {
-  background: linear-gradient(135deg, #2F65A7 0%, #4a7bb7 100%);
-  color: white;
+  background: rgba(255, 255, 255, 0.92);
+  color: #0f172a;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.07);
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 0.95rem;
   margin-bottom: 20px;
+
+  h4 {
+    margin-bottom: 0.15rem;
+    font-family: $headings-font-family;
+    font-weight: 700;
+    color: #1e3a5f;
+  }
+
+  small {
+    color: #5b6878;
+  }
+}
+
+.section-header-caret {
+  font-size: 0.8em;
+}
+
+.post-date-stamp {
+  float: right;
+  font-family: $font-family-monospace;
+  font-size: 0.78rem;
+  letter-spacing: 0.02em;
+  color: #334155 !important;
+  margin-top: 0.18rem;
+}
+
+.publications .card.bg-light {
+  border-radius: 0.95rem;
+  border-color: rgba(15, 23, 42, 0.1);
+  background: rgba(255, 255, 255, 0.88) !important;
+  box-shadow: 0 12px 25px rgba(15, 23, 42, 0.07);
+
+  .card-title {
+    font-family: $headings-font-family;
+    color: #0f172a;
+    margin-bottom: 1rem;
+  }
+}
+
+.publications .input-group {
+  border-radius: 0.72rem;
+  overflow: hidden;
+
+  .form-control {
+    border-right: none;
+  }
+}
+
+.publications #clearFilters,
+.publications #clearSearch {
+  border-radius: 0.7rem;
+}
+
+.publications #clearSearch {
+  border-left: none;
+}
+
+.publication-item mark {
+  background-color: #fff4cc;
+  color: #7c2d12;
+  padding: 0 0.16rem;
+  border-radius: 0.25rem;
+  font-weight: 600;
+}
+
+#searchResults {
+  font-size: 0.9rem;
+  color: #5b6878 !important;
+}
+
+.publication-no-results .alert {
+  margin-top: 1.8rem;
+  border-radius: 0.9rem;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  background: rgba(239, 246, 255, 0.76);
+  color: #1e3a5f;
 }
 
 // News post styling
 .post-card {
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-  
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  }
 }
 
 // News post content styling
@@ -74,19 +167,20 @@ body > main {
     max-width: 100%;
     height: auto;
     margin: 20px 0;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 0.8rem;
+    box-shadow: 0 14px 24px rgba(15, 23, 42, 0.1);
   }
   
   // Image captions
-  p + em, img + em {
+  p + em,
+  img + em {
     display: block;
     text-align: center;
     font-style: italic;
-    color: #666;
+    color: #5b6878;
     margin-top: -15px;
     margin-bottom: 20px;
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
 }
 
@@ -101,8 +195,22 @@ body > main {
     padding-right: 0;
   }
   
+  .publications .input-group {
+    margin-bottom: 1rem;
+  }
+
   .faculty-photo-badge {
     margin-right: 8px !important;
     margin-bottom: 8px !important;
+  }
+
+  .post-date-stamp {
+    float: none;
+    display: inline-block;
+    margin-top: 0.4rem;
+  }
+
+  .form-control {
+    font-size: 16px; // Prevents zoom on iOS
   }
 }

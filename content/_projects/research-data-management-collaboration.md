@@ -2,8 +2,12 @@
 layout: items/project
 title: "International Research Data Management Collaboration"
 subtitle: "Indonesia-Austria Partnership for Advanced Research Infrastructure"
+description: "International collaboration between UGM, ITB, and TU Wien to build sustainable research data management infrastructure for Indonesian universities."
 date: 2025-06-17
 image: /assets/images/projects/research-data-management-collaboration.jpg
+card_image: /assets/images/projects/research-data-management-collaboration.jpg
+order: 4
+active: true
 status: active
 badges:
   - person=GBH

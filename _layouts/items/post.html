@@ -13,8 +13,7 @@ force_wide_person: true
   <div class="{{ col_class }}">
     <p>
       {% include base/event-banner.html event_type=page.event_type %}
-      <strong class="{{ page.event_type }}-hue" style="float: right;" 
-              font-family="'Source Code Pro', monospace">{{ page.date | date: "%B %e, %Y" }}</strong>
+      <strong class="{{ page.event_type }}-hue post-date-stamp">{{ page.date | date: "%B %e, %Y" }}</strong>
     </p>
     {{ content }}
   </div>

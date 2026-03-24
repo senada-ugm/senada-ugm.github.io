@@ -11,6 +11,17 @@
 .card {
   margin-bottom: $grid-gutter-width;
   min-width: 100%; // Use allowed width even if content is smaller
+  border: 1px solid rgba(15, 23, 42, 0.11);
+  border-radius: 0.95rem;
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
+  background-color: rgba(255, 255, 255, 0.94);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 18px 28px rgba(15, 23, 42, 0.1);
+    border-color: rgba(37, 99, 235, 0.24);
+  }
 
   .card-img-top {
     height: 150px;
@@ -25,7 +36,7 @@
   }
 
   .card-subtitle {
-    color: $gray-600;
+    color: #5b6878;
     margin-bottom: 0.5rem;
   }
 
@@ -34,6 +45,8 @@
   }
 
   .card-body {
+    padding: 1.05rem 1.1rem;
+
     a {
       color: $body-color;
     }   
@@ -45,13 +58,13 @@
 
     // Smaller badge then the one defined in _jumbotron.scss
     .badge {
-      border: 1px solid $michigan-arboretum-blue;
+      border: 1px solid rgba(37, 99, 235, 0.5);
       font-family: $font-family-base;
       // text-transform: capitalize;
 
       &:hover,
       &:focus {
-        border: 1px solid $link-hover-color;
+        border: 1px solid rgba(37, 99, 235, 0.8);
       }
     }
   }
@@ -62,32 +75,73 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: white;
-  border-radius: 0;
+  border-radius: 0.95rem 0.95rem 0 0;
   color: #fff;
-  text-shadow: 2px 2px 3px #333;
+  text-shadow: none;
   position: relative;
   text-align: center;
   padding: 0 10px;
   white-space: nowrap;
   overflow-x: clip;
+
+  h3 {
+    font-family: $headings-font-family;
+    font-size: 1.02rem;
+    line-height: 150px;
+    margin: 0;
+    font-weight: 650;
+    letter-spacing: -0.01em;
+    color: #f8fafc;
+    text-shadow: 0 1px 2px rgba(15, 23, 42, 0.5);
+  }
 }
 
 // projects 
 .project-card {
-  border-radius: 10px;
+  border-radius: 0.95rem;
   overflow: hidden;
+
+  .card-title {
+    font-family: $headings-font-family;
+    font-size: 1.03rem;
+    line-height: 1.35;
+    margin: 0 0 0.55rem;
+    color: #0f172a;
+  }
+
+  .card-text {
+    font-size: 0.92rem;
+    line-height: 1.58;
+    color: #475569;
+
+    p {
+      margin-bottom: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-size: 0.95rem;
+      line-height: 1.45;
+      margin: 0 0 0.35rem;
+      font-family: $headings-font-family;
+      color: #1f2937;
+    }
+  }
 }
 .project-card:hover {
-  box-shadow: 4px 4px 8px #aaa;
-  border: 1px solid #aaa;
+  box-shadow: 0 18px 30px rgba(15, 23, 42, 0.12);
+  border: 1px solid rgba(15, 23, 42, 0.14);
 }
 
 // newsfeed posts
 .post-card {
-  border: 1px solid transparent;
-  border-top: 1px solid grey;
-  border-radius: 0;
-  padding: 5px;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 0.95rem;
+  padding: 0.45rem;
 
   .card-body {
     padding: 0;
@@ -100,17 +154,14 @@
   }
 }
 .post-card:hover {
-  box-shadow: 4px 4px 8px #aaa;
-  border-left: 1px solid #ccc;
+  box-shadow: 0 16px 28px rgba(15, 23, 42, 0.1);
+  border-color: rgba(37, 99, 235, 0.24);
 }
 
 // publications
 .publication-card, .funding-card, .resource-card, .event-card {
-  border: none;
-  border-top: 1px solid grey;
-  border-left: 1px solid grey;
-  border-radius: 0;
-  border-top-left-radius: 10px;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  border-radius: 0.95rem;
 
   .external-link {
     color: $link-color !important; 
@@ -123,27 +174,33 @@
 
 .recent-news {
   display: inline-block;
-  color: #eee !important;
-  border: 1px solid #555;
-  border-radius: 9px;
-  width: 100px;
-  height: 24px;
-  line-height: 20px;
-  font-size: 0.8rem;
+  color: #e8eef5 !important;
+  border: 1px solid rgba(15, 23, 42, 0.34);
+  border-radius: 999px;
+  width: 110px;
+  height: 26px;
+  line-height: 22px;
+  font-size: 0.74rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   text-align: center;
-  font-family: "Source Code Pro", monospace;
-  text-shadow: 1px 1px 2px black;
+  font-family: $font-family-monospace;
+  background-color: rgba(15, 23, 42, 0.72);
 }
 .recent-news:hover {
   color: white !important;
-  border-color: #888;
+  border-color: rgba(37, 99, 235, 0.68);
+  background-color: rgba(15, 23, 42, 0.85);
   text-decoration: none;
 }
 .section-header-link {
   color: $body-color !important;
   text-decoration: none !important;
+  font-family: $headings-font-family;
+  font-weight: 650;
+  letter-spacing: -0.01em;
 }
 .section-header-link:hover {
-  color: lighten($body-color, 20%) !important;
-  text-shadow: 1px 1px #ddd;
+  color: $custom_link_color !important;
+  text-shadow: none;
 }

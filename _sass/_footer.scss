@@ -1,28 +1,54 @@
 // Footer
 
 body > footer {
-  background-color: $michigan-blue; //theme-color("footer");
-  // border-top: 5px solid lighten($michigan-blue, 50);
-  color: $muted-maize; //lighten(theme-color("footer"), 50);
+  background: linear-gradient(155deg, #0f172a 0%, #16263a 100%);
+  color: #d8e2ef;
   font-size: 0.9rem;
-  padding: $grid-gutter-width / 2 0;
+  padding: $grid-gutter-width * 0.8 0 $grid-gutter-width * 0.5;
+  border-top: 1px solid rgba(148, 163, 184, 0.32);
 
   .container {
-    margin-top: 1rem;
+    margin-top: 0.9rem;
   }
 
   a,
   a:hover,
   a:visited {
-    color: $muted-maize; //$white;
+    color: #e8eef8;
   }
 
   // Font awesome icons
-  .fa-inverse {
-    color: $michigan-blue; //theme-color("footer");
+  .list-inline {
+    margin-bottom: 0;
   }
+
+  .list-inline-item {
+    margin-right: 0.42rem;
+  }
+
+  .fa-stack {
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    vertical-align: middle;
+  }
+
+  .fa-circle {
+    color: rgba(232, 238, 248, 0.94);
+  }
+
+  .fa-inverse {
+    color: #0f172a;
+  }
+
   .fa-ul {
     margin-left: 1.5rem;
+  }
+
+  .list-inline-item a:hover {
+    .fa-circle {
+      color: #ffffff;
+    }
   }
 
   // License notice
@@ -34,5 +60,9 @@ body > footer {
         content: " — ";
       }
     }
-  } 
+  }
+
+  .small {
+    color: #b7c3d4;
+  }
 }

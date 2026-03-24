@@ -1,10 +1,9 @@
 // Content
 
 .content {
-  // font-family: Lora, serif; do not use, ugly petridish font
-  // font-family: 'Roboto', sans-serif;  // the closest to Chrome's default sans-serif
-  // font-family: 'Open Sans', sans-serif; // a bigger, open spacy font
-  font-family: 'Lato', sans-serif; // a smaller, more compact sans-serif font
+  font-family: $font-family-base;
+  color: $body-color;
+  line-height: 1.72;
   
   // Use base font for headings
   h1,
@@ -13,7 +12,11 @@
   h4,
   h5,
   h6 {
-    font-family: $font-family-base;
+    font-family: $headings-font-family;
+    color: #0f172a;
+    margin-top: 1.7rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.25;
   }
 
   // Hide h1 headings in content, its use is reserved for jumbotron
@@ -27,6 +30,11 @@
     text-decoration: none;
   }
 
+  p,
+  li {
+    color: #334155;
+  }
+
   // Add extra padding between checkbox and item
   .task-list-item-checkbox {
     margin-right: 0.5rem;
@@ -34,9 +42,11 @@
 
   // Style blockquotes
   blockquote {
-    border-left: 0.25rem solid $gray-200;
-    color: $gray-600;
-    padding: 0 1rem;
+    border-left: 0.24rem solid rgba(37, 99, 235, 0.36);
+    color: #475569;
+    padding: 0.4rem 1rem;
+    background-color: rgba(248, 250, 252, 0.85);
+    border-radius: 0 0.65rem 0.65rem 0;
   }
 
   // Style images (excluding inline images not wrapped in p)
@@ -65,6 +75,8 @@
       margin-top: 0.5rem;
       margin-bottom: 0.5rem;
       text-align: center;
+      color: #5b6878;
+      font-size: 0.9rem;
     }
 
     // Add margin between floated paragraphs (often containing img) and text
@@ -81,6 +93,8 @@
   // Style embedded content (video, Twitter feed)
   iframe {
     margin-bottom: $headings-margin-bottom;
+    border-radius: 0.8rem;
+    border: 1px solid rgba(15, 23, 42, 0.12);
   }
 
   // Force Twitter timeline to remain in container
@@ -90,4 +104,17 @@
 
   // Style tables
   // This is done by replacing '<table' with '<table class="table"' in {{ content }}
+  .table {
+    background: rgba(255, 255, 255, 0.86);
+    border-radius: 0.8rem;
+    overflow: hidden;
+
+    th {
+      border-top: none;
+      background: rgba(241, 245, 249, 0.9);
+      font-family: $headings-font-family;
+      font-weight: 600;
+      color: #1f2937;
+    }
+  }
 }

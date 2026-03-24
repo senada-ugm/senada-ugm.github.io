@@ -1,18 +1,149 @@
 // General styling
-// 
+//
 // For content styling, see _content.scss
+
+:root {
+  --surface-0: #f8fafc;
+  --surface-1: #ffffff;
+  --surface-2: #f4f7fb;
+  --ink-strong: #0f172a;
+  --ink-muted: #5b6878;
+  --stroke-soft: rgba(15, 23, 42, 0.1);
+  --shadow-soft: 0 18px 38px rgba(15, 23, 42, 0.08);
+}
 
 body {
   word-wrap: break-word; // Allow long words (e.g. URLs) to wrap, so they don't break out of container
   position: relative; // Required for scrollspy
+  background:
+    radial-gradient(circle at 8% 0%, rgba(37, 99, 235, 0.1), transparent 44%),
+    radial-gradient(circle at 94% 20%, rgba(15, 23, 42, 0.08), transparent 50%),
+    linear-gradient(160deg, #eef2f7 0%, #e7edf4 100%);
+  color: $body-color;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease, opacity 0.2s ease;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -0.015em;
+}
+
+main .container.content {
+  padding-top: 1.3rem;
+}
+
+.content-shell {
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(15, 23, 42, 0.09);
+  border-radius: 1.15rem;
+  box-shadow: var(--shadow-soft);
+  margin-top: -2.25rem;
+  margin-bottom: 1.5rem;
+  padding: 1.4rem 1.5rem 1.2rem;
+  position: relative;
+  backdrop-filter: blur(4px);
+}
+
+.layout-home .content-shell {
+  margin-top: -2.8rem;
+  padding-top: 1.6rem;
 }
 
 .btn {
   white-space: normal; // Wrap button within container
+  border-radius: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.btn-outline-secondary {
+  color: #334155;
+  border-color: rgba(15, 23, 42, 0.2);
+
+  &:hover,
+  &:focus {
+    color: #0f172a;
+    border-color: rgba(15, 23, 42, 0.34);
+    background-color: rgba(148, 163, 184, 0.15);
+  }
+}
+
+label {
+  font-weight: 600;
+  font-size: 0.92rem;
+  color: #334155;
+}
+
+small,
+.small {
+  color: var(--ink-muted);
 }
 
 // Add padding to code blocks
 pre.highlight {
-  padding: 0.25rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: 0.6rem;
+  border: 1px solid rgba(15, 23, 42, 0.1);
+  background-color: #f8fafd;
   margin-bottom: $grid-gutter-width / 2;
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.2);
+}
+
+@media (max-width: 992px) {
+  .content-shell {
+    margin-top: -1.5rem;
+    padding: 1.1rem 1rem 0.95rem;
+  }
+
+  .layout-home .content-shell {
+    margin-top: -1.9rem;
+  }
+}
+
+@media (max-width: 768px) {
+  main .container.content {
+    padding-top: 1rem;
+  }
+
+  .content-shell {
+    margin-top: -1.05rem;
+    border-radius: 0.95rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .jumbotron .container {
+    animation: fade-up 0.55s ease-out both;
+  }
+
+  .content-shell > .row,
+  .content-shell > .publications {
+    animation: fade-up 0.55s ease-out both;
+    animation-delay: 0.08s;
+  }
 }

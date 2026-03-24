@@ -4,8 +4,7 @@
     <a href="{{ post.url | relative_url }}">
       <p>
         {% include base/event-banner.html event_type=post.event_type %}
-        <strong class="{{ post.event_type }}-hue" style="float: right;" 
-                font-family="'Source Code Pro', monospace">{{ post.date | date: "%B %e, %Y" }}</strong>
+        <strong class="{{ post.event_type }}-hue post-date-stamp">{{ post.date | date: "%B %e, %Y" }}</strong>
       </p>
       <h5>{{post.title}}</h5>
       <h6>{{post.description | truncatewords: site.max_words_card_short}}</h6>

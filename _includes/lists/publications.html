@@ -114,7 +114,7 @@
 {% if layout.embedded_lists %}
 <h4 class="col mt-2"><a class="section-header-link" href="{{ 'publications' | relative_url }}">
     Publications
-    <i class="fa fa-caret-right" style="font-size: 0.8em;"></i>
+    <i class="fa fa-caret-right section-header-caret"></i>
 </a></h4>
 {% endif %}
 
@@ -123,7 +123,7 @@
 
 {% for year_group in by_year_desc %}
   <div class="col-12 year-group" data-year="{{ year_group.name }}">
-    <h3 class="year-header mt-4 mb-3" style="color: #2F65A7; border-bottom: 2px solid #2F65A7; padding-bottom: 10px;">
+    <h3 class="year-header mt-4 mb-3">
       <i class="fa fa-calendar"></i> {{ year_group.name }}
       <small class="text-muted year-count">({{ year_group.items.size }} publications)</small>
     </h3>
@@ -142,7 +142,7 @@
 </div>
 
 <!-- No results message -->
-<div id="noResults" class="row" style="display: none;">
+<div id="noResults" class="row publication-no-results d-none">
   <div class="col-12">
     <div class="alert alert-info text-center">
       <h5>No publications found</h5>
@@ -297,9 +297,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         // Show/hide no results message
         if (visibleCount === 0 && (searchKeywords || selectedYear || selectedAuthor)) {
-            noResults.style.display = 'block';
+            noResults.classList.remove('d-none');
         } else {
-            noResults.style.display = 'none';
+            noResults.classList.add('d-none');
         }
     }
     
@@ -335,52 +335,6 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
-
-<style>
-/* Search highlighting styles */
-.publication-item mark {
-    background-color: #fff3cd;
-    color: #856404;
-    padding: 0 2px;
-    border-radius: 2px;
-    font-weight: 500;
-}
-
-/* Search input styles */
-#keywordSearch {
-    border-radius: 4px;
-}
-
-#clearSearch {
-    border-left: none;
-}
-
-#clearSearch:hover {
-    background-color: #e9ecef;
-}
-
-/* Results counter */
-#searchResults {
-    font-size: 0.9em;
-    font-style: italic;
-}
-
-/* No results message */
-#noResults .alert {
-    margin-top: 2rem;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .input-group {
-        margin-bottom: 1rem;
-    }
-    
-    .form-control {
-        font-size: 16px; /* Prevents zoom on iOS */
-    }
-}
-</style>
 {% endif %}
 
 {% endif %}

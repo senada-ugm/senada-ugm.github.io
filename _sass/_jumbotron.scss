@@ -7,19 +7,23 @@
   background-size: cover;
   border-radius: 0; // Should always be square, independent from $enable-rounded
   color: $white;
-  text-shadow: 2px 2px 3px #333;
+  text-shadow: none;
   position: relative; // To contain overlay
   text-align: center;
-
-  padding: 3rem 2rem;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.16);
+  margin-bottom: 0;
+  padding: 4.5rem 2rem 4rem;
+  min-height: 290px;
+  display: flex;
+  align-items: flex-end;
 
   &.bg-no-image {
-    background-color: $michigan-blue; //theme-color("secondary");
+    background-image: linear-gradient(130deg, #0f172a 0%, #1e3a5f 55%, #1f4e79 100%);
   }
 
   // Overlay
   &.bg-image:before {
-    background-image: linear-gradient(rgba(theme-color("dark"), 0.1), rgba(theme-color("dark"), 0.9));
+    background-image: linear-gradient(160deg, rgba(15, 23, 42, 0.42), rgba(15, 23, 42, 0.8));
     content: "";
     left: 0;
     height: 100%;
@@ -35,37 +39,47 @@
   }
   
   h1 {
-    $jumbotron-h1: 3rem;
+    $jumbotron-h1: 2.75rem;
     font-size: $jumbotron-h1;
-    font-weight: 600;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.7rem;
+    line-height: 1.15;
 
     // Reduce font-size on smaller screens, except on homepage
     @include media-breakpoint-down(md) {
-      font-size: $jumbotron-h1 - 1;
+      font-size: $jumbotron-h1 - 0.8;
 
       &.home {
-        font-size: $jumbotron-h1;
+        font-size: $jumbotron-h1 - 0.35;
       }
     }
   }
 
   .lead {
-    font-size: ($lead-font-size * 1.2);
+    font-size: 1.08rem;
+    line-height: 1.55;
+    color: rgba(255, 255, 255, 0.9);
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .meta {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 
   .categories {
     margin-top: 1rem;
   }
   .badge {
-    border: 2px solid #ddd;
-    color: #ddd !important;
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    color: #eff4fb !important;
+    background-color: rgba(15, 23, 42, 0.22);
     margin-top: 0.25rem;
     padding-left: $badge-pill-padding-x * 2;
     padding-right: $badge-pill-padding-x * 2;
+    border-radius: 999px;
     // text-transform: capitalize;
 
     .close {
@@ -80,4 +94,21 @@
   // &.bg-no-image .badge {
   //   // border: 2px solid lighten(theme-color("secondary"), 25);
   //}
+}
+
+.layout-home .jumbotron {
+  min-height: 370px;
+  padding-top: 5.4rem;
+}
+
+@include media-breakpoint-down(md) {
+  .jumbotron {
+    min-height: 250px;
+    padding: 3.8rem 1.1rem 3.2rem;
+  }
+
+  .layout-home .jumbotron {
+    min-height: 300px;
+    padding-top: 4.6rem;
+  }
 }

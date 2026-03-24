@@ -9,9 +9,16 @@
     max-width: 150px;
     max-height: 150px;
     border-radius: 150px;
-    border: 1px solid $gray-500; 
+    border: 2px solid rgba(37, 99, 235, 0.2);
+    box-shadow: 0 12px 22px rgba(15, 23, 42, 0.1);
     object-fit: cover;
     object-position: center top;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+  }
+
+  &:hover img {
+    transform: translateY(-2px);
+    border-color: rgba(37, 99, 235, 0.42);
   }
 
   a:hover {
@@ -22,7 +29,7 @@
     a {
       color: $body-color;
     }   
-  }  
+  }
 
   .orcid {
     height: 16px;
@@ -37,13 +44,13 @@
 
     // Smaller badge then the one defined in _jumbotron.scss
     .badge {
-      border: 1px solid $michigan-arboretum-blue;
+      border: 1px solid rgba(37, 99, 235, 0.45);
       font-family: $font-family-base;
       text-transform: capitalize;
 
       &:hover,
       &:focus {
-        border: 1px solid $link-hover-color;
+        border: 1px solid rgba(37, 99, 235, 0.75);
       }
     }
   }
