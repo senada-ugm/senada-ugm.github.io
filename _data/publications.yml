@@ -15,7 +15,486 @@
 # SENADA-UGM Lab Publications (Ordered by Year: Newest First)
 #-------------------------------------------------------------------------------------
 
+# 2027 Publications
+- id: gusriza_2027_tourist_behaviors_llm
+  date: 2027-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Fondina Gusriza
+    - Tri Kuntoro Priyambodo
+    - Khabib Mustofa
+    - Dyah Mutiarin
+  title: "Seeing the Unseen? Opportunities and Challenges in Understanding Tourist Behaviors from UGC using Large Language Models (LLMs)"
+  journal: International Journal of Informatics, Information System and Computer ...
+  citation: "8(1):63-74"
+  year: 2027
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fCPJjsoAAAAJ&sortby=pubdate&citation_for_view=fCPJjsoAAAAJ:35r97b3x0nAC
+  abstract: This study investigates opportunities and challenges in analyzing user-generated tourism content with large language models to better understand tourist behavior.
+  badges:
+    - person=KM
+
+# 2026 Publications
+- id: dani_2026_multimodal_imf_forecasting
+  date: 2026-02-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Tiar Dani
+    - Edi Winarko
+    - Lukman Heryawan
+    - Johan Muhamad
+    - Fitri Nuraeni
+    - Ayu Dyah Pangestu
+  title: Investigating a Multi-Modal Attention-Based Deep-Learning Framework for Long-Term IMF Forecasting Based on CME Kinematics and Solar Magnetogram Data
+  journal: Solar Physics
+  citation: "301(2):27"
+  year: 2026
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=V_iMAWYAAAAJ&sortby=pubdate&citation_for_view=V_iMAWYAAAAJ:iH-uZ7U-co4C
+  abstract: This work proposes a multi-modal deep learning framework that combines CME kinematics and solar magnetogram data for long-term IMF forecasting in space weather studies.
+  badges:
+    - person=LH
+    - person=EW
+
+- id: refialy_2026_hybrid_handcrafted_amd
+  date: 2026-04-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Leonardo Petra Refialy
+    - Sri Hartati
+    - Sigit Priyanta
+    - Supanji Supanji
+    - Mohammad Eko Prayogo
+    - Firman Setya Wardhana
+  title: Hybrid Handcrafted Feature Extraction Combined with an Assisted Region of Interest Protocol for Multi-Class Age-Related Macular Degeneration Classification
+  journal: Engineering, Technology and Applied Science Research
+  citation: "16(2):33722-33727"
+  year: 2026
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSc3dIsAAAAJ&sortby=pubdate&citation_for_view=uSc3dIsAAAAJ:nb7KW1ujOQ8C
+  abstract: This study presents a lightweight multi-class AMD classification framework that combines assisted ROI standardization with handcrafted feature fusion.
+  badges:
+    - person=SP
+
+- id: prestiliano_2026_multimodal_violence_detector
+  date: 2026-01-30
+  pmid: null
+  pmcid: null
+  authors:
+    - Jasson Prestiliano
+    - Azhari Azhari
+    - Arif Nurwidyantoro
+  title: Multimodal Deep Learning Violence Detector for Child-Friendly Online Game
+  journal: International Journal of Serious Games
+  citation: "41-61"
+  year: 2026
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LRNOs_AAAAAJ&sortby=pubdate&citation_for_view=LRNOs_AAAAAJ:LPZeul_q3PIC
+  abstract: This paper proposes a multimodal deep learning model that combines visual and verbal cues to detect violent content in child-friendly online games.
+  badges:
+    - person=AN
+    - person=ASN
+
+- id: kurniawan_2026_proq_kg
+  date: 2026-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kabul Kurniawan
+    - Sebastian Kropatschek
+    - Elmar Kiesling
+    - Oskar Gert
+    - Dietmar Winkler
+    - Thilo Sauter
+    - Stefan Biffl
+  title: "ProQ-KG: Integrated Cyber-Physical Production System Knowledge Graph for Quality Issue Analysis"
+  journal: Available at SSRN 5273075
+  citation: null
+  year: 2026
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=n2o10_4AAAAJ&sortby=pubdate&citation_for_view=n2o10_4AAAAJ:FPJr55Dyh1AC
+  abstract: This work introduces ProQ-KG, an integrated knowledge graph framework for coordinating multi-stakeholder quality issue analysis in cyber-physical production systems.
+  badges:
+    - person=KK
+
+- id: noor_2026_digital_health_maturity
+  date: 2026-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Noor MS
+    - Heryawan L
+    - Sanjaya GY
+  title: Analisis Maturitas Kesehatan Digital pada Klinik di Kabupaten Ponorogo
+  journal: "J-REMI: Jurnal Rekam Medik dan Informasi Kesehatan"
+  citation: "7(2):95-106"
+  year: 2026
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=V_iMAWYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=V_iMAWYAAAAJ:j3f4tGmQtD8C
+  abstract: This paper analyzes digital health maturity levels in clinics in Ponorogo to assess readiness for health information system adoption.
+  badges:
+    - person=LH
+
+- id: setianto_2026_cssim_adhd_eeg
+  date: 2026-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Setianto YB
+    - Winarko E
+    - Putra AE
+  title: "Convolutional Structural Similarity Index Measure (CSSIM): A Novel Interpretable Classification Method for ADHD Diagnosis Using EEG"
+  journal: International Journal of Intelligent Engineering and Systems
+  citation: "19(1)"
+  year: 2026
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ytILNmIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ytILNmIAAAAJ:tH6gc1N1XXoC
+  abstract: This study proposes CSSIM as an interpretable EEG-based classification approach for ADHD diagnosis.
+  badges:
+    - person=EW
+
+- id: priyanta_2026_svm_ann_breast_cancer
+  date: 2026-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Priyanta S
+    - Selvyana DR
+    - Salsabila A
+  title: "SVM-ANN: A Hybrid Algorithm for Breast Cancer Early Detection as Benign and Malignant"
+  journal: Scientific Journal of Informatics
+  citation: "13(1)"
+  year: 2026
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSc3dIsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=uSc3dIsAAAAJ:P5F9QuxV20EC
+  abstract: This work introduces a hybrid SVM-ANN approach for early breast cancer classification into benign and malignant categories.
+  badges:
+    - person=SP
+
+- id: mougouei_2026_human_values_github_issues
+  date: 2026-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Mougouei D
+    - Haque A
+    - Nurwidyantoro A
+    - Mougouei E
+    - Fahmideh M
+  title: "Reasoning About Human Values in GitHub Issues: What Can a Large Language Model Reveal?"
+  journal: International Journal of Human-Computer Interaction
+  citation: "1-29"
+  year: 2026
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LRNOs_AAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LRNOs_AAAAAJ:8AbLer7MMksC
+  abstract: This paper investigates how large language models can reason about human values expressed in GitHub issue discussions.
+  badges:
+    - person=AN
+
 # 2025 Publications
+- id: wibowo_2025_sabbs_mobile_infant
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Wibowo AD
+    - Heryawan L
+    - Maaroja W
+    - Wafa MI
+    - Priyanto AW
+  title: "Smart AI Baby Body Scanner (SABBS): A Mobile Application for Infant Height Measurement"
+  journal: Engineering Headway
+  citation: "27:380-390"
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=V_iMAWYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=V_iMAWYAAAAJ:_Qo2XoVZTnwC
+  abstract: This work presents a mobile AI-based system for infant body scanning and height measurement.
+  badges:
+    - person=LH
+
+- id: dani_2025_cme_transit_prediction
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Dani T
+    - Winarko E
+    - Heryawan L
+    - Muhamad J
+    - Kesumaningrum R
+  title: Prediction of coronal mass ejection transit times using machine learning-assisted drag based model
+  journal: Advances in Space Research
+  citation: null
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=V_iMAWYAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=V_iMAWYAAAAJ:e5wmG9Sq2KIC
+  abstract: This study predicts coronal mass ejection transit times using a machine learning-assisted drag-based model.
+  badges:
+    - person=LH
+    - person=EW
+
+- id: wardana_2025_gnn_recommendation_survey
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Wardana AK
+    - Winarko E
+    - Musdholifah A
+  title: A Survey of Graph Neural Network Applications in Personalized Recommendation Systems
+  journal: 1st International Conference on Artificial Intelligence Technology (ICoAIT)
+  citation: null
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ytILNmIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ytILNmIAAAAJ:vDZJ-YLwNdEC
+  abstract: This survey reviews graph neural network approaches and trends in personalized recommendation systems.
+  badges:
+    - person=EW
+
+- id: sofia_2025_indobert_diet_classifier
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Sofia N
+    - Winarko E
+    - Priyanta S
+  title: Incorporating Indobert into DIET Classifier to Enhance Intent and Entity Recognition in Culinary Chatbot
+  journal: ICIC Express Letter
+  citation: "19(11):1-8"
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ytILNmIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ytILNmIAAAAJ:fbc8zXXH2BUC
+  abstract: This paper improves intent and entity recognition in an Indonesian culinary chatbot by integrating IndoBERT into the DIET classifier.
+  badges:
+    - person=EW
+
+- id: sofia_2025_hasa_diet_chatbot
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Sofia N
+    - Winarko E
+    - Priyanta S
+  title: "HASA-DIET: Hybrid Adaptive Sparse Co-attention for Intent and Entity Recognition in Indonesian Restaurant Recommendation Chatbot"
+  journal: International Journal of Intelligent Engineering and Systems
+  citation: "18(9):211-223"
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ytILNmIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ytILNmIAAAAJ:artPoR2Yc-kC
+  abstract: This study proposes HASA-DIET to improve intent and entity recognition in an Indonesian restaurant recommendation chatbot.
+  badges:
+    - person=EW
+
+- id: purwaningsih_2025_spatiotemporal_weight_matrix
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Purwaningsih T
+    - Winarko E
+    - Mustofa K
+  title: Enhancing Accuracy of Spatiotemporal Model Estimation Using Modified Binary Distance Spatiotemporal Weight Matrix
+  journal: International Journal of Intelligent Engineering and Systems
+  citation: "18(8):383-397"
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ytILNmIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ytILNmIAAAAJ:ZzlSgRqYykMC
+  abstract: This paper improves spatiotemporal model estimation accuracy using a modified binary distance spatiotemporal weight matrix.
+  badges:
+    - person=EW
+    - person=KM
+
+- id: tahyudin_2025_stroke_prediction_augmentation
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Tahyudin I
+    - Nurhopipah A
+    - Tikaningsih A
+    - Lestari P
+    - Suryana Y
+    - Winarko E
+  title: "Enhancing stroke prediction models: A mixing of data augmentation and transfer learning for small-scale dataset in machine learning"
+  journal: Computer Methods and Programs in Biomedicine Update
+  citation: "8:1-12"
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ytILNmIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ytILNmIAAAAJ:5MTHONV0fEkC
+  abstract: This study combines data augmentation and transfer learning to improve stroke prediction on small datasets.
+  badges:
+    - person=EW
+
+- id: prasastio_2025_sentiment_ikn_cnn_lstm
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Prasastio FR
+    - Winarko E
+  title: Multi-Domain Sentiment Analysis on Ibu Kota Nusantara (IKN) Tweets Using CNN-LSTM
+  journal: IJCCS (Indonesian Journal of Computing and Cybernetics Systems)
+  citation: "19(2):153-164"
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=ytILNmIAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=ytILNmIAAAAJ:Aul-kAQHnToC
+  abstract: This work performs multi-domain sentiment analysis of IKN-related tweets using a CNN-LSTM architecture.
+  badges:
+    - person=EW
+
+- id: pratiwi_2025_tb_system_implementation
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Pratiwi RD
+    - Alisjahbana B
+    - Subronto YW
+    - Priyanta S
+    - Suharna S
+  title: "Implementation of an information system for tuberculosis in healthcare facilities in Indonesia: evaluation of its effectiveness and challenges"
+  journal: Archives of Public Health
+  citation: "83(1):22"
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSc3dIsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=uSc3dIsAAAAJ:xtRiw3GOFMkC
+  abstract: This paper evaluates effectiveness and implementation challenges of a tuberculosis information system in Indonesian healthcare facilities.
+  badges:
+    - person=SP
+
+- id: pratiwi_2025_tb_data_integration_readiness
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Pratiwi RD
+    - Subronto YW
+    - Priyanta S
+    - Alisjahbana B
+  title: "Towards seamless health data integration: Examining TB information system readiness in Indonesian hospitals"
+  journal: Journal of System and Management Sciences
+  citation: "15(3):135-158"
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=uSc3dIsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=uSc3dIsAAAAJ:_xSYboBqXhAC
+  abstract: This study examines readiness factors for integrating tuberculosis information systems in Indonesian hospitals.
+  badges:
+    - person=SP
+
+- id: firdaus_2025_bert_sentiment_augmentation
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Firdaus AR
+    - Nurwidyantoro A
+  title: Sentiment Analysis of Reviews Using Variants of BERT Models with Data Imbalance Handling Through Augmentation Techniques
+  journal: 2025 International Conference on Information Technology and Computing
+  citation: null
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LRNOs_AAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LRNOs_AAAAAJ:5Ul4iDaHHb8C
+  abstract: This work studies review sentiment classification using BERT variants with augmentation techniques to handle class imbalance.
+  badges:
+    - person=AN
+
+- id: prestiliano_2025_violence_racist_harassment_chat
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Prestiliano J
+    - Azhari A
+    - Nurwidyantoro A
+  title: Enhanced Deep Learning Model for Violence, Racist, and Harassment Chat Detection in Child-Friendly Online Game
+  journal: 2025 International Seminar on Intelligent Technology and Its Applications
+  citation: null
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=LRNOs_AAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=LRNOs_AAAAAJ:sSrBHYA8nusC
+  abstract: This paper presents a deep learning model for detecting violent, racist, and harassment chat in child-friendly online games.
+  badges:
+    - person=AN
+    - person=ASN
+
+- id: herwanto_2025_user_story_quality_llm
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+    - Muhamad WL
+    - Maaroja W
+  title: Enhancing Automated User Story Quality Assessment with Large Language Models
+  journal: 2025 IEEE International Conference on Data and Software Engineering (ICoDSE)
+  citation: null
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jan9BnkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jan9BnkAAAAJ:NaGl4SEjCO4C
+  abstract: This work improves automated user story quality assessment by leveraging large language models.
+  badges:
+    - person=GBH
+
+- id: herwanto_2025_privacy_policy_dataset
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Herwanto GB
+    - Kurniawan K
+    - Prastowo BN
+    - Isnaini U
+    - Putri E
+    - Wijaya SH
+  title: "Constructing and Analyzing Indonesian Privacy Policies: a Dataset for Privacy Research"
+  journal: 2025 IEEE 2nd International Conference on Cryptography, Informatics, and Cybersecurity
+  citation: null
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jan9BnkAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=jan9BnkAAAAJ:35N4QoGY0k4C
+  abstract: This paper introduces and analyzes an Indonesian privacy policy dataset to support privacy research.
+  badges:
+    - person=GBH
+    - person=KK
+
+- id: adi_2025_decentralized_genai_solid
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Adi AC
+    - Anggita D
+    - Kurniawan K
+  title: Decentralized Generative AI Framework with Solid
+  journal: International Semantic Web Conference (ISWC)
+  citation: null
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=n2o10_4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=n2o10_4AAAAJ:PVjk1bu6vJQC
+  abstract: This work proposes a decentralized generative AI framework built with Solid principles.
+  badges:
+    - person=KK
+
+- id: kurniawan_2025_agcyrag_security_analysis
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Kurniawan K
+    - Ardian RF
+    - Kiesling E
+    - Ekelhart A
+  title: "AgCyRAG: an Agentic Knowledge Graph based RAG Framework for Automated Security Analysis"
+  journal: International Semantic Web Conference (ISWC)
+  citation: null
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=n2o10_4AAAAJ&pagesize=100&sortby=pubdate&citation_for_view=n2o10_4AAAAJ:hCrLmN-GePgC
+  abstract: This paper presents AgCyRAG, an agentic knowledge-graph-based RAG framework for automated security analysis.
+  badges:
+    - person=KK
+
+- id: herwanto_2025_privacy_pdp_law
+  date: 2025-12-03
+  pmid: null
+  pmcid: null
+  authors:
+    - Guntur Budi Herwanto
+    - Arif Nurwidyantoro
+    - Annisa Maulida Ningtyas
+    - Muhammad Oriza Nurfajri
+    - Gerald Quirchmayr
+    - A Min Tjoa
+  title: "Privacy Patterns and Objectives for Legally Compliant Software Based on the Indonesia's PDP Law"
+  journal: International Conference on Information Integration and Web Intelligence
+  citation: "266-281"
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=jan9BnkAAAAJ&sortby=pubdate&citation_for_view=jan9BnkAAAAJ:O3NaXMp0MMsC
+  abstract: This paper maps Indonesia's personal data protection regulation to privacy objectives and implementation patterns for legally compliant software engineering.
+  badges:
+    - person=GBH
+    - person=AN
+
 - id: dewi_2025_diesel_backup_forecasting
   date: 2025-01-01
   pmid: null
@@ -217,19 +696,19 @@
     - person=IAB
 
 - id: bustoni_2024_tap_perception
-  date: 2024-01-01
+  date: 2025-10-15
   pmid: null
   pmcid: null
   authors:
-    - Bustoni IA
-    - McGill M
-    - Brewster S
-  title: The Perception of a Tap Using Auditory Augmented Reality to Alter the Contact Properties of a Physical Object
+    - Isna Alfi Bustoni
+    - Mark McGill
+    - Stephen Brewster
+  title: "The Perception of a Tap: Using Auditory Augmented Reality to Alter the Contact Properties of a Physical Object"
   journal: ACM Transactions on Computer-Human Interaction
-  citation: null
-  year: 2024
-  url: null
-  abstract: This research demonstrates how auditory augmented reality can be used to alter users' perceptions of contact properties when interacting with physical objects, investigating the relationship between auditory and tactile feedback.
+  citation: "32(5):1-33"
+  year: 2025
+  url: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=DyrzFsUAAAAJ&sortby=pubdate&citation_for_view=DyrzFsUAAAAJ:Se3iqnhoufwC
+  abstract: This study analyzes how auditory augmented reality changes perceived contact properties and interaction characteristics of physical objects.
   badges:
     - person=IAB
 
