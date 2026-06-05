@@ -35,6 +35,80 @@
     - person=KM
 
 # 2026 Publications
+- id: herwanto_2026_pdpa_thailand_gdpr
+  date: 2026-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - W Krathu
+    - S Sathapornvajana
+    - M Maliyaem
+    - H Ketmaneechairat
+    - Guntur Budi Herwanto
+    - Arif Nurwidyantoro
+    - Annisa Maulida Ningtyas
+  title: "Towards a Data Model for Mapping the Personal Data Protection Act (PDPA) of Thailand onto the European General Data Protection Legislation (GDPR)"
+  journal: ACM
+  citation: null
+  year: 2026
+  url: null
+  abstract: This work proposes a data model for mapping Thailand's PDPA requirements onto the European GDPR framework, supporting cross-jurisdictional privacy compliance analysis.
+  badges:
+    - person=GBH
+    - person=AN
+
+- id: kurniawan_2026_agento_ontology
+  date: 2026-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - A Ekelhart
+    - Kabul Kurniawan
+    - FJ Ekaputra
+    - E Kiesling
+  title: "AgentO: An Ontology for Modeling Agentic AI Systems"
+  journal: European Semantic Web Conference
+  citation: "298-320"
+  year: 2026
+  url: null
+  abstract: This paper presents AgentO, an ontology for formally modeling agentic AI systems, enabling semantic interoperability and reasoning over agent behaviors and capabilities.
+  badges:
+    - person=KK
+
+- id: adi_2026_oprime_odrl_privacy
+  date: 2026-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - AC Adi
+    - U Isnaini
+    - M Hanif
+    - Kabul Kurniawan
+  title: "O-Prime: An ODRL-based Privacy Monitoring Framework for Decentralized Environments"
+  journal: Extended Semantic Web Conference (ESWC) - ODRL and beyond
+  citation: null
+  year: 2026
+  url: null
+  abstract: This paper proposes O-Prime, an ODRL-based framework for monitoring privacy policies in decentralized environments, enabling automated compliance checking over distributed data spaces.
+  badges:
+    - person=KK
+
+- id: saputro_2026_generative_chatbot_transformer
+  date: 2026-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - W Saputro
+    - Edi Winarko
+  title: "Generative Chatbot Berbahasa Indonesia Dengan Menggunakan Arsitektur Transformer"
+  journal: Journal of Applied Computer Science and Technology
+  citation: "7(1):1-8"
+  year: 2026
+  url: null
+  abstract: This work develops an Indonesian-language generative chatbot using Transformer architecture, addressing challenges in building conversational AI for the Indonesian language.
+  badges:
+    - person=EW
+
 - id: dani_2026_multimodal_imf_forecasting
   date: 2026-02-01
   pmid: null
@@ -186,6 +260,28 @@
     - person=AN
 
 # 2025 Publications
+- id: herwanto_2025_gdpr_pdpa_comparison
+  date: 2025-01-01
+  pmid: null
+  pmcid: null
+  authors:
+    - Guntur Budi Herwanto
+    - Arif Nurwidyantoro
+    - Annisa Maulida Ningtyas
+    - Dyah Utami Kusumastuti Putri
+    - W Krathu
+    - Gerald Quirchmayr
+    - A Min Tjoa
+  title: "A Comparative Analysis of GDPR, Thailand's PDPA, and Indonesia's UU-PDP"
+  journal: null
+  citation: null
+  year: 2025
+  url: null
+  abstract: This paper comparatively analyzes the GDPR, Thailand's PDPA, and Indonesia's UU-PDP, identifying similarities, differences, and implications for cross-jurisdictional privacy compliance in software engineering.
+  badges:
+    - person=GBH
+    - person=AN
+
 - id: wibowo_2025_sabbs_mobile_infant
   date: 2025-01-01
   pmid: null
