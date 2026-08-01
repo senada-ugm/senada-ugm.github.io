@@ -1,7 +1,7 @@
 #-------------------------------------------------------------------------------------
 # site settings
 #-------------------------------------------------------------------------------------
-version: 13 # increment version to force a site rebuild and update Recent News even if content is unchanged
+version: 14 # increment version to force a site rebuild and update Recent News even if content is unchanged
 title: Software Engineering and Data Lab # in top navigation bar (navbar) and <head>
 description: Software Engineering and Data Lab (SENADA), Universitas Gadjah Mada # description in <head>
 author: SENADA-UGM Lab              # for copyright statement in footer

@@ -227,11 +227,11 @@
 
   .person-photo {
     align-items: end;
-    aspect-ratio: 3 / 4;
     background:
       linear-gradient(180deg, #f8fbfd 0%, #edf4f8 100%);
     border-bottom: 1px solid var(--stroke);
     display: flex;
+    height: clamp(240px, 28vw, 320px);
     justify-content: center;
     overflow: hidden;
     padding: 0.75rem 0.75rem 0;
