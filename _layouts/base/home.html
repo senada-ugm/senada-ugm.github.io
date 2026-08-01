@@ -5,35 +5,193 @@ remark: See also page.layout == 'home' in head.html and jumbotron.html
 date: 2021-10-05
 ---
 
-<div class="row">
-  <div class="col">
-    <div class="row">
-
-      <!-- from home.md (top left) -->
-      <div class="col">
-        {{ content }}
+<section class="home-band home-band-intro">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-lg-7 home-intro-copy">
+        {% if page.intro_eyebrow %}
+        <p class="home-eyebrow">{{ page.intro_eyebrow }}</p>
+        {% endif %}
+        {% if page.intro_heading %}
+        <h2 class="home-section-title">{{ page.intro_heading }}</h2>
+        {% endif %}
+        {% for paragraph in page.intro_paragraphs %}
+        <p>{{ paragraph }}</p>
+        {% endfor %}
       </div>
-
-      <!-- news posts (to right, or in middle) -->
-      {% assign max_posts = site.max_posts_home %}
-      {% include lists/news-ticker.html %}
+      <div class="col-lg-5 mt-4 mt-lg-0">
+        <aside class="home-highlight-panel">
+          {% if page.highlight_heading %}
+          <h3>{{ page.highlight_heading }}</h3>
+          {% endif %}
+          {% if page.highlight_text %}
+          <p>{{ page.highlight_text }}</p>
+          {% endif %}
+          {% if page.highlight_points %}
+          <ul class="home-highlight-list">
+            {% for point in page.highlight_points %}
+            <li>{{ point }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+          <div class="home-highlight-actions">
+            <a class="btn btn-outline-primary" href="{{ '/projects/' | relative_url }}">Projects</a>
+            <a class="btn btn-outline-secondary" href="{{ '/people/' | relative_url }}">People</a>
+          </div>
+        </aside>
+      </div>
     </div>
+  </div>
+</section>
 
-    <!-- projects (at bottom) -->
-    {% if site.max_projects_home > 0 %}
-    <hr>
-    <h3><a class="section-header-link" href="{{ 'projects' | relative_url }}">
-      Active Projects 
-      <i class="fa fa-caret-right section-header-caret"></i>
-    </a></h3>  
-    <div class="row cards mt-4">
-    {% assign sorted_projects = site.projects | where_exp: "item", "item.active" | sort: "order" %}
-    {% for project in sorted_projects limit:site.max_projects_home %}
-      <div class="col-md-6 col-lg-4">
+<section class="home-band home-band-muted">
+  <div class="container">
+    <div class="home-band-heading">
+      <p class="home-eyebrow">Research Impact</p>
+      <h2 class="home-section-title">A growing laboratory for software, data, and intelligent systems research</h2>
+    </div>
+    <div class="row impact-grid">
+      {% assign active_people = site.data.people | where: "status", "active" %}
+      {% assign active_projects = site.projects | where: "active", true %}
+      {% assign collaborators = page.collaborators | default: empty %}
+      {% assign stats = "Publications|" | append: site.data.publications.size | append: ",Projects|" | append: site.projects.size | append: ",Researchers|" | append: active_people.size | append: ",News Updates|" | append: site.newsfeed.size %}
+      {% assign stat_items = stats | split: "," %}
+      {% for item in stat_items %}
+        {% assign parts = item | split: "|" %}
+        <div class="col-6 col-lg-3">
+          <div class="stat-card">
+            <span class="stat-value">{{ parts[1] }}</span>
+            <span class="stat-label">{{ parts[0] }}</span>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-band home-band-research">
+  <div class="container">
+    <div class="home-band-heading home-band-heading-wide">
+      <p class="home-eyebrow">Research Areas</p>
+      <h2 class="home-section-title">Current directions across software, data, AI, health, and society</h2>
+    </div>
+    <div class="row home-research-grid">
+      {% for area in page.research_areas %}
+      <div class="col-md-6 col-xl-3 d-flex">
+        <article class="home-research-card">
+          <span class="icon-wrap">{% include icon.html name=area.icon size=22 %}</span>
+          {% if area.kicker %}
+          <p class="card-kicker">{{ area.kicker }}</p>
+          {% endif %}
+          <h3>{{ area.title }}</h3>
+          <p>{{ area.description }}</p>
+        </article>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-band home-band-muted">
+  <div class="container">
+    <div class="home-band-heading home-band-heading-split">
+      <div>
+        <p class="home-eyebrow">Featured Projects</p>
+        <h2 class="home-section-title">Research translated into practical systems and collaborations</h2>
+      </div>
+      <div class="home-band-actions">
+        <a class="btn btn-outline-primary" href="{{ '/projects/' | relative_url }}">View All Projects</a>
+      </div>
+    </div>
+    <div class="row cards home-project-grid">
+      {% assign sorted_projects = site.projects | sort: "order" %}
+      {% for project in sorted_projects limit:6 %}
+      <div class="col-md-6 col-xl-4">
         {% include cards/project-card.html %}
       </div>
-    {% endfor %}
+      {% endfor %}
     </div>
-    {% endif %}
   </div>
-</div>
+</section>
+
+<section class="home-band">
+  <div class="container">
+    <div class="home-band-heading home-band-heading-split">
+      <div>
+        <p class="home-eyebrow">Featured Publications</p>
+        <h2 class="home-section-title">Recent scholarly output from SENADA researchers</h2>
+      </div>
+      <div class="home-band-actions">
+        <a class="btn btn-outline-primary" href="{{ '/publications/' | relative_url }}">Browse Publications</a>
+      </div>
+    </div>
+    <div class="row home-publication-grid">
+      {% assign sorted_publications = site.data.publications | sort: "date" | reverse %}
+      {% for publication in sorted_publications limit:4 %}
+      <div class="col-lg-6 d-flex">
+        {% include cards/publication-card.html %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-band home-band-muted">
+  <div class="container">
+    <div class="home-band-heading home-band-heading-split">
+      <div>
+        <p class="home-eyebrow">News</p>
+        <h2 class="home-section-title">Updates, collaborations, and lab milestones</h2>
+      </div>
+      <div class="home-band-actions">
+        <a class="btn btn-outline-primary" href="{{ '/newsfeed/' | relative_url }}">View All News</a>
+      </div>
+    </div>
+    <div class="row cards home-news-grid">
+      {% assign latest_posts = site.newsfeed | sort: "date" | reverse %}
+      {% for post in latest_posts limit:site.max_posts_home %}
+      <div class="col-md-6 col-xl-4">
+        {% include cards/post-card.html %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-band">
+  <div class="container">
+    <div class="home-band-heading">
+      <p class="home-eyebrow">Collaborators</p>
+      <h2 class="home-section-title">Working with academic, public-sector, and international partners</h2>
+    </div>
+    <div class="row collaborator-grid">
+      {% for collaborator in page.collaborators %}
+      <div class="col-6 col-md-4 col-lg-2">
+        <div class="collaborator-card">{{ collaborator }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="home-band home-band-blue">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <p class="home-eyebrow">Join SENADA</p>
+        <h2 class="home-section-title">Collaborate on software and data research with real-world impact</h2>
+        <p class="home-section-text">SENADA welcomes prospective students, visiting researchers, collaborators, and industry partners interested in rigorous, useful research at the intersection of software engineering and data-intensive systems.</p>
+      </div>
+      <div class="col-lg-5 mt-4 mt-lg-0">
+        <div class="join-card">
+          <h3>Start a Conversation</h3>
+          <p>Reach out for graduate supervision, joint projects, research visits, and applied technology partnerships.</p>
+          <div class="join-actions">
+            <a class="btn btn-primary" href="{{ '/contact/' | relative_url }}">Contact SENADA</a>
+            <a class="btn btn-outline-primary" href="{{ '/people/' | relative_url }}">Meet The Team</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

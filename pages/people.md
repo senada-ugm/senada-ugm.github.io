@@ -6,5 +6,4 @@ banner_image: null
 permalink: /people/
 ---
 
-<!-- Content here would show up above the people on your team -->
-
+SENADA brings together faculty and researchers working across software engineering, data science, medical informatics, natural language processing, knowledge systems, security, and immersive computing.

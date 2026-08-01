@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  senada-web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: senada-ugm-website
+    ports:
+      - "4000:80"
+    restart: unless-stopped
+
+  # Optional: live-reload dev server (uncomment untuk development)
+  # senada-dev:
+  #   image: ruby:3.2-slim
+  #   container_name: senada-ugm-dev
+  #   working_dir: /srv/jekyll
+  #   ports:
+  #     - "4000:4000"
+  #   volumes:
+  #     - .:/srv/jekyll
+  #   command: bash -c "apt-get update && apt-get install -y build-essential git libffi-dev && gem install bundler && bundle install && bundle exec jekyll serve --host 0.0.0.0 --livereload"

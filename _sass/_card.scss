@@ -1,7 +1,10 @@
+// ============================================================
+// Cards
+// ============================================================
 
-.cards {
-  // Mimics Bootstrap .card-deck, stretching cards to equal height, but without
-  // stretching width when there are fewer cards on one row (cards remain equal width)
+.cards,
+.people,
+.publications {
   div[class*="col"] {
     display: flex;
     align-items: stretch;
@@ -9,198 +12,313 @@
 }
 
 .card {
-  margin-bottom: $grid-gutter-width;
-  min-width: 100%; // Use allowed width even if content is smaller
-  border: 1px solid rgba(15, 23, 42, 0.11);
-  border-radius: 0.95rem;
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.05);
-  background-color: rgba(255, 255, 255, 0.94);
-  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  background: #fff;
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  min-width: 100%;
+  overflow: hidden;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
 
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 18px 28px rgba(15, 23, 42, 0.1);
-    border-color: rgba(37, 99, 235, 0.24);
-  }
-
-  .card-img-top {
-    height: 150px;
-    object-fit: cover;
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
-      line-height: 150px;
-    }
-  }
-
-  .card-subtitle {
-    color: #5b6878;
-    margin-bottom: 0.5rem;
-  }
-
-  a:hover {
-    text-decoration: none;
+    border-color: rgba(7, 61, 97, 0.24);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
   }
 
   .card-body {
-    padding: 1.05rem 1.1rem;
-
-    a {
-      color: $body-color;
-    }   
-  }    
-
-  .card-footer {
-    background: inherit;
-    border-top: none;
-
-    // Smaller badge then the one defined in _jumbotron.scss
-    .badge {
-      border: 1px solid rgba(37, 99, 235, 0.5);
-      font-family: $font-family-base;
-      // text-transform: capitalize;
-
-      &:hover,
-      &:focus {
-        border: 1px solid rgba(37, 99, 235, 0.8);
-      }
-    }
+    padding: 1.5rem;
   }
-}
-
-.project-top {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: white;
-  border-radius: 0.95rem 0.95rem 0 0;
-  color: #fff;
-  text-shadow: none;
-  position: relative;
-  text-align: center;
-  padding: 0 10px;
-  white-space: nowrap;
-  overflow-x: clip;
-
-  h3 {
-    font-family: $headings-font-family;
-    font-size: 1.02rem;
-    line-height: 150px;
-    margin: 0;
-    font-weight: 650;
-    letter-spacing: -0.01em;
-    color: #f8fafc;
-    text-shadow: 0 1px 2px rgba(15, 23, 42, 0.5);
-  }
-}
-
-// projects 
-.project-card {
-  border-radius: 0.95rem;
-  overflow: hidden;
 
   .card-title {
-    font-family: $headings-font-family;
-    font-size: 1.03rem;
-    line-height: 1.35;
-    margin: 0 0 0.55rem;
-    color: #0f172a;
+    color: var(--ink-strong);
+    font-size: 1.18rem;
+    line-height: 1.25;
+    margin-bottom: 0.6rem;
   }
 
   .card-text {
-    font-size: 0.92rem;
-    line-height: 1.58;
-    color: #475569;
+    color: var(--ink-muted);
+    font-size: 0.96rem;
+    line-height: 1.65;
 
     p {
       margin-bottom: 0;
     }
+  }
 
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      font-size: 0.95rem;
-      line-height: 1.45;
-      margin: 0 0 0.35rem;
-      font-family: $headings-font-family;
-      color: #1f2937;
+  .card-footer {
+    background: #fff;
+    border-top: 1px solid var(--stroke);
+    padding: 1rem 1.5rem;
+  }
+
+  a {
+    border-bottom: none;
+    text-decoration: none;
+  }
+}
+
+.project-card,
+.post-card,
+.publication-card,
+.person-card {
+  height: 100%;
+}
+
+.project-top,
+.post-thumb {
+  background-color: var(--senada-blue-soft);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 190px;
+  overflow: hidden;
+  position: relative;
+}
+
+.project-top::after,
+.post-thumb::after {
+  background: linear-gradient(180deg, rgba(3, 33, 53, 0) 35%, rgba(3, 33, 53, 0.62));
+  content: "";
+  inset: 0;
+  position: absolute;
+}
+
+.project-top h3 {
+  bottom: 1rem;
+  color: #fff;
+  font-size: 1.12rem;
+  left: 1rem;
+  margin: 0;
+  position: absolute;
+  right: 1rem;
+  text-shadow: 0 2px 10px rgba(3, 33, 53, 0.28);
+  z-index: 1;
+}
+
+.project-card .card-body,
+.post-card .card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-meta,
+.post-meta {
+  color: var(--ink-subtle);
+  font-size: 0.82rem;
+  font-weight: 750;
+  margin-bottom: 0.7rem;
+  text-transform: uppercase;
+}
+
+.card-link-row {
+  margin-top: auto;
+  padding-top: 1rem;
+}
+
+.read-more-link {
+  align-items: center;
+  color: var(--senada-blue);
+  display: inline-flex;
+  font-weight: 800;
+  gap: 0.35rem;
+
+  &:hover {
+    color: var(--senada-blue-deep);
+    text-decoration: none;
+  }
+}
+
+.post-card {
+  .post-thumb {
+    height: 172px;
+  }
+
+  h5 {
+    font-size: 1.12rem;
+    margin-bottom: 0.65rem;
+  }
+
+  h6 {
+    color: var(--ink-muted);
+    font-family: $font-family-base;
+    font-size: 0.95rem;
+    font-weight: 450;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
+
+.publication-card {
+  .card-body {
+    padding: 1.35rem 1.5rem;
+  }
+
+  .publication-title {
+    color: var(--ink-strong);
+    display: block;
+    font-size: 1.05rem;
+    font-weight: 800;
+    line-height: 1.35;
+    margin-bottom: 0.6rem;
+  }
+
+  .publication-authors,
+  .publication-venue,
+  .publication-abstract {
+    color: var(--ink-muted);
+    font-size: 0.94rem;
+    line-height: 1.6;
+  }
+
+  .publication-venue {
+    margin-top: 0.35rem;
+  }
+
+  .publication-abstract {
+    border-left: 3px solid var(--senada-blue-soft);
+    margin-top: 0.85rem;
+    padding-left: 1rem;
+  }
+}
+
+.publication-tools,
+.year-stats {
+  background: #fff;
+  border: 1px solid var(--stroke);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  padding: 1.25rem;
+}
+
+.year-stats h4 {
+  color: var(--senada-blue);
+  font-size: 2rem;
+  margin: 0;
+}
+
+.year-header {
+  align-items: center;
+  border-bottom: 1px solid var(--stroke);
+  color: var(--ink-strong);
+  display: flex;
+  font-size: 1.3rem;
+  gap: 0.7rem;
+  justify-content: space-between;
+  padding-bottom: 0.75rem;
+  width: 100%;
+}
+
+.year-count {
+  color: var(--ink-subtle);
+  font-family: $font-family-base;
+  font-size: 0.85rem;
+  font-weight: 650;
+}
+
+.publication-no-results .alert {
+  border-radius: var(--radius-lg);
+}
+
+.person-card {
+  display: flex;
+  flex-direction: column;
+
+  .person-photo {
+    align-items: end;
+    aspect-ratio: 3 / 4;
+    background:
+      linear-gradient(180deg, #f8fbfd 0%, #edf4f8 100%);
+    border-bottom: 1px solid var(--stroke);
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0.75rem 0.75rem 0;
+    position: relative;
+  }
+
+  .person-photo img {
+    bottom: 0;
+    height: auto;
+    max-height: calc(100% - 0.75rem);
+    max-width: calc(100% - 1.5rem);
+    object-fit: contain;
+    object-position: center bottom;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+  }
+
+  .person-role {
+    color: var(--senada-blue);
+    font-size: 0.88rem;
+    font-weight: 750;
+    margin-bottom: 0.65rem;
+  }
+
+  .person-description {
+    color: var(--ink-muted);
+    font-size: 0.94rem;
+    line-height: 1.58;
+  }
+
+  .person-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin-top: auto;
+    padding-top: 1rem;
+  }
+
+  .person-links a {
+    align-items: center;
+    background: var(--surface-1);
+    border: 1px solid var(--stroke);
+    border-radius: 999px;
+    color: var(--senada-blue);
+    display: inline-flex;
+    height: 36px;
+    justify-content: center;
+    width: 36px;
+
+    &:hover,
+    &:focus {
+      background: var(--senada-blue);
+      border-color: var(--senada-blue);
+      color: #fff;
+      text-decoration: none;
     }
   }
 }
-.project-card:hover {
-  box-shadow: 0 18px 30px rgba(15, 23, 42, 0.12);
-  border: 1px solid rgba(15, 23, 42, 0.14);
-}
 
-// newsfeed posts
-.post-card {
-  border: 1px solid rgba(15, 23, 42, 0.1);
-  border-radius: 0.95rem;
-  padding: 0.45rem;
-
-  .card-body {
-    padding: 0;
-    a {
-      color: $body-color;
-    }    
-  }
-  .card-footer {
-    padding: 0;
-  }
-}
-.post-card:hover {
-  box-shadow: 0 16px 28px rgba(15, 23, 42, 0.1);
-  border-color: rgba(37, 99, 235, 0.24);
-}
-
-// publications
-.publication-card, .funding-card, .resource-card, .event-card {
-  border: 1px solid rgba(15, 23, 42, 0.1);
-  border-radius: 0.95rem;
-
-  .external-link {
-    color: $link-color !important; 
-  }
-
-  .external-link:hover {
-    color: lighten($link-color, 10%) !important;
-  }
-}
-
+.card .badge,
 .recent-news {
-  display: inline-block;
-  color: #e8eef5 !important;
-  border: 1px solid rgba(15, 23, 42, 0.34);
-  border-radius: 999px;
-  width: 110px;
-  height: 26px;
-  line-height: 22px;
-  font-size: 0.74rem;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  background: var(--surface-1);
+  border: 1px solid var(--stroke);
+  color: var(--senada-blue);
+  font-size: 0.76rem;
+  font-weight: 800;
+
+  &:hover,
+  &:focus {
+    background: var(--senada-blue);
+    border-color: var(--senada-blue);
+    color: #fff !important;
+    text-decoration: none;
+  }
+}
+
+.faculty-photo {
+  height: 42px;
+  object-fit: cover;
+  width: 42px;
+}
+
+.faculty-photo-name {
+  color: var(--ink-muted);
+  font-size: 0.72rem;
+  margin-top: 0.25rem;
   text-align: center;
-  font-family: $font-family-monospace;
-  background-color: rgba(15, 23, 42, 0.72);
-}
-.recent-news:hover {
-  color: white !important;
-  border-color: rgba(37, 99, 235, 0.68);
-  background-color: rgba(15, 23, 42, 0.85);
-  text-decoration: none;
-}
-.section-header-link {
-  color: $body-color !important;
-  text-decoration: none !important;
-  font-family: $headings-font-family;
-  font-weight: 650;
-  letter-spacing: -0.01em;
-}
-.section-header-link:hover {
-  color: $custom_link_color !important;
-  text-shadow: none;
 }

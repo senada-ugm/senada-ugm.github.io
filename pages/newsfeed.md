@@ -1,10 +1,9 @@
 ---
 layout: newsfeed
-title: News Blog
-subtitle: null
+title: News
+subtitle: Research updates, collaborations, publications, and lab milestones
 banner_image: /assets/images/vintage-newspaper-print-downsize.jpg
 permalink: /newsfeed/
 ---
 
-<!-- Content here would show up above your news feed -->
-
+Follow recent SENADA activity across publications, projects, community service, and international research collaboration.

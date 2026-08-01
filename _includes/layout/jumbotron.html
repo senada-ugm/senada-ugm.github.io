@@ -11,12 +11,23 @@
   <div class="container">
     <div class="row">
       <div class="col-md-10 col-lg-8 mx-auto">
+        {% if page.url == '/' and site.logo %}
+        <img class="hero-logo" src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo">
+        {% endif %}
       
         <!-- page title + title2 + subtitle -->
-        <h1{% if page.layout == 'home' %} class="home"{% endif %}>
-          {{ title_prefix }}{{ page.title }}{% if page.title2 %}<br>{{ page.title2 }}{% endif %}
+        <h1{% if page.url == '/' %} class="home"{% endif %}>
+          {{ title_prefix }}{{ page.title }}{% if page.title2 %}<br><span class="title2">{{ page.title2 }}</span>{% endif %}
         </h1>
         <div class="lead">{{ page.subtitle }}</div>
+
+        {% if page.url == '/' %}
+        <div class="hero-actions mt-4">
+          <a class="btn btn-primary" href="{{ '/projects/' | relative_url }}">Explore Research</a>
+          <a class="btn btn-outline-primary" href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a class="btn btn-outline-primary" href="{{ '/contact/' | relative_url }}">Join SENADA</a>
+        </div>
+        {% endif %}
         
         <!-- newsfeed post date -->
         {% if page.date %}

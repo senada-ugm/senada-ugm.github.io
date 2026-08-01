@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
   {% include layout/head.html %}
-  <body class="layout-{{ page.layout | default: 'default' }}">
+  <body class="layout-{{ page.layout | default: 'default' }}{% if page.url == '/' %} page-home{% endif %}">
+    <a class="sr-only sr-only-focusable" href="#main-content">Skip to main content</a>
     {% include color/svg-color-defs.html %}    
     {% include layout/navbar.html %}
-    <main>
+    <main id="main-content">
       {% include layout/jumbotron.html %}
+      {% if page.url == '/' %}
+      <div class="content home-content">
+        {{ content | replace: '<table', '<table class="table"' }}
+      </div>
+      {% else %}
       <div class="container content content-shell">
         <!-- { % include color/color-demo.html % } -->
         {{ content | replace: '<table', '<table class="table"' }}
       </div>
+      {% endif %}
     </main>
     {% include layout/footer.html %}
   </body>

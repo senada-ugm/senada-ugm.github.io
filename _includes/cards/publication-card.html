@@ -5,64 +5,61 @@
 {% assign slug = publication.id %}
 {% include base/optional-item-link-prep.html %}
 
-{% capture link_html %}
-    <div><strong>{{ publication.title }}</strong></div>  
-    <div class="mt-1">{{ publication.authors | join: ", " }}</div>
-    <div class="mt-1">
-      <i>{{ publication.journal }}</i>
-      {{ publication.citation }}
-      ({{ publication.year }})
-    </div>
-{% endcapture %}
-
 <a id="{{ publication.id }}"></a>
-<div class="card publication-card mb-3">
+<article class="card publication-card">
   <div class="card-body">
+    <div class="publication-meta">
+      {% if publication.year %}{{ publication.year }}{% endif %}
+      {% if publication.journal %} · {{ publication.journal }}{% endif %}
+    </div>
+    {% capture link_html %}
+      <span class="publication-title">{{ publication.title }}</span>
+      <div class="publication-authors">{{ publication.authors | join: ", " }}</div>
+      <div class="publication-venue">
+        {% if publication.journal %}<em>{{ publication.journal }}</em>{% endif %}
+        {% if publication.citation %} {{ publication.citation }}{% endif %}
+      </div>
+    {% endcapture %}
     {% include base/optional-item-link.html link_html=link_html %}
 
-    <span class="float-right">{% include base/recent-news-link.html %}</span>
-    
-    <div class="mt-1">
+    <div class="mt-2">
       {% include base/publication-links.html %}
     </div>
 
-    {% if page.layout == 'publications' %}
-    {% capture link_html %} 
-        <div class="mt-1 pl-4">{{ publication.abstract | truncatewords: site.max_words_card_long }}</div>
+    {% if page.layout == 'publications' and publication.abstract %}
+    {% capture link_html %}
+      <div class="publication-abstract">{{ publication.abstract | truncatewords: site.max_words_card_long }}</div>
     {% endcapture %}
     {% include base/optional-item-link.html link_html=link_html %}
-    
-    <!-- Faculty Photos Section -->
-    {% if publication.badges %}
-      <div class="mt-3">
-        <small class="text-muted">SENADA-UGM Faculty:</small>
-        <div class="d-flex flex-wrap mt-1">
-          {% for badge in publication.badges %}
-            {% if badge contains 'person=' %}
-              {% assign person_id = badge | remove: 'person=' %}
-              {% for person in site.data.people %}
-                {% if person.id == person_id and person.status == 'active' %}
-                  <div class="faculty-photo-badge mr-2 mb-2">
-                    <img src="{{ person.image | relative_url }}" 
-                         alt="{{ person.name }}" 
-                         class="rounded-circle faculty-photo"
-                         title="{{ person.name }} - {{ person.description }}">
-                    <div class="faculty-photo-name">
-                      {{ person.name | split: ' ' | first }}
-                    </div>
-                  </div>
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-          {% endfor %}
-        </div>
-      </div>
     {% endif %}
-    {% endif %}  
+
+    {% if page.layout == 'publications' and publication.badges %}
+    <div class="mt-3">
+      <small class="text-muted">SENADA researchers</small>
+      <div class="d-flex flex-wrap mt-2">
+        {% for badge in publication.badges %}
+          {% if badge contains 'person=' %}
+            {% assign person_id = badge | remove: 'person=' %}
+            {% for person in site.data.people %}
+              {% if person.id == person_id and person.status == 'active' %}
+                <div class="faculty-photo-badge mr-2 mb-2">
+                  <img src="{{ person.image | relative_url }}"
+                       alt="{{ person.name }}"
+                       class="rounded-circle faculty-photo"
+                       title="{{ person.name }} - {{ person.description }}">
+                  <div class="faculty-photo-name">{{ person.name | split: ' ' | first }}</div>
+                </div>
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
   </div>
 
   {% if page.layout == 'publications' %}
-    {% assign item = publication %}    
-    {% include base/badges.html %}  
-  {% endif %}  
-</div>
+  {% assign item = publication %}
+  {% include base/badges.html %}
+  {% endif %}
+</article>

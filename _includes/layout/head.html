@@ -2,28 +2,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  {% if page.layout == 'home' %}
+  {% if page.url == '/' %}
     <title>{{ site.title }}</title>
   {% else %}
-    <title>{{ page.title }} - {{ site.title }}</title>
+    <title>{{ page.title }} — {{ site.title }}</title>
   {% endif %}
-  
-  <meta name="description" content="{{ site.description }}">
+
+  {% assign page_description = page.description | default: page.subtitle | default: site.description %}
+  <meta name="description" content="{{ page_description | strip_html | normalize_whitespace }}">
   <meta name="author" content="{{ site.author }}">
 
-  <!-- CSS -->
-  <!-- Bootstrap is included in main.css -->
-  <link rel="stylesheet" href="{{ '/assets/theme/css/main.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/theme/css/font-awesome.min.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/theme/css/pygments.css' | relative_url }}">
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:description" content="{{ page_description | strip_html | normalize_whitespace }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  {% if page.banner_image or page.image or site.logo %}
+  <meta property="og:image" content="{{ page.banner_image | default: page.image | default: site.logo | absolute_url }}">
+  {% endif %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{{ page_description | strip_html | normalize_whitespace }}">
 
-  <!-- Fonts -->
-  <!-- see _sass/_content.scss and _sass/_variables.scss -->
-  <!-- <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet"> -->
+  <!-- CSS (Bootstrap included in main.css) -->
+  <link rel="stylesheet" href="{{ '/assets/theme/css/main.css' | relative_url }}?v={{ site.version }}">
+  <link rel="stylesheet" href="{{ '/assets/theme/css/pygments.css' | relative_url }}?v={{ site.version }}">
+
+  <!-- Typography -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Public+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;700;750;800;850&display=swap" rel="stylesheet">
 
   <!-- Feeds -->
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - RSS feed" href="{{ '/feed.xml' | absolute_url }}" >
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }} — RSS feed" href="{{ '/feed.xml' | absolute_url }}">
 </head>

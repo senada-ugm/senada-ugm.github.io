@@ -6,13 +6,13 @@ remarks: See also page.layout == 'newsfeed' in footer.html
 
 <div class="row">
   <div class="col">
-    {{ content }}
+    <div class="page-intro">{{ content }}</div>
   </div>
 </div>
 
 {% include lists/posts.html %}
 
-<div class="row">
+<div class="row cards">
 {% for post in filtered limit:site.max_posts_newsfeed %}
     <div class="col-lg-4">
     {% include cards/post-card.html %}

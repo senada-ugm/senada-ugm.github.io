@@ -1,69 +1,67 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-lg">
-        <ul class="list-inline">
 
-          <!-- site maintainer email link-->
+      <!-- Lab identity column -->
+      <div class="col-lg-4 mb-4 mb-lg-0">
+        <p class="footer-lab-name mb-1">Software Engineering and Data Lab</p>
+        <p class="small footer-identity mb-2">
+          Dept. of Computer Science and Electronics<br>
+          Faculty of Mathematics &amp; Natural Sciences<br>
+          Universitas Gadjah Mada
+        </p>
+
+        <!-- Social icons -->
+        <ul class="list-inline mt-3">
           {% if site.email %}
             <li class="list-inline-item">
-              <a href="mailto:{{ site.email }}">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-                </span>
+              <a href="mailto:{{ site.email }}" title="Email">
+                {% include icon.html name="mail" size=19 %}
               </a>
             </li>
           {% endif %}
-
-          <!-- site maintainer twitter link -->
           {% if site.twitter_username %}
             <li class="list-inline-item">
-              <a href="https://twitter.com/{{ site.twitter_username }}">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
+              <a href="https://twitter.com/{{ site.twitter_username }}" title="Twitter" target="_blank" rel="noopener">
+                X
               </a>
             </li>
           {% endif %}
-
-          <!-- site maintainer github link -->
           {% if site.github_username %}
             <li class="list-inline-item">
-              <a href="https://github.com/{{ site.github_username }}">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                </span>
+              <a href="https://github.com/{{ site.github_username }}" title="GitHub" target="_blank" rel="noopener">
+                {% include icon.html name="github" size=19 %}
               </a>
             </li>
           {% endif %}
         </ul>
       </div>
 
-      <!-- addtional information columns defined in _data/footer.yml -->
+      <!-- Additional columns from footer.yml -->
       {% for col in site.data.base.footer.columns %}
       <div class="col-lg">
         {{ col.description | markdownify }}
         {% if col.links %}
-          <ul class="fa-ul">
+          <ul class="footer-links">
           {% for item in col.links %}
             <li>
-              <i class="fa-li fa fa-chevron-circle-right"></i>
-              <a href="{{ item.href | relative_url}}" {% if item.new_window %}target="_blank"{% endif %}>{{ item.text }}</a>
+              <span class="footer-link-icon">{% include icon.html name="arrow-right" size=15 %}</span>
+              <a href="{{ item.href | relative_url }}" {% if item.new_window %}target="_blank" rel="noopener"{% endif %}>
+                {{ item.text }}
+              </a>
             </li>
           {% endfor %}
           </ul>
         {% endif %}
       </div>
       {% endfor %}
+
     </div>
 
-    <!-- last line of the footer with author and license -->
+    <!-- Bottom bar -->
     <div class="small mt-2">
       {% if site.author %}
-        <p>© {{ site.author }}</p>
+        <p>© {{ 'now' | date: "%Y" }} {{ site.author }}</p>
       {% endif %}
       {% if site.data.base.footer.license %}
         {{ site.data.base.footer.license | markdownify }}
@@ -72,17 +70,26 @@
   </div>
 </footer>
 
-<!-- load page scripts -->
+<!-- Scripts -->
 <script src="{{ '/assets/theme/js/jquery.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/theme/js/popper.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/theme/js/bootstrap.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/theme/js/anchor.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/theme/js/umich-petridish.js' | relative_url }}"></script>
 
-<!-- pass page information to umich-petridish javascript  -->
 <script>
   var page = {
      type: "{{ page.layout }}",
      url: "{{ page.layout | relative_url }}"
   };
+
+  (function () {
+    var nav = document.getElementById('main-nav');
+    if (!nav) return;
+    function syncNav() {
+      nav.classList.toggle('is-scrolled', window.scrollY > 12);
+    }
+    syncNav();
+    window.addEventListener('scroll', syncNav, { passive: true });
+  })();
 </script>

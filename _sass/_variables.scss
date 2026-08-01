@@ -1,96 +1,91 @@
-// Theme overrides for Bootstrap variables
-// 
-// Only include variables that are overriden
-// or variables (indicated with !default) that are referred by other variables.
-// For all Bootstrap variables, see https://github.com/twbs/bootstrap/blob/v4-dev/scss/_variables.scss
+// ============================================================
+// SENADA-UGM Design System
+// ============================================================
 
-// Color system
+$lab-blue:          #073d61;
+$lab-blue-deep:     #032135;
+$lab-blue-soft:     #e8f1f7;
+$lab-gold:          #d6a419;
+$lab-gold-soft:     #fff6d7;
+$lab-white:         #ffffff;
+$lab-off-white:     #f7fafc;
+$lab-surface:       #f1f5f9;
+$lab-ink-strong:    #102033;
+$lab-ink:           #344256;
+$lab-ink-muted:     #66758a;
+$lab-ink-subtle:    #8b99aa;
+$lab-border:        #dce5ee;
+$lab-border-mid:    #c6d4e2;
 
-// UM brand colors
-
-$michigan-maize: #FFCB05;
-$muted-maize: #d9ba44;
-$michigan-blue: #00274C;
-$michigan-arboretum-blue: #2F65A7;
-$michigan-umma-tan: #CFC096;
-$michigan-angel-hall-grey: #989C97;
+$custom_link_color:   $lab-blue;
+$custom_banner_color: $lab-blue;
+$custom_footer_color: $lab-blue-deep;
 
 $theme-colors: (
-  "primary": $custom_link_color,
-  "secondary": $custom_banner_color,
-  "footer": $custom_footer_color
+  "primary":   $lab-blue,
+  "secondary": $lab-ink,
+  "footer":    $lab-blue-deep
 );
 
-// Options
-// Spacing
+// ------------------------------------
+// Typography
+// ------------------------------------
+$font-family-base:      "Inter", "IBM Plex Sans", "Source Sans Pro", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$headings-font-family:  $font-family-base;
+$headings-font-weight:  750;
+$headings-margin-bottom: 0.75rem;
+$line-height-base:       1.7;
+$font-family-monospace:  "JetBrains Mono", "SFMono-Regular", Consolas, monospace;
 
+// ------------------------------------
+// Spacing
+// ------------------------------------
 $spacer: 1rem !default;
 
+// ------------------------------------
 // Body
-$body-bg: #edf1f4;
-$body-color: #1e2937;
+// ------------------------------------
+$body-bg:    $lab-white;
+$body-color: $lab-ink;
+
+// ------------------------------------
 // Links
-$link-color: $custom_link_color;
-$link-hover-color: darken($custom_link_color, 10%);
+// ------------------------------------
+$link-color:       $lab-blue;
+$link-hover-color: darken($lab-blue, 8%);
+
+// ------------------------------------
 // Paragraphs
-$paragraph-margin-bottom: 1.1rem;
-// Grid breakpoints
-// Grid containers
-// Grid columns
+// ------------------------------------
+$paragraph-margin-bottom: 1.5rem;
+
+// ------------------------------------
 // Components
-$border-color: #d5dde6;
-$box-shadow-sm: 0 8px 18px rgba(15, 23, 42, 0.05);
-$box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
-$border-radius: 0.8rem;
-$border-radius-lg: 1.05rem;
-$border-radius-sm: 0.55rem;
-// Fonts
+// ------------------------------------
+$border-color:      $lab-border;
+$box-shadow-sm:     0 10px 28px rgba(16, 32, 51, 0.08);
+$box-shadow:        0 18px 44px rgba(16, 32, 51, 0.12);
+$border-radius:     0.875rem;
+$border-radius-lg:  1rem;
+$border-radius-sm:  0.5rem;
 
-$font-family-base: "Public Sans", "Segoe UI", "Helvetica Neue", sans-serif;
-$headings-font-family: "Sora", $font-family-base;
-$headings-font-weight: 650;
-$line-height-base: 1.7;
-$font-family-monospace: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
-
-$headings-margin-bottom: $spacer;
-
-// Tables
-// Buttons + Forms
+// ------------------------------------
 // Buttons
-$btn-font-weight: 600;
-$btn-padding-y: 0.52rem;
-$btn-padding-x: 1.05rem;
-$btn-border-radius: 0.7rem;
+// ------------------------------------
+$btn-font-weight:    700;
+$btn-padding-y:      0.78rem;
+$btn-padding-x:      1.2rem;
+$btn-border-radius:  999px;
+
+// ------------------------------------
 // Forms
-$input-border-radius: 0.7rem;
-$input-border-color: #c8d2de;
-$input-focus-border-color: rgba(37, 99, 235, 0.5);
-$input-focus-box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.14);
-// Form validation
-// Z-index master list
-// Navs
-// Navbar
-// Dropdowns
-// Pagination
-// Jumbotron
-// Cards
-// Tooltips
-// Popovers
-// Toasts
+// ------------------------------------
+$input-border-radius:      0.65rem;
+$input-border-color:       $lab-border-mid;
+$input-focus-border-color: $lab-blue;
+$input-focus-box-shadow:   0 0 0 0.2rem rgba(7, 61, 97, 0.14);
+
+// ------------------------------------
 // Badges
-
-$badge-font-weight: normal;
-
-// Modals
-// Alerts
-// Progress bars
-// List group
-// Image thumbnails
-// Figures
-// Breadcrumbs
-// Carousel
-// Spinners
-// Close
-// Code
-// Utilities
-// Printing
+// ------------------------------------
+$badge-font-weight: 700;

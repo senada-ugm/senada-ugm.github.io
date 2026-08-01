@@ -1,50 +1,50 @@
 <a id="{{ project.id }}"></a>
-<div class="card project-card {{ include.hide }}" 
-     data-categories="{% for category in project.categories %}{{ category | strip }}|{% endfor %}">
+<article class="card project-card {{ include.hide }}"
+         data-categories="{% for category in project.categories %}{{ category | strip }}|{% endfor %}">
   {% unless layout.suppress_project_image %}
-    <a href="{{ project.url | relative_url }}">
-      {% if project.card_image %}
-        <div class="card-img-top project-top" 
-            style="background-image: url('{{ project.card_image | relative_url }}')">
-        </div>
-      {% else %}
-        <div class="card-img-top project-top projects-linear-gradient">
-          {% if project.card_title %}
-            {% assign card_title = project.card_title %}
-          {% else %}
-            {% assign card_title = project.title %}
-          {% endif %}
-          <h3>{{ card_title }}</h3>
-        </div>
-      {% endif %}
-    </a>
+  <a href="{{ project.url | relative_url }}" aria-label="Read more about {{ project.title }}">
+    {% if project.card_image %}
+      <div class="project-top" style="background-image: url('{{ project.card_image | relative_url }}')"></div>
+    {% else %}
+      <div class="project-top projects-linear-gradient">
+        <h3>{{ project.card_title | default: project.title }}</h3>
+      </div>
+    {% endif %}
+  </a>
   {% endunless %}
 
-  <div class="card-body position-relative">
-    <a href="{{ project.url | relative_url }}">
-      <h5 class="card-title">{{ project.title }}</h5>
-
-      <div class="card-text">
-        {% if project.description %}
-          {{ project.description | markdownify | strip_html | truncatewords: site.max_words_card_short }}
-        {% else %}
-          {{ project.excerpt | strip_html | normalize_whitespace | truncatewords: site.max_words_card_short }}
-        {% endif %}
-        {% assign collection_name = 'projects' %}
-        {% assign item_type = 'project' %}
-        {% assign slug = project.id | split: '/' | last %}
-        {% include base/recent-news-link.html %}
-      </div>
-    </a>
-  </div>
-  
-  {% if project.categories and page.layout == "projects" %}
-    <div class="card-footer">
-      {% assign url = 'projects' | relative_url %}
-      {% for category in project.categories %}
-        <a class="badge badge-pill projects-badge"
-           href="{{ url }}?category={{ category | strip | url_encode }}">{{ category }}</a>
-      {% endfor %}
+  <div class="card-body">
+    <div class="project-meta">
+      {% if project.active %}Active Project{% else %}Project{% endif %}
     </div>
+    <a href="{{ project.url | relative_url }}">
+      <h3 class="card-title">{{ project.title }}</h3>
+    </a>
+    <div class="card-text">
+      {% if project.description %}
+        {{ project.description | markdownify | strip_html | truncatewords: site.max_words_card_short }}
+      {% else %}
+        {{ project.excerpt | strip_html | normalize_whitespace | truncatewords: site.max_words_card_short }}
+      {% endif %}
+      {% assign collection_name = 'projects' %}
+      {% assign item_type = 'project' %}
+      {% assign slug = project.id | split: '/' | last %}
+      {% include base/recent-news-link.html %}
+    </div>
+    <div class="card-link-row">
+      <a class="read-more-link" href="{{ project.url | relative_url }}">
+        Read More {% include icon.html name="arrow-right" size=16 %}
+      </a>
+    </div>
+  </div>
+
+  {% if project.categories and page.layout == "projects" %}
+  <div class="card-footer">
+    {% assign url = 'projects' | relative_url %}
+    {% for category in project.categories %}
+      <a class="badge badge-pill projects-badge"
+         href="{{ url }}?category={{ category | strip | url_encode }}">{{ category }}</a>
+    {% endfor %}
+  </div>
   {% endif %}
-</div>
+</article>

@@ -1,16 +1,26 @@
 <a id="{{ post.id }}"></a>
-<div class="card post-card pt-2 mb-4" >
+<article class="card post-card">
+  {% assign post_image = post.banner_image | default: post.image %}
+  {% if post_image %}
+  <a href="{{ post.url | relative_url }}" aria-label="Read news: {{ post.title }}">
+    <div class="post-thumb" style="background-image: url('{{ post_image | relative_url }}')"></div>
+  </a>
+  {% endif %}
   <div class="card-body">
+    <div class="post-meta">
+      {{ post.date | date: "%B %e, %Y" }}
+      {% if post.event_type %} · {{ post.event_type | capitalize }}{% endif %}
+    </div>
     <a href="{{ post.url | relative_url }}">
-      <p>
-        {% include base/event-banner.html event_type=post.event_type %}
-        <strong class="{{ post.event_type }}-hue post-date-stamp">{{ post.date | date: "%B %e, %Y" }}</strong>
-      </p>
-      <h5>{{post.title}}</h5>
-      <h6>{{post.description | truncatewords: site.max_words_card_short}}</h6>
+      <h5>{{ post.title }}</h5>
+      <h6>{{ post.description | default: post.subtitle | truncatewords: site.max_words_card_short }}</h6>
     </a>
+    <div class="card-link-row">
+      <a class="read-more-link" href="{{ post.url | relative_url }}">
+        Read Update {% include icon.html name="arrow-right" size=16 %}
+      </a>
+    </div>
   </div>
-
-  {% assign item = post %}    
-  {% include base/badges.html %}    
-</div>
+  {% assign item = post %}
+  {% include base/badges.html %}
+</article>

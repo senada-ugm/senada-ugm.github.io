@@ -1,57 +1,7 @@
-// Team members
+// ============================================================
+// People
+// ============================================================
 
-.team-member {
-  margin-bottom: $grid-gutter-width;
-
-  // & > 
-  img {
-    width: 100%;
-    max-width: 150px;
-    max-height: 150px;
-    border-radius: 150px;
-    border: 2px solid rgba(37, 99, 235, 0.2);
-    box-shadow: 0 12px 22px rgba(15, 23, 42, 0.1);
-    object-fit: cover;
-    object-position: center top;
-    transition: transform 0.2s ease, border-color 0.2s ease;
-  }
-
-  &:hover img {
-    transform: translateY(-2px);
-    border-color: rgba(37, 99, 235, 0.42);
-  }
-
-  a:hover {
-    text-decoration: none;
-  }
-
-  .team-member-body {
-    a {
-      color: $body-color;
-    }   
-  }
-
-  .orcid {
-    height: 16px;
-    width: 16px;
-    margin-top: -3px;
-  }
-
-  .card-footer {
-    background: inherit;
-    border-top: none;
-    padding: 0;
-
-    // Smaller badge then the one defined in _jumbotron.scss
-    .badge {
-      border: 1px solid rgba(37, 99, 235, 0.45);
-      font-family: $font-family-base;
-      text-transform: capitalize;
-
-      &:hover,
-      &:focus {
-        border: 1px solid rgba(37, 99, 235, 0.75);
-      }
-    }
-  }
+.people {
+  row-gap: 1.5rem;
 }

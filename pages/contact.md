@@ -1,89 +1,79 @@
 ---
 layout: base/default
-title: Contact Information
+title: Contact
+subtitle: Collaboration, student supervision, research visits, and partnerships
 permalink: /contact/
 ---
 
-<div class="row justify-content-center mb-4">
-  <div class="col-lg-6 col-md-8">
-    <div class="card h-100">
-      <div class="card-body text-center">
-        <img src="/assets/images/people/Lukman-Heryawan-S.T.-M.T.-Ph.D-683x1024.jpg" 
-             alt="Assoc. Prof. Lukman Heryawan, Ph.D." 
-             class="rounded-circle mb-3" 
-             style="width: 150px; height: 150px; object-fit: cover; object-position: center top; border: 1px solid #6c757d;">
-        <h4 class="card-title">Assoc. Prof. Lukman Heryawan, Ph.D.</h4>
-        <h6 class="card-subtitle mb-2 text-muted">Head of Software Engineering and Data Lab</h6>
-        <p class="card-text">
-          <strong>Department:</strong> Computer Science and Electronics<br>
-          <strong>Faculty:</strong> Mathematics and Natural Sciences<br>
-          <strong>University:</strong> Universitas Gadjah Mada<br>
-          <strong>Research Focus:</strong> Medical Informatics
+<div class="page-intro">
+For general laboratory inquiries, collaboration opportunities, visiting researcher discussions, and prospective student supervision, please contact the laboratory head or connect through SENADA's public channels.
+</div>
+
+<div class="row contact-grid">
+  <div class="col-lg-5 d-flex">
+    <article class="card contact-profile">
+      <div class="card-body">
+        <img src="/assets/images/people/Lukman-Heryawan-S.T.-M.T.-Ph.D-683x1024.jpg"
+             alt="Assoc. Prof. Lukman Heryawan, Ph.D."
+             class="contact-profile-image mb-4">
+        <p class="card-kicker">Laboratory Head</p>
+        <h2 class="h3 mt-0">Assoc. Prof. Lukman Heryawan, Ph.D.</h2>
+        <p>Head of Software Engineering and Data Lab, Department of Computer Science and Electronics, Universitas Gadjah Mada.</p>
+        <a href="mailto:lukmanh@ugm.ac.id" class="btn btn-primary">
+          {% include icon.html name="mail" size=17 %} lukmanh@ugm.ac.id
+        </a>
+      </div>
+    </article>
+  </div>
+
+  <div class="col-lg-7 d-flex">
+    <article class="card">
+      <div class="card-body">
+        <p class="card-kicker">Laboratory Address</p>
+        <h2 class="h3 mt-0">Software Engineering and Data Lab</h2>
+        <p>
+          Department of Computer Science and Electronics<br>
+          Faculty of Mathematics and Natural Sciences<br>
+          Universitas Gadjah Mada<br>
+          Sekip Utara, Yogyakarta 55281<br>
+          Indonesia
         </p>
-        <div class="mt-3">
-          <a href="mailto:lukmanh@ugm.ac.id" class="btn btn-primary btn-sm">
-            <i class="fa fa-envelope"></i> lukmanh@ugm.ac.id
-          </a>
-        </div>
+        <hr>
+        <h3 class="h5">Collaboration Areas</h3>
+        <ul>
+          <li>International research partnerships</li>
+          <li>Industry and government applied research</li>
+          <li>Graduate student supervision and thesis topics</li>
+          <li>Visiting researchers and academic exchanges</li>
+        </ul>
       </div>
-    </div>
+    </article>
   </div>
 </div>
 
-### Laboratory Address
-
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title">Software Engineering and Data Lab (SENADA)</h5>
-    <p class="card-text">
-      Department of Computer Science and Electronics<br>
-      Faculty of Mathematics and Natural Sciences<br>
-      Universitas Gadjah Mada<br>
-      Sekip Utara, Yogyakarta 55281<br>
-      Indonesia
-    </p>
-  </div>
-</div>
-
-### General Inquiries
-
-For general laboratory inquiries, collaboration opportunities, or research partnerships, please contact the laboratory head directly or reach out through our official website.
-
-### Research Collaboration
-
-We welcome collaboration opportunities with:
-- International research institutions
-- Industry partners  
-- Government agencies
-- Non-profit organizations
-
-Our lab has active collaborations with institutions worldwide, including Deakin University Australia and various research programs funded by international grants.
-
-### Connect with Us
-
-<div class="row mt-3">
-  <div class="col-md-6">
-    <div class="card">
-      <div class="card-body text-center">
-        <i class="fab fa-github fa-3x mb-3 text-dark"></i>
-        <h5>GitHub Organization</h5>
-        <p>Explore our open-source projects and contributions</p>
-        <a href="https://github.com/senada-ugm/" class="btn btn-dark" target="_blank">
-          Visit Our GitHub
+<div class="row contact-grid mt-4">
+  <div class="col-md-6 d-flex">
+    <article class="card">
+      <div class="card-body">
+        <span class="card-icon mb-3">{% include icon.html name="github" size=21 %}</span>
+        <h2 class="h4 mt-0">GitHub Organization</h2>
+        <p>Explore public software projects, prototypes, and open research contributions.</p>
+        <a href="https://github.com/senada-ugm/" class="btn btn-outline-primary" target="_blank" rel="noopener">
+          Visit GitHub {% include icon.html name="external-link" size=16 %}
         </a>
       </div>
-    </div>
+    </article>
   </div>
-  <div class="col-md-6">
-    <div class="card">
-      <div class="card-body text-center">
-        <i class="fa fa-university fa-3x mb-3 text-primary"></i>
-        <h5>University Website</h5>
-        <p>Learn more about UGM and our department</p>
-        <a href="https://ugm.ac.id/" class="btn btn-primary" target="_blank">
-          Visit UGM
+  <div class="col-md-6 d-flex">
+    <article class="card">
+      <div class="card-body">
+        <span class="card-icon mb-3">{% include icon.html name="graduation-cap" size=21 %}</span>
+        <h2 class="h4 mt-0">Universitas Gadjah Mada</h2>
+        <p>Learn more about UGM and the wider academic environment supporting SENADA.</p>
+        <a href="https://ugm.ac.id/" class="btn btn-outline-primary" target="_blank" rel="noopener">
+          Visit UGM {% include icon.html name="external-link" size=16 %}
         </a>
       </div>
-    </div>
+    </article>
   </div>
 </div>

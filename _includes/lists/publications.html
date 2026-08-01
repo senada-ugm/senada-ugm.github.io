@@ -54,30 +54,29 @@
 {% if page.layout == 'publications' %}
 <div class="row mb-4">
   <div class="col-12">
-    <div class="card bg-light">
-      <div class="card-body">
-        <h5 class="card-title">Search & Filter Publications</h5>
+    <div class="publication-tools">
+        <h2 class="h5 mb-3">Search and Filter Publications</h2>
         <div class="row">
           <div class="col-md-12 mb-3">
-            <label for="keywordSearch">Search by Keywords:</label>
+            <label for="keywordSearch">Search by keywords</label>
             <div class="input-group">
               <input type="text" id="keywordSearch" class="form-control" 
                      placeholder="Search in titles, abstracts, authors, journals..." 
                      aria-label="Search publications">
               <div class="input-group-append">
-                <button class="btn btn-outline-secondary" type="button" id="clearSearch">
-                  <i class="fa fa-times"></i>
+                <button class="btn btn-outline-secondary" type="button" id="clearSearch" aria-label="Clear publication search">
+                  Clear
                 </button>
               </div>
             </div>
             <small class="form-text text-muted">
-              Search supports multiple keywords separated by spaces. All keywords must match.
+              Multiple keywords can be separated by spaces. All keywords must match.
             </small>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <label for="yearFilter">Filter by Year:</label>
+            <label for="yearFilter">Filter by year</label>
             <select id="yearFilter" class="form-control">
               <option value="">All Years</option>
               {% assign years = filtered | map: "year" | uniq | sort | reverse %}
@@ -87,7 +86,7 @@
             </select>
           </div>
           <div class="col-md-6">
-            <label for="authorFilter">Filter by Faculty:</label>
+            <label for="authorFilter">Filter by faculty</label>
             <select id="authorFilter" class="form-control">
               <option value="">All Faculty</option>
               {% for person in site.data.people %}
@@ -104,7 +103,6 @@
             <span id="searchResults" class="ml-3 text-muted"></span>
           </div>
         </div>
-      </div>
     </div>
   </div>
 </div>
@@ -114,7 +112,7 @@
 {% if layout.embedded_lists %}
 <h4 class="col mt-2"><a class="section-header-link" href="{{ 'publications' | relative_url }}">
     Publications
-    <i class="fa fa-caret-right section-header-caret"></i>
+    {% include icon.html name="arrow-right" size=15 %}
 </a></h4>
 {% endif %}
 
@@ -124,7 +122,7 @@
 {% for year_group in by_year_desc %}
   <div class="col-12 year-group" data-year="{{ year_group.name }}">
     <h3 class="year-header mt-4 mb-3">
-      <i class="fa fa-calendar"></i> {{ year_group.name }}
+      <span>{{ year_group.name }}</span>
       <small class="text-muted year-count">({{ year_group.items.size }} publications)</small>
     </h3>
   </div>
