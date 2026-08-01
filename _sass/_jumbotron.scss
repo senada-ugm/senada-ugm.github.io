@@ -176,10 +176,27 @@
   }
 }
 
+body[class~="layout-items/person"] .jumbotron {
+  min-height: 280px;
+  padding-bottom: 4rem;
+  padding-top: 6rem;
+
+  h1 {
+    font-size: clamp(2.25rem, 5vw, 4rem);
+    max-width: 12ch;
+  }
+}
+
 @include media-breakpoint-down(md) {
   .jumbotron {
     min-height: 300px;
     padding: 6rem 1.25rem 4rem;
+  }
+
+  body[class~="layout-items/person"] .jumbotron {
+    min-height: 240px;
+    padding-bottom: 3rem;
+    padding-top: 5.5rem;
   }
 
   .page-home .jumbotron {

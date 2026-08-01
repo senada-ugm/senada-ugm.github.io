@@ -8,10 +8,59 @@ suppress_narrow_ticker: true
 <!-- determine whether there will be a ticker -->
 {% include lists/posts.html %}
 
+{% assign person_id = page.slug | upcase %}
+{% assign person = site.data.people | where: "id", person_id | first %}
+
 <div class="row">
-  <div class="col-md-10 mx-auto {{ item_class }}">
-    {{ content }}
-    {% include lists/publications.html %}
+  <div class="col-lg-10 mx-auto {{ item_class }}">
+    {% if person %}
+    <section class="profile-detail">
+      <div class="profile-detail-photo">
+        <img src="{{ person.image | relative_url }}" alt="{{ person.name }}">
+      </div>
+      <div class="profile-detail-content">
+        <p class="profile-kicker">{{ person.role }}</p>
+        <h2>Research Profile</h2>
+        {% if person.description %}
+        <p class="profile-summary">{{ person.description }}</p>
+        {% endif %}
+
+        <div class="profile-actions" aria-label="Profile links">
+          {% if person.email %}
+          <a class="btn btn-primary" href="mailto:{{ person.email }}">
+            {% include icon.html name="mail" size=17 %}
+            Email
+          </a>
+          {% endif %}
+          {% if person.scholar %}
+          <a class="btn btn-outline-primary" href="{{ person.scholar }}" target="_blank" rel="noopener">
+            {% include icon.html name="graduation-cap" size=17 %}
+            Google Scholar
+          </a>
+          {% endif %}
+          {% if person.github %}
+          <a class="btn btn-outline-primary" href="https://github.com/{{ person.github }}" target="_blank" rel="noopener">
+            {% include icon.html name="github" size=17 %}
+            GitHub
+          </a>
+          {% endif %}
+          {% if person.orcid %}
+          <a class="btn btn-outline-primary" href="https://orcid.org/{{ person.orcid }}" target="_blank" rel="noopener">
+            ORCID
+          </a>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+    {% endif %}
+
+    <article class="profile-narrative">
+      {{ content }}
+    </article>
+
+    <section class="profile-publications">
+      {% include lists/publications.html %}
+    </section>
   </div>
 
   {% include lists/news-ticker.html %}
